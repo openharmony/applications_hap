@@ -57,6 +57,7 @@ Note:If the text contains special characters, please escape them according to th
             <filefilter name="binaryFileTypePolicyFilter" desc="Filters for binary file policies" >
                 <filteritem type="filepath" name="Launcher.hap" desc="hap not identify"/>
                 <filteritem type="filepath" name="Launcher_Recents.hap" desc="hap not identify"/>
+				<filteritem type="filepath" name="Launcher_Settings.hap" desc="hap not identify"/>
                 <filteritem type="filepath" name="Settings.hap" desc="hap not identify"/>
                 <filteritem type="filepath" name="SystemUI-NavigationBar.hap" desc="hap not identify"/>
                 <filteritem type="filepath" name="SystemUI-StatusBar.hap" desc="hap not identify"/>

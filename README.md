@@ -28,6 +28,7 @@ applications/standard/hap
 ├── Gallery_Demo.hap             # Sample Gallery app
 ├── Launcher.hap                 # Launcher app
 ├── Launcher_Recents.hap         # Recent tasks app of Launcher
+├── Launcher_Settings.hap        # Settings app of Launcher
 ├── Settings.hap                 # Settings app
 ├── Shopping_Demo.hap            # Sample shopping app
 ├── SystemUI-NavigationBar.hap   # Navigation bar app of SystemUI
