@@ -5,6 +5,7 @@
       "module_list": [
         "//applications/standard/hap:launcher_hap",
         "//applications/standard/hap:launcher_recents_hap",
+		"//applications/standard/hap:launcher_settings_hap",
         "//applications/standard/hap:settings_hap",
         "//applications/standard/hap:navigationBar_hap",
         "//applications/standard/hap:statusBar_hap",

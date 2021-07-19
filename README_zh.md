@@ -28,6 +28,7 @@ applications/standard/hap
 ├── Gallery_Demo.hap             # 图库示例应用
 ├── Launcher.hap                 # 桌面entry应用
 ├── Launcher_Recents.hap         # 桌面中最近任务应用
+├── Launcher_Settings.hap        # 桌面中的桌面设置应用
 ├── Settings.hap                 # 设置应用
 ├── Shopping_Demo.hap            # 购物示例应用
 ├── SystemUI-NavigationBar.hap   # SystemUI 导航栏应用

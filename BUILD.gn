@@ -27,6 +27,13 @@ ohos_prebuilt_etc("launcher_recents_hap") {
   subsystem_name = "applications"
 }
 
+ohos_prebuilt_etc("launcher_settings_hap") {
+  source = "Launcher_Settings.hap"
+  module_install_dir = "app"
+  part_name = "prebuilt_hap"
+  subsystem_name = "applications"
+}
+
 
 ohos_prebuilt_etc("settings_hap") {
   source = "Settings.hap"
