@@ -5,7 +5,7 @@
       "module_list": [
         "//applications/standard/hap:launcher_hap",
         "//applications/standard/hap:launcher_recents_hap",
-		"//applications/standard/hap:launcher_settings_hap",
+	"//applications/standard/hap:launcher_settings_hap",
         "//applications/standard/hap:settings_hap",
         "//applications/standard/hap:navigationBar_hap",
         "//applications/standard/hap:statusBar_hap",
@@ -16,7 +16,8 @@
         "//applications/standard/hap:gallery_demo_hap",
         "//applications/standard/hap:shopping_demo_hap",
         "//applications/standard/hap:flashlight_demo_hap",
-        "//applications/standard/hap:ecg_demo_hap"
+        "//applications/standard/hap:ecg_demo_hap",
+        "//applications/standard/hap:photos_hap"
       ]
     }
   }
