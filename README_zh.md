@@ -33,6 +33,8 @@ applications/standard/hap
 ├── Shopping_Demo.hap            # 购物示例应用
 ├── SystemUI-NavigationBar.hap   # SystemUI 导航栏应用
 ├── SystemUI-StatusBar.hap       # SystemUI 状态栏应用
+├── SystemUI-SystemDialog.hap    # SystemUI 系统弹框应用
+
 ```
 
 ## 相关仓<a name="section120mcpsimp"></a>

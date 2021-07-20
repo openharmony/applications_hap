@@ -61,6 +61,7 @@ Note:If the text contains special characters, please escape them according to th
                 <filteritem type="filepath" name="Settings.hap" desc="hap not identify"/>
                 <filteritem type="filepath" name="SystemUI-NavigationBar.hap" desc="hap not identify"/>
                 <filteritem type="filepath" name="SystemUI-StatusBar.hap" desc="hap not identify"/>
+                <filteritem type="filepath" name="SystemUI-SystemDialog.hap" desc="hap not identify"/>
             </filefilter>
         </filefilterlist>
     </oatconfig>
