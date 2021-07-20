@@ -33,6 +33,7 @@ applications/standard/hap
 ├── Shopping_Demo.hap            # Sample shopping app
 ├── SystemUI-NavigationBar.hap   # Navigation bar app of SystemUI
 ├── SystemUI-StatusBar.hap       # Status bar app of SystemUI
+├── SystemUI-SystemDialog.hap    # System dialog app of SystemUI
 ```
 
 ## Repositories Involved<a name="section120mcpsimp"></a>
