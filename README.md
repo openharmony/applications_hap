@@ -34,6 +34,7 @@ applications/standard/hap
 ├── SystemUI-NavigationBar.hap   # Navigation bar app of SystemUI
 ├── SystemUI-StatusBar.hap       # Status bar app of SystemUI
 ├── SystemUI-SystemDialog.hap    # System dialog app of SystemUI
+├── Music_Demo.hap               # Sample music app
 ```
 
 ## Repositories Involved<a name="section120mcpsimp"></a>
