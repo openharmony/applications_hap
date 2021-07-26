@@ -18,7 +18,7 @@
         "//applications/standard/hap:flashlight_demo_hap",
         "//applications/standard/hap:ecg_demo_hap",
         "//applications/standard/hap:photos_hap",
-        "//applications/standard/hap:music_demo_hap"
+        "//applications/standard/hap:music_demo_hap",
         "//applications/standard/hap:demo.wav",
         "//applications/standard/hap:dynamic.wav"
       ]
