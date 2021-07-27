@@ -13,7 +13,6 @@
         "//applications/standard/hap:clock_demo_hap",
         "//applications/standard/hap:calc_demo_hap",
         "//applications/standard/hap:airquality_demo_hap",
-        "//applications/standard/hap:gallery_demo_hap",
         "//applications/standard/hap:shopping_demo_hap",
         "//applications/standard/hap:flashlight_demo_hap",
         "//applications/standard/hap:ecg_demo_hap",
