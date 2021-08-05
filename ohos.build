@@ -20,7 +20,9 @@
         "//applications/standard/hap:photos_hap",
         "//applications/standard/hap:music_demo_hap",
         "//applications/standard/hap:demo.wav",
-        "//applications/standard/hap:dynamic.wav"
+        "//applications/standard/hap:dynamic.wav",
+        "//applications/standard/hap:camera_hap",
+        "//applications/standard/hap:capture.ogg"
       ]
     }
   }

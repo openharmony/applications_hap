@@ -127,13 +127,26 @@ ohos_prebuilt_etc("music_demo_hap") {
 }
 
 ohos_prebuilt_etc("demo.wav") {
-  source = "demo.wav"
+  source = "resources/demo.wav"
   part_name = "prebuilt_hap"
   subsystem_name = "applications"
 }
 
 ohos_prebuilt_etc("dynamic.wav") {
-  source = "dynamic.wav"
+  source = "resources/dynamic.wav"
+  part_name = "prebuilt_hap"
+  subsystem_name = "applications"
+}
+
+ohos_prebuilt_etc("camera_hap") {
+  source = "Camera.hap"
+  module_install_dir = "app"
+  part_name = "prebuilt_hap"
+  subsystem_name = "applications"
+}
+
+ohos_prebuilt_etc("capture.ogg") {
+  source = "resources/capture.ogg"
   part_name = "prebuilt_hap"
   subsystem_name = "applications"
 }
