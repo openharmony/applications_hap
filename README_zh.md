@@ -20,6 +20,7 @@
 
 ```
 applications/standard/hap
+├── resources                    # 预制资源目录
 ├── Airquality_Demo.hap          # 空气质量示例应用
 ├── Calc_Demo.hap                # 计算器示例应用
 ├── Clock_Demo.hap               # 简单时钟示例应用
@@ -35,7 +36,7 @@ applications/standard/hap
 ├── SystemUI-StatusBar.hap       # SystemUI 状态栏应用
 ├── SystemUI-SystemDialog.hap    # SystemUI 系统弹框应用
 ├── Music_Demo.hap               # 音乐示例应用
-
+├── Camera.hap                   # 相机应用
 ```
 
 ## 相关仓<a name="section120mcpsimp"></a>

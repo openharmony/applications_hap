@@ -20,6 +20,7 @@ In addition to these system apps, OpenHarmony provides some simple sample apps f
 
 ```
 applications/standard/hap
+├── resources                    # Preset resources directory
 ├── Airquality_Demo.hap          # Sample air quality app
 ├── Calc_Demo.hap                # Sample calculator app
 ├── Clock_Demo.hap               # Sample clock app
@@ -35,6 +36,7 @@ applications/standard/hap
 ├── SystemUI-StatusBar.hap       # Status bar app of SystemUI
 ├── SystemUI-SystemDialog.hap    # System dialog app of SystemUI
 ├── Music_Demo.hap               # Sample music app
+├── Camera.hap                   # Camera app
 ```
 
 ## Repositories Involved<a name="section120mcpsimp"></a>
