@@ -26,7 +26,7 @@ applications/standard/hap
 ├── Clock_Demo.hap               # Sample clock app
 ├── Ecg_Demo.hap                 # Sample electrocardiogram (ECG) app
 ├── Flashlight_Demo.hap          # Sample flashlight app
-├── Gallery_Demo.hap             # Sample Gallery app
+├── Photos.hap                   # Photos app
 ├── Launcher.hap                 # Launcher app
 ├── Launcher_Recents.hap         # Recent tasks app of Launcher
 ├── Launcher_Settings.hap        # Settings app of Launcher

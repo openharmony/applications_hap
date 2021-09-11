@@ -26,7 +26,7 @@ applications/standard/hap
 ├── Clock_Demo.hap               # 简单时钟示例应用
 ├── Ecg_Demo.hap                 # 心电图显示示例应用
 ├── Flashlight_Demo.hap          # 手电筒示例应用
-├── Gallery_Demo.hap             # 图库示例应用
+├── Photos.hap                   # 图库应用
 ├── Launcher.hap                 # 桌面entry应用
 ├── Launcher_Recents.hap         # 桌面中最近任务应用
 ├── Launcher_Settings.hap        # 桌面中的桌面设置应用
