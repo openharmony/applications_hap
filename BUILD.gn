@@ -83,13 +83,6 @@ ohos_prebuilt_etc("calc_demo_hap") {
   subsystem_name = "applications"
 }
 
-ohos_prebuilt_etc("gallery_demo_hap") {
-  source = "Gallery_Demo.hap"
-  module_install_dir = "app"
-  part_name = "prebuilt_hap"
-  subsystem_name = "applications"
-}
-
 ohos_prebuilt_etc("shopping_demo_hap") {
   source = "Shopping_Demo.hap"
   module_install_dir = "app"
