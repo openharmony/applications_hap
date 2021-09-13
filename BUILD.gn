@@ -34,7 +34,6 @@ ohos_prebuilt_etc("launcher_settings_hap") {
   subsystem_name = "applications"
 }
 
-
 ohos_prebuilt_etc("settings_hap") {
   source = "Settings.hap"
   module_install_dir = "app"
@@ -79,13 +78,6 @@ ohos_prebuilt_etc("airquality_demo_hap") {
 
 ohos_prebuilt_etc("calc_demo_hap") {
   source = "Calc_Demo.hap"
-  module_install_dir = "app"
-  part_name = "prebuilt_hap"
-  subsystem_name = "applications"
-}
-
-ohos_prebuilt_etc("gallery_demo_hap") {
-  source = "Gallery_Demo.hap"
   module_install_dir = "app"
   part_name = "prebuilt_hap"
   subsystem_name = "applications"
