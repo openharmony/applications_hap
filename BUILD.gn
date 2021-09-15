@@ -151,11 +151,5 @@ ohos_prebuilt_etc("device_manager_ui_hap") {
 }
 
 group("ark_haps") {
-  deps = [
-    "//applications/standard/camera:ark_camera",
-    "//applications/standard/launcher/launcher:ark_launcher",
-    "//applications/standard/launcher/recents:ark_launcher_recents",
-    "//applications/standard/launcher/settings:ark_launcher_settings",
-    "//applications/standard/settings:ark_settings",
-  ]
+  deps = [ "//applications/standard/camera:ark_camera" ]
 }
