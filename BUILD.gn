@@ -149,3 +149,13 @@ ohos_prebuilt_etc("device_manager_ui_hap") {
   part_name = "prebuilt_hap"
   subsystem_name = "applications"
 }
+
+group("ark_haps") {
+  deps = [
+    "//applications/standard/camera:ark_camera",
+    "//applications/standard/launcher/launcher:ark_launcher",
+    "//applications/standard/launcher/recents:ark_launcher_recents",
+    "//applications/standard/launcher/settings:ark_launcher_settings",
+    "//applications/standard/settings:ark_settings",
+  ]
+}
