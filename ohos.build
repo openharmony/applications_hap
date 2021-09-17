@@ -22,8 +22,7 @@
         "//applications/standard/hap:dynamic.wav",
         "//applications/standard/hap:camera_hap",
         "//applications/standard/hap:capture.ogg",
-        "//applications/standard/hap:device_manager_ui_hap",
-        "//applications/standard/hap:ark_haps"
+        "//applications/standard/hap:device_manager_ui_hap"
       ]
     }
   }
