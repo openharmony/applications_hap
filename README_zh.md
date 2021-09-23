@@ -37,6 +37,7 @@ applications/standard/hap
 ├── SystemUI-SystemDialog.hap    # SystemUI 系统弹框应用
 ├── Music_Demo.hap               # 音乐示例应用
 ├── Camera.hap                   # 相机应用
+├── DeviceManager_UI.hap         # 设备管理系统弹框应用
 ```
 
 ## 相关仓<a name="section120mcpsimp"></a>
@@ -50,4 +51,6 @@ applications\_standard\_launcher
 applications\_standard\_systemui
 
 **applications\_standard\_hap**
+
+**[device_manager](https://gitee.com/openharmony/device_manager)**
 
