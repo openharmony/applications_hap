@@ -37,6 +37,7 @@ applications/standard/hap
 ├── SystemUI-SystemDialog.hap    # System dialog app of SystemUI
 ├── Music_Demo.hap               # Sample music app
 ├── Camera.hap                   # Camera app
+├── DeviceManager_UI.hap         # System dialog app of DeviceManager
 ```
 
 ## Repositories Involved<a name="section120mcpsimp"></a>
@@ -50,4 +51,6 @@ applications\_standard\_launcher
 applications\_standard\_systemui
 
 **applications\_standard\_hap**
+
+**[device_manager](https://gitee.com/openharmony/device_manager)**
 
