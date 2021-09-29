@@ -68,7 +68,14 @@ Note:If the text contains special characters, please escape them according to th
                 <filteritem type="filepath" name="Camera.hap" desc="hap not identify"/>
                 <filteritem type="filepath" name="resources/capture.ogg" desc="self developed music resources"/>
                 <filteritem type="filepath" name="DeviceManager_UI.hap" desc="hap not identif"/>
-	<filteritem type="filepath" name="kikaInput.hap" desc="hap not identif"/>
+                <filteritem type="filepath" name="kikaInput.hap" desc="hap not identif"/>
+                <filteritem type="filepath" name="Calc_Demo.hap" desc="hap not identif"/>
+                <filteritem type="filepath" name="Shopping_Demo.hap" desc="hap not identif"/>
+                <filteritem type="filepath" name="Flashlight_Demo.hap" desc="hap not identif"/>
+                <filteritem type="filepath" name="Music_Demo.hap" desc="hap not identif"/>
+                <filteritem type="filepath" name="Airquality_Demo.hap" desc="hap not identif"/>
+                <filteritem type="filepath" name="Clock_Demo.hap" desc="hap not identif"/>
+                <filteritem type="filepath" name="Ecg_Demo.hap" desc="hap not identif"/>
             </filefilter>
         </filefilterlist>
     </oatconfig>
