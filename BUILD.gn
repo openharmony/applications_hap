@@ -156,3 +156,17 @@ ohos_prebuilt_etc("kika_input_hap") {
   part_name = "prebuilt_hap"
   subsystem_name = "applications"
 }
+
+ohos_prebuilt_etc("media_library_hap") {
+  source = "Media_Library.hap"
+  module_install_dir = "app"
+  part_name = "prebuilt_hap"
+  subsystem_name = "applications"
+}
+
+ohos_prebuilt_etc("media_scanner_hap") {
+  source = "Media_Scanner.hap"
+  module_install_dir = "app"
+  part_name = "prebuilt_hap"
+  subsystem_name = "applications"
+}
