@@ -40,6 +40,7 @@ applications/standard/hap
 ├── DeviceManager_UI.hap         # System dialog app of DeviceManager
 ├── Media_Library.hap            # Media library data ability app
 ├── Media_Scanner.hap            # Media scanner app
+├── CallUI.hap                   # Call ui app
 ```
 
 ## Repositories Involved<a name="section120mcpsimp"></a>
