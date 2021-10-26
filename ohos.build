@@ -25,7 +25,8 @@
         "//applications/standard/hap:device_manager_ui_hap",
         "//applications/standard/hap:kika_input_hap",
         "//applications/standard/hap:media_library_hap",
-        "//applications/standard/hap:media_scanner_hap"
+        "//applications/standard/hap:media_scanner_hap",
+        "//applications/standard/hap:callUI_hap"
       ]
     }
   }
