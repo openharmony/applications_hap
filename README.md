@@ -41,6 +41,7 @@ applications/standard/hap
 ├── Media_Library.hap            # Media library data ability app
 ├── Media_Scanner.hap            # Media scanner app
 ├── CallUI.hap                   # Call ui app
+├── Telephony_Data_Storage.hap   # Telephony Data Storage hap
 ```
 
 ## Repositories Involved<a name="section120mcpsimp"></a>
