@@ -26,7 +26,8 @@
         "//applications/standard/hap:kika_input_hap",
         "//applications/standard/hap:media_library_hap",
         "//applications/standard/hap:media_scanner_hap",
-        "//applications/standard/hap:callUI_hap"
+        "//applications/standard/hap:callUI_hap",
+        "//applications/standard/hap:Telephony_Data_Storage_hap"
       ]
     }
   }

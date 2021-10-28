@@ -177,3 +177,10 @@ ohos_prebuilt_etc("callUI_hap") {
   part_name = "prebuilt_hap"
   subsystem_name = "applications"
 }
+
+ohos_prebuilt_etc("Telephony_Data_Storage_hap") {
+  source = "Telephony_Data_Storage.hap"
+  module_install_dir = "app"
+  part_name = "prebuilt_hap"
+  subsystem_name = "applications"
+}

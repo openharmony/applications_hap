@@ -77,6 +77,7 @@ Note:If the text contains special characters, please escape them according to th
                 <filteritem type="filepath" name="Clock_Demo.hap" desc="hap not identif"/>
                 <filteritem type="filepath" name="Ecg_Demo.hap" desc="hap not identif"/>
                 <filteritem type="filepath" name="CallUI.hap" desc="hap not identify"/>
+                <filteritem type="filepath" name="Telephony_Data_Storage.hap" desc="hap not identify"/>
             </filefilter>
         </filefilterlist>
     </oatconfig>
