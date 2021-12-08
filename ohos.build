@@ -27,7 +27,10 @@
         "//applications/standard/hap:media_library_hap",
         "//applications/standard/hap:media_scanner_hap",
         "//applications/standard/hap:callUI_hap",
-        "//applications/standard/hap:Telephony_Data_Storage_hap"
+        "//applications/standard/hap:Telephony_Data_Storage_hap",
+        "//applications/standard/hap:mms_hap",
+        "//applications/standard/hap:contacts_hap",
+        "//applications/standard/hap:contacts_data_ability_hap"
       ]
     }
   }
