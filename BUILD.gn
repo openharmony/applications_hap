@@ -41,6 +41,13 @@ ohos_prebuilt_etc("settings_hap") {
   subsystem_name = "applications"
 }
 
+ohos_prebuilt_etc("settingsData_hap") {
+  source = "SettingsData.hap"
+  module_install_dir = "app"
+  part_name = "prebuilt_hap"
+  subsystem_name = "applications"
+}
+
 ohos_prebuilt_etc("navigationBar_hap") {
   source = "SystemUI-NavigationBar.hap"
   module_install_dir = "app"
@@ -57,6 +64,13 @@ ohos_prebuilt_etc("statusBar_hap") {
 
 ohos_prebuilt_etc("systemDialog_hap") {
   source = "SystemUI-SystemDialog.hap"
+  module_install_dir = "app"
+  part_name = "prebuilt_hap"
+  subsystem_name = "applications"
+}
+
+ohos_prebuilt_etc("notificationManagement_hap") {
+  source = "SystemUI-NotificationManagement.hap"
   module_install_dir = "app"
   part_name = "prebuilt_hap"
   subsystem_name = "applications"
