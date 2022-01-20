@@ -10,7 +10,6 @@
         "//applications/standard/hap:settingsData_hap",
         "//applications/standard/hap:navigationBar_hap",
         "//applications/standard/hap:statusBar_hap",
-        "//applications/standard/hap:systemDialog_hap",
         "//applications/standard/hap:notificationManagement_hap",
         "//applications/standard/hap:clock_demo_hap",
         "//applications/standard/hap:calc_demo_hap",
