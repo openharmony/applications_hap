@@ -39,7 +39,6 @@ applications/standard/hap
 ├── Camera.hap                   # 相机应用
 ├── DeviceManager_UI.hap         # 设备管理系统弹框应用
 ├── CallUI.hap                   # 通话应用
-├── Telephony_Data_Storage.hap   # 电话子系统数据库
 ```
 
 ## 相关仓<a name="section120mcpsimp"></a>

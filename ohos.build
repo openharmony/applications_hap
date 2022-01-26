@@ -28,7 +28,6 @@
         "//foundation/multimedia/medialibrary_standard/frameworks/innerkitsimpl/medialibrary_data_ability:medialibrary_dynamic_hap",
         "//foundation/multimedia/medialibrary_standard/services/media_scanner_service/media_scanner_ability:mediascanner_dynamic_hap",
         "//applications/standard/hap:callUI_hap",
-        "//applications/standard/hap:Telephony_Data_Storage_hap",
         "//applications/standard/hap:mms_hap",
         "//applications/standard/hap:contacts_hap",
         "//applications/standard/hap:contacts_data_ability_hap"
