@@ -41,6 +41,7 @@ applications/standard/hap
 ├── Media_Library.hap            # Media library data ability app
 ├── Media_Scanner.hap            # Media scanner app
 ├── CallUI.hap                   # Call ui app
+├── PermissionManager.hap        # Permission manager app
 ```
 
 ## Repositories Involved<a name="section120mcpsimp"></a>

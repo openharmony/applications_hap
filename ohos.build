@@ -30,7 +30,8 @@
         "//applications/standard/hap:callUI_hap",
         "//applications/standard/hap:mms_hap",
         "//applications/standard/hap:contacts_hap",
-        "//applications/standard/hap:contacts_data_ability_hap"
+        "//applications/standard/hap:contacts_data_ability_hap",
+        "//applications/standard/hap:permission_manager_hap"
       ]
     }
   }
