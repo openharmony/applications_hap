@@ -69,6 +69,20 @@ ohos_prebuilt_etc("notificationManagement_hap") {
   subsystem_name = "applications"
 }
 
+ohos_prebuilt_etc("volumePanel") {
+  source = "SystemUI-VolumePanel.hap"
+  module_install_dir = "app"
+  part_name = "prebuilt_hap"
+  subsystem_name = "applications"
+}
+
+ohos_prebuilt_etc("systemui_hap") {
+  source = "SystemUI.hap"
+  module_install_dir = "app"
+  part_name = "prebuilt_hap"
+  subsystem_name = "applications"
+}
+
 ohos_prebuilt_etc("clock_demo_hap") {
   source = "Clock_Demo.hap"
   module_install_dir = "app"
