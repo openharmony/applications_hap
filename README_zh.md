@@ -31,6 +31,7 @@ applications/standard/hap
 ├── Launcher_Recents.hap         # 桌面中最近任务应用
 ├── Launcher_Settings.hap        # 桌面中的桌面设置应用
 ├── Settings.hap                 # 设置应用
+├── Settings_FaceAuth.hap        # 人脸认证设置应用
 ├── Shopping_Demo.hap            # 购物示例应用
 ├── SystemUI-NavigationBar.hap   # SystemUI 导航栏应用
 ├── SystemUI-StatusBar.hap       # SystemUI 状态栏应用
