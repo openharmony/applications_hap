@@ -220,13 +220,6 @@ ohos_prebuilt_etc("contacts_hap") {
   subsystem_name = "applications"
 }
 
-ohos_prebuilt_etc("contacts_data_ability_hap") {
-  source = "Contacts_DataAbility.hap"
-  module_install_dir = "app"
-  part_name = "prebuilt_hap"
-  subsystem_name = "applications"
-}
-
 ohos_prebuilt_etc("permission_manager_hap") {
   source = "PermissionManager.hap"
   module_install_dir = "app"
@@ -249,7 +242,6 @@ group("hap") {
     "//applications/standard/hap:camera_hap",
     "//applications/standard/hap:capture.ogg",
     "//applications/standard/hap:clock_demo_hap",
-    "//applications/standard/hap:contacts_data_ability_hap",
     "//applications/standard/hap:contacts_hap",
     "//applications/standard/hap:demo.wav",
     "//applications/standard/hap:device_manager_ui_hap",
@@ -282,7 +274,6 @@ group("hap") {
       "//applications/standard/hap:callUI_hap",
       "//applications/standard/hap:camera_hap",
       "//applications/standard/hap:capture.ogg",
-      "//applications/standard/hap:contacts_data_ability_hap",
       "//applications/standard/hap:contacts_hap",
       "//applications/standard/hap:demo.wav",
       "//applications/standard/hap:dynamic.wav",

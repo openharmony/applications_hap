@@ -85,7 +85,6 @@ Note:If the text contains special characters, please escape them according to th
                 <filteritem type="filepath" name="Media_Scanner.hap" desc="hap not identify"/>
                 <filteritem type="filepath" name="Mms.hap" desc="hap not identif"/>
                 <filteritem type="filepath" name="Contacts.hap" desc="hap not identif"/>
-                <filteritem type="filepath" name="Contacts_DataAbility.hap" desc="hap not identif"/>
                 <filteritem type="filepath" name="PermissionManager.hap" desc="hap not identif"/>
                 <filteritem type="filepath" name="Settings_FaceAuth.hap" desc="hap not identif"/>
             </filefilter>
