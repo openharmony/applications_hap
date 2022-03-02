@@ -255,6 +255,7 @@ group("hap") {
     "//applications/standard/hap:dropdownPanel_hap",
     "//applications/standard/hap:dynamic.wav",
     "//applications/standard/hap:ecg_demo_hap",
+    "//applications/standard/hap:filepicker_hap",
     "//applications/standard/hap:flashlight_demo_hap",
     "//applications/standard/hap:kika_input_hap",
     "//applications/standard/hap:launcher_hap",
@@ -273,7 +274,6 @@ group("hap") {
     "//applications/standard/hap:statusBar_hap",
     "//applications/standard/hap:systemui_hap",
     "//applications/standard/hap:volumePanel_hap",
-    "//applications/standard/hap:filepicker_hap",
   ]
   if (defined(product_name) && product_name == "watchos") {
     deps -= [
