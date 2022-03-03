@@ -206,6 +206,13 @@ ohos_prebuilt_etc("callUI_hap") {
   subsystem_name = "applications"
 }
 
+ohos_prebuilt_etc("mobileDataSettings_hap") {
+  source = "MobileDataSettings.hap"
+  module_install_dir = "app"
+  part_name = "prebuilt_hap"
+  subsystem_name = "applications"
+}
+
 ohos_prebuilt_etc("mms_hap") {
   source = "Mms.hap"
   module_install_dir = "app"
@@ -254,6 +261,7 @@ group("hap") {
     "//applications/standard/hap:launcher_recents_hap",
     "//applications/standard/hap:launcher_settings_hap",
     "//applications/standard/hap:mms_hap",
+    "//applications/standard/hap:mobileDataSettings_hap",
     "//applications/standard/hap:music_demo_hap",
     "//applications/standard/hap:navigationBar_hap",
     "//applications/standard/hap:notificationManagement_hap",
@@ -281,6 +289,7 @@ group("hap") {
       "//applications/standard/hap:flashlight_demo_hap",
       "//applications/standard/hap:kika_input_hap",
       "//applications/standard/hap:mms_hap",
+      "//applications/standard/hap:mobileDataSettings_hap",
       "//applications/standard/hap:music_demo_hap",
       "//applications/standard/hap:navigationBar_hap",
       "//applications/standard/hap:photos_hap",
