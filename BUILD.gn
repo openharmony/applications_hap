@@ -90,7 +90,7 @@ ohos_prebuilt_etc("systemui_hap") {
   subsystem_name = "applications"
 }
 
-ohos_prebuilt_etc("screenShot_hap") {
+ohos_prebuilt_etc("screen_shot_hap") {
   source = "ScreenShot.hap"
   module_install_dir = "app"
   part_name = "prebuilt_hap"
@@ -281,6 +281,7 @@ group("hap") {
     "//applications/standard/hap:statusBar_hap",
     "//applications/standard/hap:systemui_hap",
     "//applications/standard/hap:volumePanel_hap",
+    "//applications/standard/hap:screen_shot_hap",
   ]
   if (defined(product_name) && product_name == "watchos") {
     deps -= [
