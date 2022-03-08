@@ -90,7 +90,7 @@ ohos_prebuilt_etc("systemui_hap") {
   subsystem_name = "applications"
 }
 
-ohos_prebuilt_etc("screen_shot_hap") {
+ohos_prebuilt_etc("screenShot_hap") {
   source = "ScreenShot.hap"
   module_install_dir = "app"
   part_name = "prebuilt_hap"
