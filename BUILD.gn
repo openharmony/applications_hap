@@ -90,6 +90,13 @@ ohos_prebuilt_etc("systemui_hap") {
   subsystem_name = "applications"
 }
 
+ohos_prebuilt_etc("screen_shot_hap") {
+  source = "ScreenShot.hap"
+  module_install_dir = "app"
+  part_name = "prebuilt_hap"
+  subsystem_name = "applications"
+}
+
 ohos_prebuilt_etc("clock_demo_hap") {
   source = "Clock_Demo.hap"
   module_install_dir = "app"
@@ -267,6 +274,7 @@ group("hap") {
     "//applications/standard/hap:notificationManagement_hap",
     "//applications/standard/hap:permission_manager_hap",
     "//applications/standard/hap:photos_hap",
+    "//applications/standard/hap:screen_shot_hap",
     "//applications/standard/hap:settingsData_hap",
     "//applications/standard/hap:settings_faceauth_hap",
     "//applications/standard/hap:settings_hap",
