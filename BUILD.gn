@@ -255,6 +255,13 @@ ohos_prebuilt_etc("filepicker_hap") {
   subsystem_name = "applications"
 }
 
+ohos_prebuilt_etc("adminprovisioning_hap") {
+  source = "adminprovisioning.hap"
+  module_install_dir = "app"
+  part_name = "prebuilt_hap"
+  subsystem_name = "applications"
+}
+
 group("hap") {
   deps = [
     "//applications/standard/hap:airquality_demo_hap",
@@ -312,6 +319,16 @@ group("hap") {
       "//applications/standard/hap:settings_hap",
       "//applications/standard/hap:shopping_demo_hap",
       "//applications/standard/hap:statusBar_hap",
+    ]
+  }
+  if (defined(product_name) && product_name == "rk3568") {
+    deps += [
+      "//applications/standard/hap:adminprovisioning_hap",
+    ]
+  }
+  if (defined(product_name) && product_name == "ohos-arm64") {
+    deps += [
+      "//applications/standard/hap:adminprovisioning_hap",
     ]
   }
 }
