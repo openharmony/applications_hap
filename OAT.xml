@@ -66,10 +66,12 @@ Note:If the text contains special characters, please escape them according to th
                 <filteritem type="filepath" name="SystemUI-NotificationManagement.hap" desc="hap not identify"/>
                 <filteritem type="filepath" name="SystemUI-VolumePanel.hap" desc="hap not identify"/>
                 <filteritem type="filepath" name="SystemUI-DropdownPanel.hap" desc="hap not identify"/>
+                <filteritem type="filepath" name="ScreenShot.hap" desc="hap not identify"/>
                 <filteritem type="filepath" name="Photos.hap" desc="hap not identify"/>
                 <filteritem type="filepath" name="resources/demo.wav" desc="Self developed music resources"/>
                 <filteritem type="filepath" name="resources/dynamic.wav" desc="Self developed music resources"/>
                 <filteritem type="filepath" name="Camera.hap" desc="hap not identify"/>
+                <filteritem type="filepath" name="Note.hap" desc="hap not identify"/>
                 <filteritem type="filepath" name="resources/capture.ogg" desc="self developed music resources"/>
                 <filteritem type="filepath" name="DeviceManager_UI.hap" desc="hap not identif"/>
                 <filteritem type="filepath" name="kikaInput.hap" desc="hap not identif"/>
