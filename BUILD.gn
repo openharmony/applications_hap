@@ -314,11 +314,11 @@ group("hap") {
       "//applications/standard/hap:mobileDataSettings_hap",
       "//applications/standard/hap:music_demo_hap",
       "//applications/standard/hap:navigationBar_hap",
+      "//applications/standard/hap:note_hap",
       "//applications/standard/hap:photos_hap",
       "//applications/standard/hap:settingsData_hap",
       "//applications/standard/hap:settings_faceauth_hap",
       "//applications/standard/hap:settings_hap",
-      "//applications/standard/hap:note_hap",
       "//applications/standard/hap:shopping_demo_hap",
       "//applications/standard/hap:statusBar_hap",
     ]
