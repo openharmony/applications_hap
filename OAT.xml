@@ -59,6 +59,7 @@ Note:If the text contains special characters, please escape them according to th
                 <filteritem type="filepath" name="Launcher_Recents.hap" desc="hap not identify"/>
                 <filteritem type="filepath" name="Launcher_Settings.hap" desc="hap not identify"/>
                 <filteritem type="filepath" name="Settings.hap" desc="hap not identify"/>
+	<filteritem type="filepath" name="Note.hap" desc="hap not identify"/>
                 <filteritem type="filepath" name="SettingsData.hap" desc="hap not identify"/>
                 <filteritem type="filepath" name="SystemUI.hap" desc="hap not identify"/>
                 <filteritem type="filepath" name="SystemUI-NavigationBar.hap" desc="hap not identify"/>
