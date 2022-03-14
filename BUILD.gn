@@ -41,6 +41,13 @@ ohos_prebuilt_etc("settings_hap") {
   subsystem_name = "applications"
 }
 
+ohos_prebuilt_etc("note_hap") {
+  source = "Note.hap"
+  module_install_dir = "app"
+  part_name = "prebuilt_hap"
+  subsystem_name = "applications"
+}
+
 ohos_prebuilt_etc("settingsData_hap") {
   source = "SettingsData.hap"
   module_install_dir = "app"
@@ -307,6 +314,7 @@ group("hap") {
       "//applications/standard/hap:mobileDataSettings_hap",
       "//applications/standard/hap:music_demo_hap",
       "//applications/standard/hap:navigationBar_hap",
+      "//applications/standard/hap:note_hap",
       "//applications/standard/hap:photos_hap",
       "//applications/standard/hap:settingsData_hap",
       "//applications/standard/hap:settings_faceauth_hap",
