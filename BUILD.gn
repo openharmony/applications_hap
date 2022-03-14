@@ -306,6 +306,8 @@ group("hap") {
       "//applications/standard/hap:capture.ogg",
       "//applications/standard/hap:contacts_hap",
       "//applications/standard/hap:demo.wav",
+      "//applications/standard/hap:device_manager_ui_hap",
+      "//applications/standard/hap:dropdownPanel_hap",
       "//applications/standard/hap:dynamic.wav",
       "//applications/standard/hap:ecg_demo_hap",
       "//applications/standard/hap:flashlight_demo_hap",
@@ -314,13 +316,17 @@ group("hap") {
       "//applications/standard/hap:mobileDataSettings_hap",
       "//applications/standard/hap:music_demo_hap",
       "//applications/standard/hap:navigationBar_hap",
-      "//applications/standard/hap:note_hap",
+      "//applications/standard/hap:notificationManagement_hap",
+      "//applications/standard/hap:permission_manager_hap",
       "//applications/standard/hap:photos_hap",
+      "//applications/standard/hap:screen_shot_hap",
       "//applications/standard/hap:settingsData_hap",
       "//applications/standard/hap:settings_faceauth_hap",
       "//applications/standard/hap:settings_hap",
       "//applications/standard/hap:shopping_demo_hap",
       "//applications/standard/hap:statusBar_hap",
+      "//applications/standard/hap:systemui_hap",
+      "//applications/standard/hap:volumePanel_hap",
     ]
   } else if (defined(product_name) && product_name == "rk3568") {
     deps += [ "//applications/standard/hap:adminprovisioning_hap" ]
