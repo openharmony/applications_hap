@@ -262,6 +262,13 @@ ohos_prebuilt_etc("adminprovisioning_hap") {
   subsystem_name = "applications"
 }
 
+ohos_prebuilt_etc("filepicker_hap") {
+  source = "FilePicker.hap"
+  module_install_dir = "app"
+  part_name = "prebuilt_hap"
+  subsystem_name = "applications"
+}
+
 group("hap") {
   deps = [
     "//applications/standard/hap:airquality_demo_hap",
@@ -276,6 +283,7 @@ group("hap") {
     "//applications/standard/hap:dropdownPanel_hap",
     "//applications/standard/hap:dynamic.wav",
     "//applications/standard/hap:ecg_demo_hap",
+    "//applications/standard/hap:filepicker_hap",
     "//applications/standard/hap:flashlight_demo_hap",
     "//applications/standard/hap:kika_input_hap",
     "//applications/standard/hap:launcher_hap",
