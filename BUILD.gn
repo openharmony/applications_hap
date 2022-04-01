@@ -15,140 +15,140 @@ import("//build/ohos.gni")
 
 ohos_prebuilt_etc("launcher_hap") {
   source = "Launcher.hap"
-  module_install_dir = "app"
+  module_install_dir = "app/com.ohos.launcher"
   part_name = "prebuilt_hap"
   subsystem_name = "applications"
 }
 
 ohos_prebuilt_etc("launcher_settings_hap") {
   source = "Launcher_Settings.hap"
-  module_install_dir = "app"
+  module_install_dir = "app/com.ohos.launcher"
   part_name = "prebuilt_hap"
   subsystem_name = "applications"
 }
 
 ohos_prebuilt_etc("settings_hap") {
   source = "Settings.hap"
-  module_install_dir = "app"
+  module_install_dir = "app/com.ohos.settings"
   part_name = "prebuilt_hap"
   subsystem_name = "applications"
 }
 
 ohos_prebuilt_etc("note_hap") {
   source = "Note.hap"
-  module_install_dir = "app"
+  module_install_dir = "app/com.ohos.note"
   part_name = "prebuilt_hap"
   subsystem_name = "applications"
 }
 
 ohos_prebuilt_etc("settingsData_hap") {
   source = "SettingsData.hap"
-  module_install_dir = "app"
+  module_install_dir = "app/com.ohos.settingsdata"
   part_name = "prebuilt_hap"
   subsystem_name = "applications"
 }
 
 ohos_prebuilt_etc("navigationBar_hap") {
   source = "SystemUI-NavigationBar.hap"
-  module_install_dir = "app"
+  module_install_dir = "app/com.ohos.systemui"
   part_name = "prebuilt_hap"
   subsystem_name = "applications"
 }
 
 ohos_prebuilt_etc("statusBar_hap") {
   source = "SystemUI-StatusBar.hap"
-  module_install_dir = "app"
+  module_install_dir = "app/com.ohos.systemui"
   part_name = "prebuilt_hap"
   subsystem_name = "applications"
 }
 
 ohos_prebuilt_etc("notificationManagement_hap") {
   source = "SystemUI-NotificationManagement.hap"
-  module_install_dir = "app"
+  module_install_dir = "app/com.ohos.systemui"
   part_name = "prebuilt_hap"
   subsystem_name = "applications"
 }
 
 ohos_prebuilt_etc("volumePanel_hap") {
   source = "SystemUI-VolumePanel.hap"
-  module_install_dir = "app"
+  module_install_dir = "app/com.ohos.systemui"
   part_name = "prebuilt_hap"
   subsystem_name = "applications"
 }
 
 ohos_prebuilt_etc("dropdownPanel_hap") {
   source = "SystemUI-DropdownPanel.hap"
-  module_install_dir = "app"
+  module_install_dir = "app/com.ohos.systemui"
   part_name = "prebuilt_hap"
   subsystem_name = "applications"
 }
 
 ohos_prebuilt_etc("systemui_hap") {
   source = "SystemUI.hap"
-  module_install_dir = "app"
+  module_install_dir = "app/com.ohos.systemui"
   part_name = "prebuilt_hap"
   subsystem_name = "applications"
 }
 
 ohos_prebuilt_etc("screen_shot_hap") {
   source = "ScreenShot.hap"
-  module_install_dir = "app"
+  module_install_dir = "app/com.ohos.screenshot"
   part_name = "prebuilt_hap"
   subsystem_name = "applications"
 }
 
 ohos_prebuilt_etc("clock_demo_hap") {
   source = "Clock_Demo.hap"
-  module_install_dir = "app"
+  module_install_dir = "app/ohos.samples.clock"
   part_name = "prebuilt_hap"
   subsystem_name = "applications"
 }
 
 ohos_prebuilt_etc("airquality_demo_hap") {
   source = "Airquality_Demo.hap"
-  module_install_dir = "app"
+  module_install_dir = "app/ohos.samples.airquality"
   part_name = "prebuilt_hap"
   subsystem_name = "applications"
 }
 
 ohos_prebuilt_etc("calc_demo_hap") {
   source = "Calc_Demo.hap"
-  module_install_dir = "app"
+  module_install_dir = "app/com.example.distributedcalc"
   part_name = "prebuilt_hap"
   subsystem_name = "applications"
 }
 
 ohos_prebuilt_etc("shopping_demo_hap") {
   source = "Shopping_Demo.hap"
-  module_install_dir = "app"
+  module_install_dir = "app/ohos.example.shopping"
   part_name = "prebuilt_hap"
   subsystem_name = "applications"
 }
 
 ohos_prebuilt_etc("flashlight_demo_hap") {
   source = "Flashlight_Demo.hap"
-  module_install_dir = "app"
+  module_install_dir = "app/ohos.samples.flashlight"
   part_name = "prebuilt_hap"
   subsystem_name = "applications"
 }
 
 ohos_prebuilt_etc("ecg_demo_hap") {
   source = "Ecg_Demo.hap"
-  module_install_dir = "app"
+  module_install_dir = "app/ohos.samples.ecg"
   part_name = "prebuilt_hap"
   subsystem_name = "applications"
 }
 
 ohos_prebuilt_etc("photos_hap") {
   source = "Photos.hap"
-  module_install_dir = "app"
+  module_install_dir = "app/com.ohos.photos"
   part_name = "prebuilt_hap"
   subsystem_name = "applications"
 }
 
 ohos_prebuilt_etc("music_demo_hap") {
   source = "Music_Demo.hap"
-  module_install_dir = "app"
+  module_install_dir = "app/com.ohos.distributedmusicplayer"
   part_name = "prebuilt_hap"
   subsystem_name = "applications"
 }
@@ -167,7 +167,7 @@ ohos_prebuilt_etc("dynamic.wav") {
 
 ohos_prebuilt_etc("camera_hap") {
   source = "Camera.hap"
-  module_install_dir = "app"
+  module_install_dir = "app/com.ohos.camera"
   part_name = "prebuilt_hap"
   subsystem_name = "applications"
 }
@@ -180,84 +180,84 @@ ohos_prebuilt_etc("capture.ogg") {
 
 ohos_prebuilt_etc("device_manager_ui_hap") {
   source = "DeviceManager_UI.hap"
-  module_install_dir = "app"
+  module_install_dir = "app/com.ohos.devicemanagerui"
   part_name = "prebuilt_hap"
   subsystem_name = "applications"
 }
 
 ohos_prebuilt_etc("kika_input_hap") {
   source = "kikaInput.hap"
-  module_install_dir = "app"
+  module_install_dir = "app/com.example.kikakeyboard"
   part_name = "prebuilt_hap"
   subsystem_name = "applications"
 }
 
 ohos_prebuilt_etc("media_library_hap") {
   source = "Media_Library.hap"
-  module_install_dir = "app"
+  module_install_dir = "app/com.ohos.medialibrary.MediaLibraryDataA"
   part_name = "prebuilt_hap"
   subsystem_name = "applications"
 }
 
 ohos_prebuilt_etc("media_scanner_hap") {
   source = "Media_Scanner.hap"
-  module_install_dir = "app"
+  module_install_dir = "app/com.ohos.medialibrary.MediaScannerAbilityA"
   part_name = "prebuilt_hap"
   subsystem_name = "applications"
 }
 
 ohos_prebuilt_etc("callUI_hap") {
   source = "CallUI.hap"
-  module_install_dir = "app"
+  module_install_dir = "app/com.ohos.callui"
   part_name = "prebuilt_hap"
   subsystem_name = "applications"
 }
 
 ohos_prebuilt_etc("mobileDataSettings_hap") {
   source = "MobileDataSettings.hap"
-  module_install_dir = "app"
+  module_install_dir = "app/com.ohos.callui"
   part_name = "prebuilt_hap"
   subsystem_name = "applications"
 }
 
 ohos_prebuilt_etc("mms_hap") {
   source = "Mms.hap"
-  module_install_dir = "app"
+  module_install_dir = "app/com.ohos.mms"
   part_name = "prebuilt_hap"
   subsystem_name = "applications"
 }
 
 ohos_prebuilt_etc("contacts_hap") {
   source = "Contacts.hap"
-  module_install_dir = "app"
+  module_install_dir = "app/com.ohos.contacts"
   part_name = "prebuilt_hap"
   subsystem_name = "applications"
 }
 
 ohos_prebuilt_etc("permission_manager_hap") {
   source = "PermissionManager.hap"
-  module_install_dir = "app"
+  module_install_dir = "app/com.ohos.permissionmanager"
   part_name = "prebuilt_hap"
   subsystem_name = "applications"
 }
 
 ohos_prebuilt_etc("settings_faceauth_hap") {
   source = "Settings_FaceAuth.hap"
-  module_install_dir = "app"
+  module_install_dir = "app/com.ohos.settings.faceauth"
   part_name = "prebuilt_hap"
   subsystem_name = "applications"
 }
 
 ohos_prebuilt_etc("adminprovisioning_hap") {
   source = "adminprovisioning.hap"
-  module_install_dir = "app"
+  module_install_dir = "app/com.ohos.adminprovisioning"
   part_name = "prebuilt_hap"
   subsystem_name = "applications"
 }
 
 ohos_prebuilt_etc("filepicker_hap") {
   source = "FilePicker.hap"
-  module_install_dir = "app"
+  module_install_dir = "app/com.ohos.filepicker"
   part_name = "prebuilt_hap"
   subsystem_name = "applications"
 }
