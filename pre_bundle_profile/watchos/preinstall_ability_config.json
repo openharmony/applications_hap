@@ -1,0 +1,130 @@
+[
+    {
+        "bundleName" : "com.ohos.systemui",
+        "systemapi" : true,
+        "keepAlive" : true,
+        "singleton" : true,
+        "userDataClearable" : false,
+        "multiProcess" : true,
+        "bootable" : true,
+        "notification" : true,
+        "hideDesktopIcon" : true,
+        "queryPriority" : true,
+        "startStaticBroadcast" : true,
+        "startGuiAbilityBackground" : true
+    },
+    {
+        "bundleName" : "ohos.global.systemres",
+        "systemapi" : true,
+        "keepAlive" : false,
+        "singleton" : true,
+        "userDataClearable" : false,
+        "multiProcess" : true,
+        "bootable" : true,
+        "notification" : true,
+        "hideDesktopIcon" : true,
+        "queryPriority" : true,
+        "startStaticBroadcast" : true,
+        "startGuiAbilityBackground" : true
+    },
+    {
+        "bundleName" : "ohos.global.backgroundtaskres",
+        "systemapi" : true,
+        "keepAlive" : false,
+        "singleton" : true,
+        "userDataClearable" : false,
+        "multiProcess" : true,
+        "bootable" : true,
+        "notification" : true,
+        "hideDesktopIcon" : true,
+        "queryPriority" : true,
+        "startStaticBroadcast" : true,
+        "startGuiAbilityBackground" : true
+    },
+    {
+        "bundleName" : "com.ohos.launcher",
+        "systemapi" : true,
+        "keepAlive" : false,
+        "singleton" : false,
+        "userDataClearable" : false,
+        "multiProcess" : true,
+        "bootable" : true,
+        "notification" : true,
+        "hideDesktopIcon" : true,
+        "queryPriority" : true,
+        "startStaticBroadcast" : true,
+        "startGuiAbilityBackground" : true
+    },
+    {
+        "bundleName" : "com.ohos.note",
+        "systemapi" : true,
+        "keepAlive" : false,
+        "singleton" : false
+    },
+    {
+        "bundleName" : "ohos.samples.clock",
+        "systemapi" : true,
+        "keepAlive" : false,
+        "singleton" : false
+    },
+    {
+        "bundleName" : "ohos.samples.flashlight",
+        "systemapi" : true,
+        "keepAlive" : false,
+        "singleton" : false
+    },
+    {
+        "bundleName" : "com.ohos.medialibrary.MediaLibraryDataA",
+        "systemapi" : true,
+        "keepAlive" : true,
+        "singleton" : false
+    },
+    {
+        "bundleName" : "com.ohos.medialibrary.MediaScannerAbilityA",
+        "systemapi" : true,
+        "keepAlive" : true,
+        "singleton" : false
+    },
+    {
+        "bundleName" : "com.ohos.contacts",
+        "systemapi" : true,
+        "keepAlive" : false,
+        "singleton" : false
+    },
+    {
+        "bundleName" : "com.ohos.filepicker",
+        "systemapi" : true,
+        "keepAlive" : false,
+        "singleton" : false
+    },
+    {
+        "bundleName" : "com.ohos.contactsdataability",
+        "systemapi" : true,
+        "keepAlive" : false,
+        "singleton" : false
+    },
+    {
+        "bundleName" : "com.ohos.nweb",
+        "systemapi" : true,
+        "keepAlive" : false,
+        "singleton" : false
+    },
+    {
+        "bundleName" : "ohos.telephony.resources",
+        "systemapi" : true,
+        "keepAlive" : false,
+        "singleton" : false
+    },
+    {
+        "bundleName" : "com.ohos.telephonydataability",
+        "systemapi" : true,
+        "keepAlive" : false,
+        "singleton" : false
+    },
+    {
+        "bundleName" : "com.ohos.download",
+        "systemapi" : true,
+        "keepAlive" : false,
+        "singleton" : false
+    }
+]

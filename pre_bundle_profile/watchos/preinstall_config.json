@@ -1,0 +1,69 @@
+{
+    "install_list" : [
+        {
+            "bundle_dir" : "system/app/com.ohos.launcher",
+            "removable" : false
+        },
+        {
+            "bundle_dir" : "system/app/com.ohos.note",
+            "removable" : false
+        },
+        {
+            "bundle_dir" : "system/app/ohos.samples.clock",
+            "removable" : false
+        },
+        {
+            "bundle_dir" : "system/app/ohos.samples.flashlight",
+            "removable" : false
+        },
+        {
+            "bundle_dir" : "system/app/com.ohos.medialibrary.MediaLibraryDataA",
+            "removable" : false
+        },
+        {
+            "bundle_dir" : "system/app/com.ohos.medialibrary.MediaScannerAbilityA",
+            "removable" : false
+        },
+        {
+            "bundle_dir" : "system/app/com.ohos.filepicker",
+            "removable" : false
+        },
+        {
+            "bundle_dir" : "system/app/ohos.global.systemres",
+            "removable" : false,
+            "priority" : 5
+        },
+        {
+            "bundle_dir" : "system/app/ohos.global.backgroundtaskres",
+            "removable" : false
+        },
+        {
+            "bundle_dir" : "system/app/com.ohos.systemui",
+            "removable" : false
+        },
+        {
+            "bundle_dir" : "system/app/com.ohos.contacts",
+            "removable" : false
+        },
+        {
+            "bundle_dir" : "system/app/com.ohos.contactsdataability",
+            "removable" : false
+        },
+        {
+            "bundle_dir" : "system/app/com.ohos.download",
+            "removable" : false
+        },
+        {
+            "bundle_dir" : "system/app/com.ohos.nweb",
+            "removable" : false
+        },
+        {
+            "bundle_dir" : "system/app/com.ohos.telephonydataability",
+            "removable" : false
+        },
+        {
+            "bundle_dir" : "system/app/ohos.telephony.resources",
+            "removable" : false
+        }
+    ]
+}
