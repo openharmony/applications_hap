@@ -20,28 +20,29 @@
 
 ```
 applications/standard/hap
-├── resources                    # 预制资源目录
-├── Airquality_Demo.hap          # 空气质量示例应用
-├── Calc_Demo.hap                # 计算器示例应用
-├── Clock_Demo.hap               # 简单时钟示例应用
-├── Ecg_Demo.hap                 # 心电图显示示例应用
-├── Flashlight_Demo.hap          # 手电筒示例应用
-├── Photos.hap                   # 图库应用
-├── Launcher.hap                 # 桌面entry应用
-├── Launcher_Recents.hap         # 桌面中最近任务应用
-├── Launcher_Settings.hap        # 桌面中的桌面设置应用
-├── Settings.hap                 # 设置应用
-├── Settings_FaceAuth.hap        # 人脸认证设置应用
-├── Shopping_Demo.hap            # 购物示例应用
-├── SystemUI-NavigationBar.hap   # SystemUI 导航栏应用
-├── SystemUI-StatusBar.hap       # SystemUI 状态栏应用
-├── SystemUI-SystemDialog.hap    # SystemUI 系统弹框应用
-├── Music_Demo.hap               # 音乐示例应用
-├── Camera.hap                   # 相机应用
-├── DeviceManager_UI.hap         # 设备管理系统弹框应用
-├── CallUI.hap                   # 通话应用
-├── PermissionManager.hap        # 权限管理应用
-├── adminprovisioning.hap        # 管理业务发放应用
+├── resources                      # 预制资源目录
+├── Airquality_Demo.hap            # 空气质量示例应用
+├── Calc_Demo.hap                  # 计算器示例应用
+├── Clock_Demo.hap                 # 简单时钟示例应用
+├── Ecg_Demo.hap                   # 心电图显示示例应用
+├── Flashlight_Demo.hap            # 手电筒示例应用
+├── Photos.hap                     # 图库应用
+├── Launcher.hap                   # 桌面entry应用
+├── Launcher_Recents.hap           # 桌面中最近任务应用
+├── Launcher_Settings.hap          # 桌面中的桌面设置应用
+├── Settings.hap                   # 设置应用
+├── Settings_FaceAuth.hap          # 人脸认证设置应用
+├── Shopping_Demo.hap              # 购物示例应用
+├── SystemUI-NavigationBar.hap     # SystemUI 导航栏应用
+├── SystemUI-StatusBar.hap         # SystemUI 状态栏应用
+├── SystemUI-SystemDialog.hap      # SystemUI 系统弹框应用
+├── Music_Demo.hap                 # 音乐示例应用
+├── Camera.hap                     # 相机应用
+├── DeviceManager_UI.hap           # 设备管理系统弹框应用
+├── CallUI.hap                     # 通话应用
+├── PermissionManager-Grant.hap    # 权限管理-弹窗授权应用
+├── PermissionManager-Settings.hap # 权限管理-设置权限应用
+├── adminprovisioning.hap          # 管理业务发放应用
 ```
 
 ## 相关仓<a name="section120mcpsimp"></a>

@@ -20,30 +20,31 @@ In addition to these system apps, OpenHarmony provides some simple sample apps f
 
 ```
 applications/standard/hap
-├── resources                    # Preset resources directory
-├── Airquality_Demo.hap          # Sample air quality app
-├── Calc_Demo.hap                # Sample calculator app
-├── Clock_Demo.hap               # Sample clock app
-├── Ecg_Demo.hap                 # Sample electrocardiogram (ECG) app
-├── Flashlight_Demo.hap          # Sample flashlight app
-├── Photos.hap                   # Photos app
-├── Launcher.hap                 # Launcher app
-├── Launcher_Recents.hap         # Recent tasks app of Launcher
-├── Launcher_Settings.hap        # Settings app of Launcher
-├── Settings.hap                 # Settings app
-├── Settings_FaceAuth.hap        # Settings app of FaceAuth
-├── Shopping_Demo.hap            # Sample shopping app
-├── SystemUI-NavigationBar.hap   # Navigation bar app of SystemUI
-├── SystemUI-StatusBar.hap       # Status bar app of SystemUI
-├── SystemUI-SystemDialog.hap    # System dialog app of SystemUI
-├── Music_Demo.hap               # Sample music app
-├── Camera.hap                   # Camera app
-├── DeviceManager_UI.hap         # System dialog app of DeviceManager
-├── Media_Library.hap            # Media library data ability app
-├── Media_Scanner.hap            # Media scanner app
-├── CallUI.hap                   # Call ui app
-├── PermissionManager.hap        # Permission manager app
-├── adminprovisioning.hap        # admin provisioning app
+├── resources                      # Preset resources directory
+├── Airquality_Demo.hap            # Sample air quality app
+├── Calc_Demo.hap                  # Sample calculator app
+├── Clock_Demo.hap                 # Sample clock app
+├── Ecg_Demo.hap                   # Sample electrocardiogram (ECG) app
+├── Flashlight_Demo.hap            # Sample flashlight app
+├── Photos.hap                     # Photos app
+├── Launcher.hap                   # Launcher app
+├── Launcher_Recents.hap           # Recent tasks app of Launcher
+├── Launcher_Settings.hap          # Settings app of Launcher
+├── Settings.hap                   # Settings app
+├── Settings_FaceAuth.hap          # Settings app of FaceAuth
+├── Shopping_Demo.hap              # Sample shopping app
+├── SystemUI-NavigationBar.hap     # Navigation bar app of SystemUI
+├── SystemUI-StatusBar.hap         # Status bar app of SystemUI
+├── SystemUI-SystemDialog.hap      # System dialog app of SystemUI
+├── Music_Demo.hap                 # Sample music app
+├── Camera.hap                     # Camera app
+├── DeviceManager_UI.hap           # System dialog app of DeviceManager
+├── Media_Library.hap              # Media library data ability app
+├── Media_Scanner.hap              # Media scanner app
+├── CallUI.hap                     # Call ui app
+├── PermissionManager-Grant.hap    # Permission manager grant permission app
+├── PermissionManager-Settings.hap # Permission manager set permission app
+├── adminprovisioning.hap          # admin provisioning app
 ```
 
 ## Repositories Involved<a name="section120mcpsimp"></a>
