@@ -3,7 +3,7 @@
   "parts": {
     "prebuilt_hap": {
       "module_list": [
-        "//foundation/multimedia/medialibrary_standard/frameworks/innerkitsimpl/medialibrary_data_ability:medialibrary_dynamic_hap",
+        "//foundation/multimedia/medialibrary_standard/frameworks/services/media_library:medialibrary_dynamic_hap",
         "//foundation/multimedia/medialibrary_standard/services/media_scanner_service/media_scanner_ability:mediascanner_dynamic_hap",
         "//applications/standard/hap",
         "//applications/standard/hap/pre_bundle_profile:pre_bundle_policy"
