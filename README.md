@@ -42,8 +42,7 @@ applications/standard/hap
 ├── Media_Library.hap              # Media library data ability app
 ├── Media_Scanner.hap              # Media scanner app
 ├── CallUI.hap                     # Call ui app
-├── PermissionManager-Grant.hap    # Permission manager grant permission app
-├── PermissionManager-Settings.hap # Permission manager set permission app
+├── PermissionManager.hap          # Permission manager app
 ├── adminprovisioning.hap          # admin provisioning app
 ```
 
