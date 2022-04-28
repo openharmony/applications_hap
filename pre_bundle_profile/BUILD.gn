@@ -35,8 +35,16 @@ ohos_prebuilt_etc("preinstall_config") {
   subsystem_name = "applications"
 }
 
+ohos_prebuilt_etc("install_list_permissions_config") {
+  source = "${prebundle_path}/install_list_permissions.json"
+  relative_install_dir = "permission"
+  part_name = "prebuilt_hap"
+  subsystem_name = "applications"
+}
+
 group("pre_bundle_policy") {
   deps = [
+    ":install_list_permissions_config",
     ":pre_uninstall_config",
     ":preinstall_ability_config",
     ":preinstall_config",
