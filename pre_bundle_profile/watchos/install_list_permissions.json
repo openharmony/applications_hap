@@ -15,5 +15,14 @@
                 "userCancellable" : true
             }
         ]
+    },
+	{
+        "bundleName" : "com.ohos.medialibrary.MediaLibraryDataA",
+        "permissions" : [
+            {
+                "name" : "ohos.permission.DISTRIBUTED_DATASYNC",
+                "userCancellable" : false
+            }
+        ]
     }
 ]
