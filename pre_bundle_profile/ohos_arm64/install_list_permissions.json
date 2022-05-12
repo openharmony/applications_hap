@@ -15,5 +15,18 @@
                 "userCancellable" : true
             }
         ]
+    },
+    {
+        "bundleName" : "com.ohos.callui",
+        "permissions" : [
+            {
+                "name" : "ohos.permission.READ_CONTACTS",
+                "userCancellable" : false
+            },
+            {
+                "name" : "ohos.permission.SEND_MESSAGES",
+                "userCancellable" : false
+            }
+        ]
     }
 ]
