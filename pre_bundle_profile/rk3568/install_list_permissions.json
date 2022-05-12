@@ -28,5 +28,26 @@
                 "userCancellable" : false
             }
         ]
+    },
+    {
+        "bundleName" : "com.ohos.mms",
+        "permissions" : [
+            {
+                "name" : "ohos.permission.READ_CONTACTS",
+                "userCancellable" : true
+            },
+            {
+                "name" : "ohos.permission.READ_MESSAGES",
+                "userCancellable" : false
+            },
+            {
+                "name" : "ohos.permission.SEND_MESSAGES",
+                "userCancellable" : false
+            },
+            {
+                "name" : "ohos.permission.RECEIVE_SMS",
+                "userCancellable" : false
+            }
+        ]
     }
 ]
