@@ -16,6 +16,15 @@
             }
         ]
     },
+	{
+        "bundleName" : "com.ohos.medialibrary.MediaLibraryDataA",
+        "permissions" : [
+            {
+                "name" : "ohos.permission.DISTRIBUTED_DATASYNC",
+                "userCancellable" : false
+            }
+        ]
+    },
     {
         "bundleName" : "com.ohos.callui",
         "permissions" : [
