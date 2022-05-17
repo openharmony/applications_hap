@@ -13,8 +13,78 @@
 
 import("//build/ohos.gni")
 
+ohos_prebuilt_etc("launcher_hap") {
+  source = "Launcher.hap"
+  module_install_dir = "app"
+  part_name = "prebuilt_hap"
+  subsystem_name = "applications"
+}
+
+ohos_prebuilt_etc("launcher_settings_hap") {
+  source = "Launcher_Settings.hap"
+  module_install_dir = "app"
+  part_name = "prebuilt_hap"
+  subsystem_name = "applications"
+}
+
 ohos_prebuilt_etc("settings_hap") {
   source = "Settings.hap"
+  module_install_dir = "app"
+  part_name = "prebuilt_hap"
+  subsystem_name = "applications"
+}
+
+ohos_prebuilt_etc("settingsData_hap") {
+  source = "SettingsData.hap"
+  module_install_dir = "app"
+  part_name = "prebuilt_hap"
+  subsystem_name = "applications"
+}
+
+ohos_prebuilt_etc("navigationBar_hap") {
+  source = "SystemUI-NavigationBar.hap"
+  module_install_dir = "app"
+  part_name = "prebuilt_hap"
+  subsystem_name = "applications"
+}
+
+ohos_prebuilt_etc("statusBar_hap") {
+  source = "SystemUI-StatusBar.hap"
+  module_install_dir = "app"
+  part_name = "prebuilt_hap"
+  subsystem_name = "applications"
+}
+
+ohos_prebuilt_etc("notificationManagement_hap") {
+  source = "SystemUI-NotificationManagement.hap"
+  module_install_dir = "app"
+  part_name = "prebuilt_hap"
+  subsystem_name = "applications"
+}
+
+ohos_prebuilt_etc("volumePanel_hap") {
+  source = "SystemUI-VolumePanel.hap"
+  module_install_dir = "app"
+  part_name = "prebuilt_hap"
+  subsystem_name = "applications"
+}
+
+ohos_prebuilt_etc("dropdownPanel_hap") {
+  source = "SystemUI-DropdownPanel.hap"
+  module_install_dir = "app"
+  part_name = "prebuilt_hap"
+  subsystem_name = "applications"
+}
+
+ohos_prebuilt_etc("systemui_hap") {
+  source = "SystemUI.hap"
+  module_install_dir = "app"
+  part_name = "prebuilt_hap"
+  subsystem_name = "applications"
+}
+
+ohos_prebuilt_etc("screen_shot_hap") {
+  source = "ScreenShot.hap"
   module_install_dir = "app"
   part_name = "prebuilt_hap"
   subsystem_name = "applications"
@@ -88,6 +158,21 @@ ohos_prebuilt_etc("dynamic.wav") {
   subsystem_name = "applications"
 }
 
+ohos_prebuilt_etc("camera_hap") {
+  source = "Camera.hap"
+  module_install_dir = "app"
+  part_name = "prebuilt_hap"
+  subsystem_name = "applications"
+}
+
+ohos_prebuilt_etc("note_hap") {
+  source = "Note.hap"
+  module_install_dir = "app"
+  part_name = "prebuilt_hap"
+  subsystem_name = "applications"
+}
+
+
 ohos_prebuilt_etc("capture.ogg") {
   source = "resources/capture.ogg"
   part_name = "prebuilt_hap"
@@ -122,8 +207,29 @@ ohos_prebuilt_etc("media_scanner_hap") {
   subsystem_name = "applications"
 }
 
+ohos_prebuilt_etc("callUI_hap") {
+  source = "CallUI.hap"
+  module_install_dir = "app"
+  part_name = "prebuilt_hap"
+  subsystem_name = "applications"
+}
+
 ohos_prebuilt_etc("mobileDataSettings_hap") {
   source = "MobileDataSettings.hap"
+  module_install_dir = "app"
+  part_name = "prebuilt_hap"
+  subsystem_name = "applications"
+}
+
+ohos_prebuilt_etc("mms_hap") {
+  source = "Mms.hap"
+  module_install_dir = "app"
+  part_name = "prebuilt_hap"
+  subsystem_name = "applications"
+}
+
+ohos_prebuilt_etc("contacts_hap") {
+  source = "Contacts.hap"
   module_install_dir = "app"
   part_name = "prebuilt_hap"
   subsystem_name = "applications"
@@ -161,39 +267,62 @@ group("hap") {
   deps = [
     "//applications/standard/hap:airquality_demo_hap",
     "//applications/standard/hap:calc_demo_hap",
+    "//applications/standard/hap:callUI_hap",
+    "//applications/standard/hap:camera_hap",
     "//applications/standard/hap:capture.ogg",
     "//applications/standard/hap:clock_demo_hap",
+    "//applications/standard/hap:contacts_hap",
     "//applications/standard/hap:demo.wav",
     "//applications/standard/hap:device_manager_ui_hap",
+    "//applications/standard/hap:dropdownPanel_hap",
     "//applications/standard/hap:dynamic.wav",
     "//applications/standard/hap:ecg_demo_hap",
     "//applications/standard/hap:filepicker_hap",
     "//applications/standard/hap:flashlight_demo_hap",
     "//applications/standard/hap:kika_input_hap",
+    "//applications/standard/hap:launcher_hap",
+    "//applications/standard/hap:launcher_settings_hap",
+    "//applications/standard/hap:mms_hap",
     "//applications/standard/hap:mobileDataSettings_hap",
     "//applications/standard/hap:music_demo_hap",
+    "//applications/standard/hap:navigationBar_hap",
+    "//applications/standard/hap:note_hap",
+    "//applications/standard/hap:notificationManagement_hap",
     "//applications/standard/hap:permission_manager_hap",
     "//applications/standard/hap:photos_hap",
+    "//applications/standard/hap:screen_shot_hap",
+    "//applications/standard/hap:settingsData_hap",
     "//applications/standard/hap:settings_faceauth_hap",
     "//applications/standard/hap:settings_hap",
     "//applications/standard/hap:shopping_demo_hap",
+    "//applications/standard/hap:statusBar_hap",
+    "//applications/standard/hap:systemui_hap",
+    "//applications/standard/hap:volumePanel_hap",
   ]
   if (defined(product_name) && product_name == "watchos") {
     deps -= [
       "//applications/standard/hap:airquality_demo_hap",
       "//applications/standard/hap:calc_demo_hap",
+      "//applications/standard/hap:callUI_hap",
+      "//applications/standard/hap:camera_hap",
       "//applications/standard/hap:capture.ogg",
+      "//applications/standard/hap:contacts_hap",
       "//applications/standard/hap:demo.wav",
       "//applications/standard/hap:dynamic.wav",
       "//applications/standard/hap:ecg_demo_hap",
       "//applications/standard/hap:flashlight_demo_hap",
       "//applications/standard/hap:kika_input_hap",
+      "//applications/standard/hap:mms_hap",
       "//applications/standard/hap:mobileDataSettings_hap",
       "//applications/standard/hap:music_demo_hap",
+      "//applications/standard/hap:navigationBar_hap",
+      "//applications/standard/hap:note_hap",
       "//applications/standard/hap:photos_hap",
+      "//applications/standard/hap:settingsData_hap",
       "//applications/standard/hap:settings_faceauth_hap",
       "//applications/standard/hap:settings_hap",
       "//applications/standard/hap:shopping_demo_hap",
+      "//applications/standard/hap:statusBar_hap",
     ]
   } else if (defined(product_name) && product_name == "rk3568") {
     deps += [ "//applications/standard/hap:adminprovisioning_hap" ]
