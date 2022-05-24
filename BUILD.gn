@@ -326,9 +326,6 @@ group("hap") {
     ]
   } else if (defined(product_name) && product_name == "Hi3516DV300") {
     deps -= [ 
-      "//applications/standard/hap:airquality_demo_hap",
-      "//applications/standard/hap:calc_demo_hap",
-      "//applications/standard/hap:ecg_demo_hap",
       "//applications/standard/hap:note_hap",
       "//applications/standard/hap:shopping_demo_hap",
     ]
