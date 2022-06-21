@@ -74,18 +74,6 @@
         "singleton" : false
     },
     {
-        "bundleName" : "com.ohos.medialibrary.MediaLibraryDataA",
-        "systemapi" : true,
-        "keepAlive" : true,
-        "singleton" : false
-    },
-    {
-        "bundleName" : "com.ohos.medialibrary.MediaScannerAbilityA",
-        "systemapi" : true,
-        "keepAlive" : true,
-        "singleton" : false
-    },
-    {
         "bundleName" : "com.ohos.contacts",
         "systemapi" : true,
         "keepAlive" : false,

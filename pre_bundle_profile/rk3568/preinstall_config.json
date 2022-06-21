@@ -69,14 +69,6 @@
             "removable" : false
         },
         {
-            "bundle_dir" : "system/app/com.ohos.medialibrary.MediaLibraryDataA",
-            "removable" : false
-        },
-        {
-            "bundle_dir" : "system/app/com.ohos.medialibrary.MediaScannerAbilityA",
-            "removable" : false
-        },
-        {
             "bundle_dir" : "system/app/com.ohos.callui",
             "removable" : false
         },
