@@ -16,4 +16,13 @@
             }
         ]
     },
+	{
+        "bundleName" : "com.ohos.medialibrary.medialibrarydata",
+        "permissions" : [
+            {
+                "name" : "ohos.permission.DISTRIBUTED_DATASYNC",
+                "userCancellable" : false
+            }
+        ]
+    }
 ]
