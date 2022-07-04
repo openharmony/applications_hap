@@ -58,5 +58,14 @@
                 "userCancellable" : false
             }
         ]
+    },
+    {
+        "bundleName": "com.ohos.systemui",
+        "permissions" : [
+            {
+                "name" : "ohos.permission.DISTRIBUTED_DATASYNC",
+                "userCancellable" : false
+            }
+        ]
     }
 ]
