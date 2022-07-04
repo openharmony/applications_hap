@@ -17,6 +17,10 @@
             "removable" : false
         },
         {
+            "bundle_dir" : "system/app/com.ohos.medialibrary.medialibrarydata",
+            "removable" : false
+        },
+        {
             "bundle_dir" : "system/app/com.ohos.filepicker",
             "removable" : false
         },
