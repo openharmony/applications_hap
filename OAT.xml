@@ -38,7 +38,7 @@ policyList:
     "filetype" is used to check file type in the specified path, supported file types: archive, binary
     "filename" is used to check whether the specified file exists in the specified path(support projectroot in default OAT.xml), supported file names: LICENSE, README, README.OpenSource
 
-4. policyitem name: This field is used for define the license, copyright, "*" means match all, the "!" prefix means could not match this value. For example, "!GPL" means can not use GPL license. 
+4. policyitem name: This field is used for define the license, copyright, "*" means match all, the "!" prefix means could not match this value. For example, "!GPL" means can not use GPL license.
 5. policyitem path: This field is used for define the source file scope to apply this policyitem, the "!" prefix means exclude the files. For example, "!.*/lib/.*" means files in lib dir will be exclude while process this policyitem.
 6. policyitem rule and group: These two fields are used together to merge policy results. "may" policyitems in the same group means any one in this group passed, the result will be passed.
 7. policyitem filefilter: Used to bind filefilter which define filter rules.
@@ -93,6 +93,7 @@ Note:If the text contains special characters, please escape them according to th
                 <filteritem type="filepath" name="Settings_FaceAuth.hap" desc="hap not identif"/>
                 <filteritem type="filepath" name="adminprovisioning.hap" desc="hap not identify"/>
                 <filteritem type="filepath" name="FilePicker.hap" desc="hap not identify"/>
+                <filteritem type="filepath" name="Wallpaper.hap" desc="hap not identify"/>
             </filefilter>
         </filefilterlist>
     </oatconfig>
