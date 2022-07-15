@@ -42,6 +42,7 @@ applications/standard/hap
 ├── CallUI.hap                     # 通话应用
 ├── PermissionManager.hap          # 权限管理应用
 ├── adminprovisioning.hap          # 管理业务发放应用
+├── Wallpaper.hap                  # 壁纸应用
 ```
 
 ## 相关仓<a name="section120mcpsimp"></a>

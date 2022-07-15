@@ -44,6 +44,7 @@ applications/standard/hap
 ├── CallUI.hap                     # Call ui app
 ├── PermissionManager.hap          # Permission manager app
 ├── adminprovisioning.hap          # admin provisioning app
+├── Wallpaper.hap                  # Wallpaper app
 ```
 
 ## Repositories Involved<a name="section120mcpsimp"></a>
