@@ -67,5 +67,101 @@
                 "userCancellable" : false
             }
         ]
+    },
+	{
+        "bundleName": "com.ohos.contacts",
+        "permissions" : [
+            {
+                "name" : "ohos.permission.READ_CONTACTS",
+                "userCancellable" : false
+            },
+            {
+                "name" : "ohos.permission.WRITE_CONTACTS",
+                "userCancellable" : false
+            },
+            {
+                "name" : "ohos.permission.READ_CALL_LOG",
+                "userCancellable" : false
+            },
+            {
+                "name" : "ohos.permission.MANAGE_VOICEMAIL",
+                "userCancellable" : false
+            }
+        ]
+    },
+	{
+        "bundleName": "com.ohos.photos",
+        "permissions" : [
+            {
+                "name" : "ohos.permission.READ_MEDIA",
+                "userCancellable" : false
+            },
+            {
+                "name" : "ohos.permission.WRITE_MEDIA",
+                "userCancellable" : false
+            },
+            {
+                "name" : "ohos.permission.MEDIA_LOCATION",
+                "userCancellable" : false
+            },
+            {
+                "name" : "ohos.permission.DISTRIBUTED_DATASYNC",
+                "userCancellable" : false
+            }
+        ]
+    },
+	{
+        "bundleName": "com.ohos.filepicker",
+        "permissions" : [
+            {
+                "name" : "ohos.permission.READ_MEDIA",
+                "userCancellable" : false
+            },
+            {
+                "name" : "ohos.permission.WRITE_MEDIA",
+                "userCancellable" : false
+            },
+            {
+                "name" : "ohos.permission.MEDIA_LOCATION",
+                "userCancellable" : false
+            }
+        ]
+    },
+	{
+        "bundleName": "com.ohos.camera",
+        "permissions" : [
+            {
+                "name" : "ohos.permission.READ_MEDIA",
+                "userCancellable" : false
+            },
+            {
+                "name" : "ohos.permission.WRITE_MEDIA",
+                "userCancellable" : false
+            },
+            {
+                "name" : "ohos.permission.MEDIA_LOCATION",
+                "userCancellable" : false
+            },
+            {
+                "name" : "ohos.permission.DISTRIBUTED_DATASYNC",
+                "userCancellable" : false
+            },
+            {
+                "name" : "ohos.permission.CAMERA",
+                "userCancellable" : false
+            },
+            {
+                "name" : "ohos.permission.MICROPHONE",
+                "userCancellable" : false
+            },
+            {
+                "name" : "ohos.permission.LOCATION",
+                "userCancellable" : false
+            },
+            {
+                "name" : "ohos.permission.LOCATION_IN_BACKGROUND",
+                "userCancellable" : false
+            }
+        ]
     }
 ]
