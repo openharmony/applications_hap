@@ -35,6 +35,7 @@ applications/standard/hap
 ├── Shopping_Demo.hap              # Sample shopping app
 ├── SystemUI-NavigationBar.hap     # Navigation bar app of SystemUI
 ├── SystemUI-StatusBar.hap         # Status bar app of SystemUI
+├── SystemUI-ScreenLock.hap        # ScreenLock app of SystemUI
 ├── SystemUI-SystemDialog.hap      # System dialog app of SystemUI
 ├── Music_Demo.hap                 # Sample music app
 ├── Camera.hap                     # Camera app
