@@ -35,6 +35,7 @@ applications/standard/hap
 ├── Shopping_Demo.hap              # 购物示例应用
 ├── SystemUI-NavigationBar.hap     # SystemUI 导航栏应用
 ├── SystemUI-StatusBar.hap         # SystemUI 状态栏应用
+├── SystemUI-ScreenLock.hap        # SystemUI 锁屏应用
 ├── SystemUI-SystemDialog.hap      # SystemUI 系统弹框应用
 ├── Music_Demo.hap                 # 音乐示例应用
 ├── Camera.hap                     # 相机应用
@@ -58,4 +59,3 @@ applications/standard/hap
 **applications\_standard\_hap**
 
 **[device_manager](https://gitee.com/openharmony/device_manager)**
-
