@@ -39,7 +39,6 @@ applications/standard/hap
 ├── SystemUI-SystemDialog.hap      # SystemUI 系统弹框应用
 ├── Music_Demo.hap                 # 音乐示例应用
 ├── Camera.hap                     # 相机应用
-├── DeviceManager_UI.hap           # 设备管理系统弹框应用
 ├── CallUI.hap                     # 通话应用
 ├── PermissionManager.hap          # 权限管理应用
 ├── adminprovisioning.hap          # 管理业务发放应用
