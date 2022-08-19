@@ -269,6 +269,27 @@ ohos_prebuilt_etc("wallpaper_hap") {
   subsystem_name = "applications"
 }
 
+ohos_prebuilt_etc("external.json") {
+  source = "resources/external.json"
+  relative_install_dir = "notification_template"
+  subsystem_name = "prebuilt_hap"
+  part_name = "applications"
+}
+
+ohos_prebuilt_etc("downloadTemplate.abc") {
+  source = "resources/downloadTemplate.abc"
+  relative_install_dir = "notification_template/assets/js"
+  subsystem_name = "prebuilt_hap"
+  part_name = "applications"
+}
+
+ohos_prebuilt_etc("downloadTemplate.js") {
+  source = "resources/downloadTemplate.js"
+  relative_install_dir = "notification_template/assets/js"
+  subsystem_name = "prebuilt_hap"
+  part_name = "applications"
+}
+
 group("hap") {
   deps = [
     "//applications/standard/hap:airquality_demo_hap",
@@ -279,9 +300,12 @@ group("hap") {
     "//applications/standard/hap:clock_demo_hap",
     "//applications/standard/hap:contacts_hap",
     "//applications/standard/hap:demo.wav",
+    "//applications/standard/hap:downloadTemplate.abc",
+    "//applications/standard/hap:downloadTemplate.js",
     "//applications/standard/hap:dropdownPanel_hap",
     "//applications/standard/hap:dynamic.wav",
     "//applications/standard/hap:ecg_demo_hap",
+    "//applications/standard/hap:external.json",
     "//applications/standard/hap:filepicker_hap",
     "//applications/standard/hap:flashlight_demo_hap",
     "//applications/standard/hap:kika_input_hap",
@@ -315,9 +339,12 @@ group("hap") {
       "//applications/standard/hap:capture.ogg",
       "//applications/standard/hap:contacts_hap",
       "//applications/standard/hap:demo.wav",
+      "//applications/standard/hap:downloadTemplate.abc",
+      "//applications/standard/hap:downloadTemplate.js",
       "//applications/standard/hap:dropdownPanel_hap",
       "//applications/standard/hap:dynamic.wav",
       "//applications/standard/hap:ecg_demo_hap",
+      "//applications/standard/hap:external.json",
       "//applications/standard/hap:flashlight_demo_hap",
       "//applications/standard/hap:kika_input_hap",
       "//applications/standard/hap:mms_hap",
