@@ -43,7 +43,6 @@ applications/standard/hap
 ├── Media_Scanner.hap              # Media scanner app
 ├── CallUI.hap                     # Call ui app
 ├── PermissionManager.hap          # Permission manager app
-├── adminprovisioning.hap          # admin provisioning app
 ├── Wallpaper.hap                  # Wallpaper app
 ```
 
