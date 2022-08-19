@@ -272,22 +272,22 @@ ohos_prebuilt_etc("wallpaper_hap") {
 ohos_prebuilt_etc("external.json") {
   source = "resources/external.json"
   relative_install_dir = "notification_template"
-  subsystem_name = "prebuilt_hap"
-  part_name = "applications"
+  subsystem_name = "notification"
+  part_name = "distributed_notification_service"
 }
 
 ohos_prebuilt_etc("downloadTemplate.abc") {
   source = "resources/downloadTemplate.abc"
   relative_install_dir = "notification_template/assets/js"
-  subsystem_name = "prebuilt_hap"
-  part_name = "applications"
+  subsystem_name = "notification"
+  part_name = "distributed_notification_service"
 }
 
 ohos_prebuilt_etc("downloadTemplate.js") {
   source = "resources/downloadTemplate.js"
   relative_install_dir = "notification_template/assets/js"
-  subsystem_name = "prebuilt_hap"
-  part_name = "applications"
+  subsystem_name = "notification"
+  part_name = "distributed_notification_service"
 }
 
 group("hap") {
