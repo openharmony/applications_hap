@@ -38,7 +38,6 @@ applications/standard/hap
 ├── SystemUI-SystemDialog.hap    # System dialog app of SystemUI
 ├── Music_Demo.hap               # Sample music app
 ├── Camera.hap                   # Camera app
-├── DeviceManager_UI.hap         # System dialog app of DeviceManager
 ├── Media_Library.hap            # Media library data ability app
 ├── Media_Scanner.hap            # Media scanner app
 ├── CallUI.hap                   # Call ui app

@@ -179,13 +179,6 @@ ohos_prebuilt_etc("capture.ogg") {
   subsystem_name = "applications"
 }
 
-ohos_prebuilt_etc("device_manager_ui_hap") {
-  source = "DeviceManager_UI.hap"
-  module_install_dir = "app"
-  part_name = "prebuilt_hap"
-  subsystem_name = "applications"
-}
-
 ohos_prebuilt_etc("kika_input_hap") {
   source = "kikaInput.hap"
   module_install_dir = "app"
@@ -273,7 +266,6 @@ group("hap") {
     "//applications/standard/hap:clock_demo_hap",
     "//applications/standard/hap:contacts_hap",
     "//applications/standard/hap:demo.wav",
-    "//applications/standard/hap:device_manager_ui_hap",
     "//applications/standard/hap:dropdownPanel_hap",
     "//applications/standard/hap:dynamic.wav",
     "//applications/standard/hap:ecg_demo_hap",
