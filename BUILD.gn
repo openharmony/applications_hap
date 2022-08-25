@@ -111,13 +111,6 @@ ohos_prebuilt_etc("clock_demo_hap") {
   subsystem_name = "applications"
 }
 
-ohos_prebuilt_etc("airquality_demo_hap") {
-  source = "Airquality_Demo.hap"
-  module_install_dir = "app/ohos.samples.airquality"
-  part_name = "prebuilt_hap"
-  subsystem_name = "applications"
-}
-
 ohos_prebuilt_etc("calc_demo_hap") {
   source = "Calc_Demo.hap"
   module_install_dir = "app/com.example.distributedcalc"
@@ -128,20 +121,6 @@ ohos_prebuilt_etc("calc_demo_hap") {
 ohos_prebuilt_etc("shopping_demo_hap") {
   source = "Shopping_Demo.hap"
   module_install_dir = "app/ohos.sample.shopping"
-  part_name = "prebuilt_hap"
-  subsystem_name = "applications"
-}
-
-ohos_prebuilt_etc("flashlight_demo_hap") {
-  source = "Flashlight_Demo.hap"
-  module_install_dir = "app/ohos.samples.flashlight"
-  part_name = "prebuilt_hap"
-  subsystem_name = "applications"
-}
-
-ohos_prebuilt_etc("ecg_demo_hap") {
-  source = "Ecg_Demo.hap"
-  module_install_dir = "app/ohos.samples.ecg"
   part_name = "prebuilt_hap"
   subsystem_name = "applications"
 }
