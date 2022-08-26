@@ -111,13 +111,6 @@ ohos_prebuilt_etc("clock_demo_hap") {
   subsystem_name = "applications"
 }
 
-ohos_prebuilt_etc("airquality_demo_hap") {
-  source = "Airquality_Demo.hap"
-  module_install_dir = "app/ohos.samples.airquality"
-  part_name = "prebuilt_hap"
-  subsystem_name = "applications"
-}
-
 ohos_prebuilt_etc("calc_demo_hap") {
   source = "Calc_Demo.hap"
   module_install_dir = "app/com.example.distributedcalc"
@@ -128,20 +121,6 @@ ohos_prebuilt_etc("calc_demo_hap") {
 ohos_prebuilt_etc("shopping_demo_hap") {
   source = "Shopping_Demo.hap"
   module_install_dir = "app/ohos.sample.shopping"
-  part_name = "prebuilt_hap"
-  subsystem_name = "applications"
-}
-
-ohos_prebuilt_etc("flashlight_demo_hap") {
-  source = "Flashlight_Demo.hap"
-  module_install_dir = "app/ohos.samples.flashlight"
-  part_name = "prebuilt_hap"
-  subsystem_name = "applications"
-}
-
-ohos_prebuilt_etc("ecg_demo_hap") {
-  source = "Ecg_Demo.hap"
-  module_install_dir = "app/ohos.samples.ecg"
   part_name = "prebuilt_hap"
   subsystem_name = "applications"
 }
@@ -285,7 +264,6 @@ ohos_prebuilt_etc("downloadTemplate.js") {
 
 group("hap") {
   deps = [
-    "//applications/standard/hap:airquality_demo_hap",
     "//applications/standard/hap:calc_demo_hap",
     "//applications/standard/hap:callUI_hap",
     "//applications/standard/hap:camera_hap",
@@ -297,10 +275,8 @@ group("hap") {
     "//applications/standard/hap:downloadTemplate.js",
     "//applications/standard/hap:dropdownPanel_hap",
     "//applications/standard/hap:dynamic.wav",
-    "//applications/standard/hap:ecg_demo_hap",
     "//applications/standard/hap:external.json",
     "//applications/standard/hap:filepicker_hap",
-    "//applications/standard/hap:flashlight_demo_hap",
     "//applications/standard/hap:kika_input_hap",
     "//applications/standard/hap:launcher_hap",
     "//applications/standard/hap:launcher_settings_hap",
@@ -325,7 +301,6 @@ group("hap") {
   ]
   if (defined(product_name) && product_name == "watchos") {
     deps -= [
-      "//applications/standard/hap:airquality_demo_hap",
       "//applications/standard/hap:calc_demo_hap",
       "//applications/standard/hap:callUI_hap",
       "//applications/standard/hap:camera_hap",
@@ -336,9 +311,7 @@ group("hap") {
       "//applications/standard/hap:downloadTemplate.js",
       "//applications/standard/hap:dropdownPanel_hap",
       "//applications/standard/hap:dynamic.wav",
-      "//applications/standard/hap:ecg_demo_hap",
       "//applications/standard/hap:external.json",
-      "//applications/standard/hap:flashlight_demo_hap",
       "//applications/standard/hap:kika_input_hap",
       "//applications/standard/hap:mms_hap",
       "//applications/standard/hap:mobileDataSettings_hap",
