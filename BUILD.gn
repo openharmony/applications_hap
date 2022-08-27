@@ -289,7 +289,7 @@ group("hap") {
     "//applications/standard/hap:shopping_demo_hap",
     "//applications/standard/hap:statusBar_hap",
     "//applications/standard/hap:systemui_hap",
-    "//applications/standard/hap:volumePanel_hap"
+    "//applications/standard/hap:volumePanel_hap",
   ]
   if (defined(product_name) && product_name == "watchos") {
     deps -= [
