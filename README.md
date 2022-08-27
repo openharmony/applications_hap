@@ -43,7 +43,6 @@ applications/standard/hap
 ├── Media_Scanner.hap              # Media scanner app
 ├── CallUI.hap                     # Call ui app
 ├── PermissionManager.hap          # Permission manager app
-├── Wallpaper.hap                  # Wallpaper app
 ```
 
 ## Repositories Involved<a name="section120mcpsimp"></a>

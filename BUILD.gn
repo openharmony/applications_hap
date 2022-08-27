@@ -234,13 +234,6 @@ ohos_prebuilt_etc("filepicker_hap") {
   subsystem_name = "applications"
 }
 
-ohos_prebuilt_etc("wallpaper_hap") {
-  source = "Wallpaper.hap"
-  module_install_dir = "app/com.ohos.wallpaper"
-  part_name = "prebuilt_hap"
-  subsystem_name = "applications"
-}
-
 ohos_prebuilt_etc("external.json") {
   source = "resources/external.json"
   relative_install_dir = "notification_template"
@@ -296,8 +289,7 @@ group("hap") {
     "//applications/standard/hap:shopping_demo_hap",
     "//applications/standard/hap:statusBar_hap",
     "//applications/standard/hap:systemui_hap",
-    "//applications/standard/hap:volumePanel_hap",
-    "//applications/standard/hap:wallpaper_hap",
+    "//applications/standard/hap:volumePanel_hap"
   ]
   if (defined(product_name) && product_name == "watchos") {
     deps -= [
