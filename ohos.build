@@ -4,7 +4,8 @@
     "prebuilt_hap": {
       "module_list": [
         "//foundation/multimedia/media_library/frameworks/innerkitsimpl/medialibrary_data_extension:medialibrary_ext_hap",
-        "//applications/standard/hap"
+        "//applications/standard/hap",
+       "//applications/standard/permission_manager/permissionmanager:permission_manager"
       ]
     }
   }
