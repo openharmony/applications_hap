@@ -14,13 +14,13 @@
 domain: SYSTEMUI_APP
 
 SYSTEMUI_FAULT:
-  __BASE: {type: FAULT, level: CRITICAL, desc: ""}
-  CORE_SYSTEM: {type: STRING, desc: "core system"}
-  TARGET_API: {type: STRING, desc: "target api"}
-  FAULT_ID: {type: STRING, desc: "fault name"}
-  MSG: {type: STRING, desc: "fault reaseon"}
+  __BASE: {type: FAULT, level: CRITICAL, desc: fault log}
+  CORE_SYSTEM: {type: STRING, desc: core system}
+  TARGET_API: {type: STRING, desc: target api}
+  FAULT_ID: {type: STRING, desc: fault name}
+  MSG: {type: STRING, desc: fault reaseon}
 
 SCREENLOCK_FAULT:
-  __BASE: {type: FAULT, level: CRITICAL, desc: ""}
-  FAULT_ID: {type: STRING, desc: "fault name"}
-  MSG: {type: STRING, desc: "fault reaseon"}
+  __BASE: {type: FAULT, level: CRITICAL, desc: fault log}
+  FAULT_ID: {type: STRING, desc: fault name}
+  MSG: {type: STRING, desc: fault reaseon}

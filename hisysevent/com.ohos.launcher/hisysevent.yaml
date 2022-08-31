@@ -18,11 +18,11 @@
 domain: LAUNCHER_APP
 
 START_ABILITY:
-  __BASE: {type: BEHAVIOR, level: CRITICAL, desc: "start ability from launcher"}
-  BUNDLE_NAME: {type: STRING, desc: "bundle name"}
-  ABILITY_NAME: {type: STRING, desc: "ability name"}
-  MODULE_NAME: {type: STRING, desc: "module name"}
+  __BASE: {type: BEHAVIOR, level: CRITICAL, desc: start ability from launcher}
+  BUNDLE_NAME: {type: STRING, desc: bundle name}
+  ABILITY_NAME: {type: STRING, desc: ability name}
+  MODULE_NAME: {type: STRING, desc: module name}
 LAUNCHER_FAULT:
-  __BASE: {type: FAULT, level: CRITICAL, desc: "launcher app runtime error"}
-  FAULT_ID: {type: STRING, desc: "fault name"}
-  MSG: {type: STRING, desc: "fault reaseon"}
+  __BASE: {type: FAULT, level: CRITICAL, desc: launcher app runtime error}
+  FAULT_ID: {type: STRING, desc: fault name}
+  MSG: {type: STRING, desc: fault reaseon}
