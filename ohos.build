@@ -2,6 +2,11 @@
   "subsystem": "applications",
   "parts": {
     "prebuilt_hap": {
+	  "hisysevent_config": [
+	    "//applications/standard/hap/hisysevent/com.ohos.camera/hisysevent.yaml",
+	    "//applications/standard/hap/hisysevent/com.ohos.launcher/hisysevent.yaml",
+	    "//applications/standard/hap/hisysevent/com.ohos.systemui/hisysevent.yaml"
+	  ],
       "module_list": [
         "//foundation/multimedia/media_library/frameworks/innerkitsimpl/medialibrary_data_extension:medialibrary_ext_hap",
         "//applications/standard/hap",
