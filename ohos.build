@@ -12,6 +12,7 @@
         "//foundation/multimedia/media_library/frameworks/innerkitsimpl/medialibrary_data_extension:medialibrary_ext_hap",
         "//applications/standard/hap",
        "//applications/standard/permission_manager/permissionmanager:permission_manager"
+       "//foundation/base/inputmethod/imf/services/dialog:input_method_select_dialog"
       ]
     }
   }
