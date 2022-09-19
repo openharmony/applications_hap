@@ -11,7 +11,8 @@
       "module_list": [
         "//foundation/multimedia/media_library/frameworks/innerkitsimpl/medialibrary_data_extension:medialibrary_ext_hap",
         "//applications/standard/hap",
-       "//applications/standard/permission_manager/permissionmanager:permission_manager"
+        "//applications/standard/permission_manager/permissionmanager:permission_manager",
+        "//foundation/arkui/ace_engine/adapter/ohos/services/uiservice/dialog_ui/share_picker_dialog:dialog_hap"
       ]
     }
   }
