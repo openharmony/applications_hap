@@ -13,6 +13,7 @@
         "//applications/standard/hap",
         "//applications/standard/permission_manager/permissionmanager:permission_manager",
         "//base/inputmethod/imf/services/dialog:input_method_choose_dialog",
+        "//foundation/arkui/ace_engine/adapter/ohos/services/uiservice/dialog_ui/share_picker_dialog:dialog_hap"
       ]
     }
   }
