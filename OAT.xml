@@ -91,6 +91,7 @@ Note:If the text contains special characters, please escape them according to th
                 <filteritem type="filepath" name="PermissionManager.hap" desc="hap not identif"/>
                 <filteritem type="filepath" name="Settings_FaceAuth.hap" desc="hap not identif"/>
                 <filteritem type="filepath" name="FilePicker.hap" desc="hap not identify"/>
+                <filteritem type="filepath" name="AmsDialog.hap" desc="hap not identify"/>
             </filefilter>
         </filefilterlist>
     </oatconfig>
