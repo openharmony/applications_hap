@@ -41,6 +41,7 @@ applications/standard/hap
 ├── Camera.hap                     # Camera app
 ├── Media_Library.hap              # Media library data ability app
 ├── Media_Scanner.hap              # Media scanner app
+├── DeviceManager_UI.hap           # System dialog app of DeviceManager
 ├── CallUI.hap                     # Call ui app
 ├── PermissionManager.hap          # Permission manager app
 ```
