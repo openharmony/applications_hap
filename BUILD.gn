@@ -262,6 +262,13 @@ ohos_prebuilt_etc("ams_dialog_hap") {
   subsystem_name = "applications"
 }
 
+ohos_prebuilt_etc("certificate_manager_hap") {
+  source = "CertificateManager.hap"
+  module_install_dir = "app/com.ohos.certificatemanager"
+  part_name = "prebuilt_hap"
+  subsystem_name = "applications"
+}
+
 group("hap") {
   deps = [
     "//applications/standard/hap:ams_dialog_hap",
@@ -269,6 +276,7 @@ group("hap") {
     "//applications/standard/hap:callUI_hap",
     "//applications/standard/hap:camera_hap",
     "//applications/standard/hap:capture.ogg",
+    "//applications/standard/hap:certificate_manager_hap",
     "//applications/standard/hap:clock_demo_hap",
     "//applications/standard/hap:contacts_hap",
     "//applications/standard/hap:demo.wav",
@@ -305,6 +313,7 @@ group("hap") {
       "//applications/standard/hap:callUI_hap",
       "//applications/standard/hap:camera_hap",
       "//applications/standard/hap:capture.ogg",
+      "//applications/standard/hap:certificate_manager_hap",
       "//applications/standard/hap:contacts_hap",
       "//applications/standard/hap:demo.wav",
       "//applications/standard/hap:device_manager_ui_hap",
