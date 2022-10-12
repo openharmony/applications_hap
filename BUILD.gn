@@ -262,6 +262,13 @@ ohos_prebuilt_etc("ams_dialog_hap") {
   subsystem_name = "applications"
 }
 
+ohos_prebuilt_etc("notification_dialog_hap") {
+  source = "NotificationDialog.hap"
+  module_install_dir = "app/com.ohos.notificationdialog"
+  part_name = "prebuilt_hap"
+  subsystem_name = "applications"
+}
+
 ohos_prebuilt_etc("certificate_manager_hap") {
   source = "CertificateManager.hap"
   module_install_dir = "app/com.ohos.certificatemanager"
@@ -296,6 +303,7 @@ group("hap") {
     "//applications/standard/hap:navigationBar_hap",
     "//applications/standard/hap:note_hap",
     "//applications/standard/hap:notificationManagement_hap",
+    "//applications/standard/hap:notification_dialog_hap",
     "//applications/standard/hap:photos_hap",
     "//applications/standard/hap:screenLock_hap",
     "//applications/standard/hap:screen_shot_hap",
