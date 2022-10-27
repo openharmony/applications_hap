@@ -185,13 +185,6 @@ ohos_prebuilt_etc("media_scanner_hap") {
   subsystem_name = "applications"
 }
 
-ohos_prebuilt_etc("device_manager_ui_hap") {
-  source = "DeviceManager_UI.hap"
-  module_install_dir = "app/com.ohos.devicemanagerui"
-  part_name = "prebuilt_hap"
-  subsystem_name = "applications"
-}
-
 ohos_prebuilt_etc("callUI_hap") {
   source = "CallUI.hap"
   module_install_dir = "app/com.ohos.callui"
@@ -287,7 +280,6 @@ group("hap") {
     "//applications/standard/hap:clock_demo_hap",
     "//applications/standard/hap:contacts_hap",
     "//applications/standard/hap:demo.wav",
-    "//applications/standard/hap:device_manager_ui_hap",
     "//applications/standard/hap:downloadTemplate.abc",
     "//applications/standard/hap:downloadTemplate.js",
     "//applications/standard/hap:dropdownPanel_hap",
@@ -324,7 +316,6 @@ group("hap") {
       "//applications/standard/hap:certificate_manager_hap",
       "//applications/standard/hap:contacts_hap",
       "//applications/standard/hap:demo.wav",
-      "//applications/standard/hap:device_manager_ui_hap",
       "//applications/standard/hap:downloadTemplate.abc",
       "//applications/standard/hap:downloadTemplate.js",
       "//applications/standard/hap:dropdownPanel_hap",
