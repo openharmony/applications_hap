@@ -207,6 +207,13 @@ ohos_prebuilt_etc("callUI_hap") {
   subsystem_name = "applications"
 }
 
+ohos_prebuilt_etc("devicemanager_ui_hap") {
+  source = "DeviceManager_UI.hap"
+  module_install_dir = "app"
+  part_name = "prebuilt_hap"
+  subsystem_name = "applications"
+}
+
 ohos_prebuilt_etc("mobileDataSettings_hap") {
   source = "MobileDataSettings.hap"
   module_install_dir = "app"
@@ -261,6 +268,7 @@ group("hap") {
     "//applications/standard/hap:airquality_demo_hap",
     "//applications/standard/hap:calc_demo_hap",
     "//applications/standard/hap:callUI_hap",
+    "//applications/standard/hap:devicemanager_ui_hap",
     "//applications/standard/hap:camera_hap",
     "//applications/standard/hap:capture.ogg",
     "//applications/standard/hap:clock_demo_hap",
