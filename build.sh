@@ -23,9 +23,11 @@ arg_sdk_path=""
 arg_help="0"
 arg_url=""
 arg_branch=""
-arg_npm="@ohos:registry=https://mirrors.huaweicloud.com/repository/npm/"
+arg_npm=""
 arg_out_path=""
 arg_sign_tool=""
+arg_apl="normal"
+arg_feature="hos_normal_app"
 
 function print_help() {
   cat <<EOF
@@ -192,15 +194,16 @@ do
 		module_list[${#module_list[*]}]=${arg_project}${pa}
 		module_name[${#module_name[*]}]=${pa}
 	fi
+	if [[ ${line} =~ "\"targets\":" ]]; then
+                last_index=$((${#module_list[@]}-1))
+                echo "hap输出module: "${module_list[${last_index}]}
+                out_module[${#out_module[*]}]=${module_list[${last_index}]}
+        fi
 done < ${arg_project}"/build-profile.json5"
 
 
 for module in ${module_list[@]}
 do
-	result=$(cat ${module}"/build-profile.json5" | grep "targets")
-	if [[ "${result}" != "" ]]; then
-		out_module[${#out_module[*]}]=${module}
-	fi
 	del_module_name ${module##${arg_project}}
 	if [ $? -eq 0 ]; then
 		for m_n in ${module_name[@]}
@@ -220,7 +223,7 @@ done
 cd ${arg_project}
 echo ${arg_project}" 执行npm install"
 npm install
-node ./node_modules/@ohos/hvigor/bin/hvigor.js --mode module clean assembleHap
+node ./node_modules/@ohos/hvigor/bin/hvigor.js --mode module clean assembleHap -p debuggable=false
 
 
 for module in ${out_module[@]}
@@ -237,6 +240,11 @@ do
         fi
 	cp -r ${arg_sign_tool} ${arg_project}/
 	cd ${arg_project}/dist
+	sed -i "s/\"normal\"/\"${arg_apl}\"/g" UnsgnedReleasedProfileTemplate.json
+	sed -i "s/\"system_basic\"/\"${arg_apl}\"/g" UnsgnedReleasedProfileTemplate.json
+	sed -i "s/\"system_core\"/\"${arg_apl}\"/g" UnsgnedReleasedProfileTemplate.json
+	sed -i "s/\"hos_normal_app\"/\"${arg_feature}\"/g" UnsgnedReleasedProfileTemplate.json
+	sed -i "s/\"hos_system_app\"/\"${arg_feature}\"/g" UnsgnedReleasedProfileTemplate.json
 	java -jar hap-sign-tool.jar  sign-profile -keyAlias "openharmony application profile release" -signAlg "SHA256withECDSA" -mode "localSign" -profileCertFile "OpenHarmonyProfileRelease.pem" -inFile "UnsgnedReleasedProfileTemplate.json" -keystoreFile "OpenHarmony.p12" -outFile "openharmony_sx.p7b" -keyPwd "123456" -keystorePwd "123456"
 	java -jar hap-sign-tool.jar sign-app -keyAlias "openharmony application release" -signAlg "SHA256withECDSA" -mode "localSign" -appCertFile "OpenHarmonyApplication.pem" -profileFile "./openharmony_sx.p7b" -inFile "${nosign_hap_path}" -keystoreFile "OpenHarmony.p12" -outFile "${sign_hap_path}" -keyPwd "123456" -keystorePwd "123456"
 	cp ${sign_hap_path} ${arg_out_path}/
