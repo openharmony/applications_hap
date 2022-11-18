@@ -192,15 +192,16 @@ do
 		module_list[${#module_list[*]}]=${arg_project}${pa}
 		module_name[${#module_name[*]}]=${pa}
 	fi
+	if [[ ${line} =~ "\"targets\":" ]]; then
+                last_index=$((${#module_list[@]}-1))
+                echo "hap输出module: "${module_list[${last_index}]}
+                out_module[${#out_module[*]}]=${module_list[${last_index}]}
+        fi
 done < ${arg_project}"/build-profile.json5"
 
 
 for module in ${module_list[@]}
 do
-	result=$(cat ${module}"/build-profile.json5" | grep "targets")
-	if [[ "${result}" != "" ]]; then
-		out_module[${#out_module[*]}]=${module}
-	fi
 	del_module_name ${module##${arg_project}}
 	if [ $? -eq 0 ]; then
 		for m_n in ${module_name[@]}
@@ -220,7 +221,7 @@ done
 cd ${arg_project}
 echo ${arg_project}" 执行npm install"
 npm install
-node ./node_modules/@ohos/hvigor/bin/hvigor.js --mode module clean assembleHap
+node ./node_modules/@ohos/hvigor/bin/hvigor.js --mode module clean assembleHap -p debuggable=false
 
 
 for module in ${out_module[@]}
