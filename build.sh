@@ -224,32 +224,61 @@ done
 cd ${arg_project}
 echo ${arg_project}" 执行npm install"
 npm install
+node ./node_modules/@ohos/hvigor/bin/hvigor.js clean
 node ./node_modules/@ohos/hvigor/bin/hvigor.js --mode module clean assembleHap -p debuggable=false
 
 
 for module in ${out_module[@]}
 do
 	cur_out_module_name=${module##*/}
+	is_sign=false
 	echo "module = ${module} , cur_out_module_name=${cur_out_module_name}"
-	hap_name=${arg_project##*/}
-	nosign_hap_path=${module}/build/default/outputs/default/${cur_out_module_name}-default-unsigned.hap
-	sign_hap_path=${module}/build/default/outputs/default/${hap_name}.hap
-	if [ ! -e ${nosign_hap_path} ]; then
-                echo "assembleHap error !!!"
-		rm -rf ${arg_project}/sign_helper
-		exit 1
-        fi
-	cp -r ${arg_sign_tool} ${arg_project}/
-	cd ${arg_project}/dist
-	sed -i "s/\"normal\"/\"${arg_apl}\"/g" UnsgnedReleasedProfileTemplate.json
-	sed -i "s/\"system_basic\"/\"${arg_apl}\"/g" UnsgnedReleasedProfileTemplate.json
-	sed -i "s/\"system_core\"/\"${arg_apl}\"/g" UnsgnedReleasedProfileTemplate.json
-	sed -i "s/\"hos_normal_app\"/\"${arg_feature}\"/g" UnsgnedReleasedProfileTemplate.json
-	sed -i "s/\"hos_system_app\"/\"${arg_feature}\"/g" UnsgnedReleasedProfileTemplate.json
-	java -jar hap-sign-tool.jar  sign-profile -keyAlias "openharmony application profile release" -signAlg "SHA256withECDSA" -mode "localSign" -profileCertFile "OpenHarmonyProfileRelease.pem" -inFile "UnsgnedReleasedProfileTemplate.json" -keystoreFile "OpenHarmony.p12" -outFile "openharmony_sx.p7b" -keyPwd "123456" -keystorePwd "123456"
-	java -jar hap-sign-tool.jar sign-app -keyAlias "openharmony application release" -signAlg "SHA256withECDSA" -mode "localSign" -appCertFile "OpenHarmonyApplication.pem" -profileFile "${arg_p7b}" -inFile "${nosign_hap_path}" -keystoreFile "OpenHarmony.p12" -outFile "${sign_hap_path}" -keyPwd "123456" -keystorePwd "123456"
-	cp ${sign_hap_path} ${arg_out_path}/
+	if [ ! -d ${module}/build/default/outputs/default/ ]; then
+		echo "module = ${module}, assembleHap error !!!"
+		continue
+	fi
+	for out_file in `ls ${module}/build/default/outputs/default/`
+	do
+		if [[ "${out_file}" =~ "-signed.hap" ]]; then
+			is_sign=true
+			echo "发现signed包 : "${out_file}",直接归档"
+			cp ${module}/build/default/outputs/default/${out_file} ${arg_out_path}/
+			break
+		fi
+	done
+	if test ${is_sign} = false
+	then
+		hap_name=${arg_project##*/}
+		# echo "${hap_name},skip sign 'hap'. Invalid signingConfig is configured for 'default' product."
+		for out_file in `ls ${module}/build/default/outputs/default/`
+        	do
+                	if [[ "${out_file}" =~ "-unsigned.hap" ]]; then
+                        	echo "发现unsigned包 : "${out_file}",开始使用签名工具签名"
+				nosign_hap_path=${module}/build/default/outputs/default/${out_file}
+				sign_hap_path=${module}/build/default/outputs/default/${out_file/unsigned/signed}
+				cp -r ${arg_sign_tool} ${arg_project}/
+        			cd ${arg_project}/dist
+       		 		sed -i "s/\"normal\"/\"${arg_apl}\"/g" UnsgnedReleasedProfileTemplate.json
+        			sed -i "s/\"system_basic\"/\"${arg_apl}\"/g" UnsgnedReleasedProfileTemplate.json
+        			sed -i "s/\"system_core\"/\"${arg_apl}\"/g" UnsgnedReleasedProfileTemplate.json
+        			sed -i "s/\"hos_normal_app\"/\"${arg_feature}\"/g" UnsgnedReleasedProfileTemplate.json
+        			sed -i "s/\"hos_system_app\"/\"${arg_feature}\"/g" UnsgnedReleasedProfileTemplate.json
+        			java -jar hap-sign-tool.jar  sign-profile -keyAlias "openharmony application profile release" -signAlg "SHA256withECDSA" -mode "localSign" -profileCertFile "OpenHarmonyProfileRelease.pem" -inFile "UnsgnedReleasedProfileTemplate.json" -keystoreFile "OpenHarmony.p12" -outFile "openharmony_sx.p7b" -keyPwd "123456" -keystorePwd "123456"
+        			java -jar hap-sign-tool.jar sign-app -keyAlias "openharmony application release" -signAlg "SHA256withECDSA" -mode "localSign" -appCertFile "OpenHarmonyApplication.pem" -profileFile "${arg_p7b}" -inFile "${nosign_hap_path}" -keystoreFile "OpenHarmony.p12" -outFile "${sign_hap_path}" -keyPwd "123456" -keystorePwd "123456"
+        			cp ${sign_hap_path} ${arg_out_path}/
+				is_sign=true
+                        	break
+                	fi
+        	done
+		if test ${is_sign} = false
+		then
+                	echo "${module} assembleHap error !!!"
+                	rm -rf ${arg_project}/sign_helper
+                	exit 1
+        	fi
+	fi
 done
+rm -rf ${arg_project}/sign_helper
 
 
 exit 0
