@@ -29,6 +29,7 @@ arg_sign_tool=""
 arg_p7b="openharmony_sx.p7b"
 arg_apl="normal"
 arg_feature="hos_normal_app"
+arg_profile="UnsgnedReleasedProfileTemplate.json"
 
 function print_help() {
   cat <<EOF
@@ -258,12 +259,16 @@ do
 				sign_hap_path=${module}/build/default/outputs/default/${out_file/unsigned/signed}
 				cp -r ${arg_sign_tool} ${arg_project}/
         			cd ${arg_project}/dist
-       		 		sed -i "s/\"normal\"/\"${arg_apl}\"/g" UnsgnedReleasedProfileTemplate.json
-        			sed -i "s/\"system_basic\"/\"${arg_apl}\"/g" UnsgnedReleasedProfileTemplate.json
-        			sed -i "s/\"system_core\"/\"${arg_apl}\"/g" UnsgnedReleasedProfileTemplate.json
-        			sed -i "s/\"hos_normal_app\"/\"${arg_feature}\"/g" UnsgnedReleasedProfileTemplate.json
-        			sed -i "s/\"hos_system_app\"/\"${arg_feature}\"/g" UnsgnedReleasedProfileTemplate.json
-        			java -jar hap-sign-tool.jar  sign-profile -keyAlias "openharmony application profile release" -signAlg "SHA256withECDSA" -mode "localSign" -profileCertFile "OpenHarmonyProfileRelease.pem" -inFile "UnsgnedReleasedProfileTemplate.json" -keystoreFile "OpenHarmony.p12" -outFile "openharmony_sx.p7b" -keyPwd "123456" -keystorePwd "123456"
+				if [ ! -e ${arg_profile} ]; then
+					echo "${arg_profile} not exist! ! !"
+					exit 1
+				fi
+       		 		sed -i "s/\"normal\"/\"${arg_apl}\"/g" ${arg_profile}
+        			sed -i "s/\"system_basic\"/\"${arg_apl}\"/g" ${arg_profile}
+        			sed -i "s/\"system_core\"/\"${arg_apl}\"/g" ${arg_profile}
+        			sed -i "s/\"hos_normal_app\"/\"${arg_feature}\"/g" ${arg_profile}
+        			sed -i "s/\"hos_system_app\"/\"${arg_feature}\"/g" ${arg_profile}
+        			java -jar hap-sign-tool.jar  sign-profile -keyAlias "openharmony application profile release" -signAlg "SHA256withECDSA" -mode "localSign" -profileCertFile "OpenHarmonyProfileRelease.pem" -inFile "${arg_profile}" -keystoreFile "OpenHarmony.p12" -outFile "openharmony_sx.p7b" -keyPwd "123456" -keystorePwd "123456"
         			java -jar hap-sign-tool.jar sign-app -keyAlias "openharmony application release" -signAlg "SHA256withECDSA" -mode "localSign" -appCertFile "OpenHarmonyApplication.pem" -profileFile "${arg_p7b}" -inFile "${nosign_hap_path}" -keystoreFile "OpenHarmony.p12" -outFile "${sign_hap_path}" -keyPwd "123456" -keystorePwd "123456"
         			cp ${sign_hap_path} ${arg_out_path}/
 				is_sign=true
