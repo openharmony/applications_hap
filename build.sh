@@ -195,12 +195,22 @@ do
 		pa=${pa##*\".}
 		module_list[${#module_list[*]}]=${arg_project}${pa}
 		module_name[${#module_name[*]}]=${pa}
+		if [ -d "${arg_project}/AppScope" ]; then
+			is_entry=`cat ${arg_project}${pa}/src/main/module.json5 | sed 's/ //g' | grep "\"type\":\"entry\""`
+			is_feature=`cat ${arg_project}${pa}/src/main/module.json5 | sed 's/ //g' | grep "\"type\":\"feature\""`
+			if [[ "${is_entry}" != "" || "${is_feature}" != "" ]]; then
+				echo "hap输出module: "${arg_project}${pa}
+				out_module[${#out_module[*]}]=${arg_project}${pa}
+			fi
+		else
+			is_entry=`cat ${arg_project}${pa}/src/main/config.json | sed 's/ //g' | grep "\"moduleType\":\"entry\""`
+                        is_feature=`cat ${arg_project}${pa}/src/main/config.json | sed 's/ //g' | grep "\"moduleType\":\"feature\""`
+                        if [[ "${is_entry}" != "" || "${is_feature}" != "" ]]; then
+                                echo "hap输出module: "${arg_project}${pa}
+                                out_module[${#out_module[*]}]=${arg_project}${pa}
+                        fi
+		fi
 	fi
-	if [[ ${line} =~ "\"targets\":" ]]; then
-                last_index=$((${#module_list[@]}-1))
-                echo "hap输出module: "${module_list[${last_index}]}
-                out_module[${#out_module[*]}]=${module_list[${last_index}]}
-        fi
 done < ${arg_project}"/build-profile.json5"
 
 
