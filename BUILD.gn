@@ -248,13 +248,6 @@ ohos_prebuilt_etc("downloadTemplate.js") {
   subsystem_name = "applications"
 }
 
-ohos_prebuilt_etc("ams_dialog_hap") {
-  source = "AmsDialog.hap"
-  module_install_dir = "app/com.ohos.amsdialog"
-  part_name = "prebuilt_hap"
-  subsystem_name = "applications"
-}
-
 ohos_prebuilt_etc("notification_dialog_hap") {
   source = "NotificationDialog.hap"
   module_install_dir = "app/com.ohos.notificationdialog"
@@ -271,7 +264,6 @@ ohos_prebuilt_etc("certificate_manager_hap") {
 
 group("hap") {
   deps = [
-    "//applications/standard/hap:ams_dialog_hap",
     "//applications/standard/hap:calc_demo_hap",
     "//applications/standard/hap:callUI_hap",
     "//applications/standard/hap:camera_hap",
