@@ -16,6 +16,10 @@ Currently, OpenHarmony supports the following system apps:
 
 In addition to these system apps, OpenHarmony provides some simple sample apps for your reference, such as the clock, calculator, and air quality app.
 
+Since SDK versions may be different for each application, these applications are preset in the form of pre-built HAP archives.
+
+[pipeline.md](pipline.md) records the permanent archive addresses for these applications built through the [OpenHarmony pipeline](http://ci.openharmony.cn/dailys/dailybuilds). The source code and SDK version information for each application can be queried in the metadata provided by the corresponding pipeline, and the build guides can be refered to the commands recorded in the pipeline archives or the README of the application source repositories.
+
 ## Directory Structure<a name="section11948105210591"></a>
 
 ```
