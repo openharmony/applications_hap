@@ -3,7 +3,7 @@
 | Calc_Demo.hap | TODO |
 | CallUI.hap | TODO |
 | Camera.hap | TODO |
-| CertificateManager.hap | TODO |
+| CertificateManager.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_CertificateManager/20221129_164935/version-Master_Version-hap_CertificateManager-20221129_164935-hap_CertificateManager.tar.gz |
 | Clock_Demo.hap | TODO |
 | Contacts.hap | TODO |
 | FilePicker.hap | TODO |
