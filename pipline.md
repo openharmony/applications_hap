@@ -1,16 +1,16 @@
 | HAP | permanent archive addresses |
 | - | - |
 | Calc_Demo.hap | TODO |
-| CallUI.hap | TODO |
+| CallUI.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_CallUI/20221130_094445/version-Master_Version-hap_CallUI-20221130_094445-hap_CallUI.tar.gz |
 | Camera.hap | TODO |
 | CertificateManager.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_CertificateManager/20221129_164935/version-Master_Version-hap_CertificateManager-20221129_164935-hap_CertificateManager.tar.gz |
 | Clock_Demo.hap | TODO |
-| Contacts.hap | TODO |
+| Contacts.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Contacts/20221130_094656/version-Master_Version-hap_Contacts-20221130_094656-hap_Contacts.tar.gz |
 | FilePicker.hap | TODO |
 | Launcher.hap | TODO |
 | Launcher_Settings.hap | TODO |
-| Mms.hap | TODO |
-| MobileDataSettings.hap | TODO |
+| Mms.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Mms/20221130_094527/version-Master_Version-hap_Mms-20221130_094527-hap_Mms.tar.gz |
+| MobileDataSettings.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_CallUI/20221130_094445/version-Master_Version-hap_CallUI-20221130_094445-hap_CallUI.tar.gz |
 | Music_Demo.hap | TODO |
 | Note.hap | TODO |
 | Photos.hap | TODO |
