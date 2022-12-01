@@ -6,14 +6,14 @@
 | CertificateManager.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_CertificateManager/20221124_162954/version-Master_Version-hap_CertificateManager-20221124_162954-hap_CertificateManager.tar.gz |
 | Clock_Demo.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Clock_Demo/20221124_164106/version-Master_Version-hap_Clock_Demo-20221124_164106-hap_Clock_Demo.tar.gz |
 | Contacts.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Contacts/20221124_163305/version-Master_Version-hap_Contacts-20221124_163305-hap_Contacts.tar.gz |
-| FilePicker.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_FilePicker/20221124_163349/version-Master_Version-hap_FilePicker-20221124_163349-hap_FilePicker.tar.gz |
+| FilePicker.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_FilePicker/20221130_161532/version-Master_Version-hap_FilePicker-20221130_161532-hap_FilePicker.tar.gz |
 | Launcher.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Launcher/20221124_161728/version-Master_Version-hap_Launcher-20221124_161728-hap_Launcher.tar.gz |
 | Launcher_Settings.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Launcher/20221124_161728/version-Master_Version-hap_Launcher-20221124_161728-hap_Launcher.tar.gz |
 | Mms.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Mms/20221124_161540/version-Master_Version-hap_Mms-20221124_161540-hap_Mms.tar.gz |
 | MobileDataSettings.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_CallUI/20221124_163021/version-Master_Version-hap_CallUI-20221124_163021-hap_CallUI.tar.gz |
 | Music_Demo.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Music_Demo/20221124_162850/version-Master_Version-hap_Music_Demo-20221124_162850-hap_Music_Demo.tar.gz |
 | Note.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Note/20221126_141609/version-Master_Version-hap_Note-20221126_141609-hap_Note.tar.gz |
-| Photos.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Photos/20221124_163329/version-Master_Version-hap_Photos-20221124_163329-hap_Photos.tar.gz |
+| Photos.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Photos/20221130_154409/version-Master_Version-hap_Photos-20221130_154409-hap_Photos.tar.gz |
 | ScreenShot.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_ScreenShot/20221124_163242/version-Master_Version-hap_ScreenShot-20221124_163242-hap_ScreenShot.tar.gz |
 | Settings.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Settings/20221124_165435/version-Master_Version-hap_Settings-20221124_165435-hap_Settings.tar.gz |
 | SettingsData.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_SettingsData/20221124_163430/version-Master_Version-hap_SettingsData-20221124_163430-hap_SettingsData.tar.gz |
