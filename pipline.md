@@ -1,24 +1,24 @@
 | HAP | permanent archive addresses |
 | - | - |
-| Calc_Demo.hap | TODO |
+| Calc_Demo.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Calc_Demo/20221129_195131/version-Master_Version-hap_Calc_Demo-20221129_195131-hap_Calc_Demo.tar.gz |
 | CallUI.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_CallUI/20221130_094445/version-Master_Version-hap_CallUI-20221130_094445-hap_CallUI.tar.gz |
 | Camera.hap | TODO |
 | CertificateManager.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_CertificateManager/20221129_164935/version-Master_Version-hap_CertificateManager-20221129_164935-hap_CertificateManager.tar.gz |
-| Clock_Demo.hap | TODO |
+| Clock_Demo.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Clock_Demo/20221129_193923/version-Master_Version-hap_Clock_Demo-20221129_193923-hap_Clock_Demo.tar.gz |
 | Contacts.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Contacts/20221130_094656/version-Master_Version-hap_Contacts-20221130_094656-hap_Contacts.tar.gz |
 | FilePicker.hap | TODO | http://download.ci.openharmony.cn/version/Master_Version/hap_Photos/20221130_212427/version-Master_Version-hap_Photos-20221130_212427-hap_Photos.tar.gz |
 | Launcher.hap | TODO |
 | Launcher_Settings.hap | TODO |
 | Mms.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Mms/20221130_094527/version-Master_Version-hap_Mms-20221130_094527-hap_Mms.tar.gz |
 | MobileDataSettings.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_CallUI/20221130_094445/version-Master_Version-hap_CallUI-20221130_094445-hap_CallUI.tar.gz |
-| Music_Demo.hap | TODO |
-| Note.hap | TODO |
+| Music_Demo.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Music_Demo/20221129_193945/version-Master_Version-hap_Music_Demo-20221129_193945-hap_Music_Demo.tar.gz |
+| Note.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Note/20221130_190143/version-Master_Version-hap_Note-20221130_190143-hap_Note.tar.gz |
 | Photos.hap | TODO |
 | ScreenShot.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_ScreenShot/20221129_163631/version-Master_Version-hap_ScreenShot-20221129_163631-hap_ScreenShot.tar.gz |
 | Settings.hap | TODO |
 | SettingsData.hap | TODO |
 | Settings_FaceAuth.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Settings_FaceAuth/20221129_164938/version-Master_Version-hap_Settings_FaceAuth-20221129_164938-hap_Settings_FaceAuth.tar.gz |
-| Shopping_Demo.hap | TODO |
+| Shopping_Demo.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Shopping_Demo/20221129_194442/version-Master_Version-hap_Shopping_Demo-20221129_194442-hap_Shopping_Demo.tar.gz |
 | SystemUI-DropdownPanel.hap | TODO |
 | SystemUI-NavigationBar.hap | TODO |
 | SystemUI-NotificationManagement.hap | TODO |
