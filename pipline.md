@@ -27,3 +27,10 @@
 | SystemUI-VolumePanel.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_SystemUI/20221124_165504/version-Master_Version-hap_SystemUI-20221124_165504-hap_SystemUI.tar.gz |
 | SystemUI.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_SystemUI/20221124_165504/version-Master_Version-hap_SystemUI-20221124_165504-hap_SystemUI.tar.gz |
 | kikaInput.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_kikaInput/20221124_170235/version-Master_Version-hap_kikaInput-20221124_170235-hap_kikaInput.tar.gz |
+
+| SDK | optional download urls |
+| - | - |
+| 3.1.7.7 | https://mirrors.huaweicloud.com/openharmony/os/3.1.2/sdk-patch/ohos-sdk-full.tar.gz |
+| 3.2.7.5 | https://repo.huaweicloud.com/harmonyos/os/3.2-Beta3/ohos-sdk-windows_linux-full.tar.gz |
+| 3.2.7.6 | https://repo.huaweicloud.com/harmonyos/os/3.2-Beta3/sdk-patch/ohos-sdk-full.tar.gz |
+| 3.2.8.3 | http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_3.2.8.3/20221031_100640/version-Master_Version-OpenHarmony_3.2.8.3-20221031_100640-ohos-sdk-full.tar.gz |
