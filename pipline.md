@@ -6,14 +6,14 @@
 | CertificateManager.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_CertificateManager/20221129_164935/version-Master_Version-hap_CertificateManager-20221129_164935-hap_CertificateManager.tar.gz |
 | Clock_Demo.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Clock_Demo/20221129_193923/version-Master_Version-hap_Clock_Demo-20221129_193923-hap_Clock_Demo.tar.gz |
 | Contacts.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Contacts/20221130_094656/version-Master_Version-hap_Contacts-20221130_094656-hap_Contacts.tar.gz |
-| FilePicker.hap | TODO | http://download.ci.openharmony.cn/version/Master_Version/hap_Photos/20221130_212427/version-Master_Version-hap_Photos-20221130_212427-hap_Photos.tar.gz |
+| FilePicker.hap | TODO | http://download.ci.openharmony.cn/version/Master_Version/hap_FilePicker/20221129_184338/version-Master_Version-hap_FilePicker-20221129_184338-hap_FilePicker.tar.gz |
 | Launcher.hap | TODO |
 | Launcher_Settings.hap | TODO |
 | Mms.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Mms/20221130_094527/version-Master_Version-hap_Mms-20221130_094527-hap_Mms.tar.gz |
 | MobileDataSettings.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_CallUI/20221130_094445/version-Master_Version-hap_CallUI-20221130_094445-hap_CallUI.tar.gz |
 | Music_Demo.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Music_Demo/20221129_193945/version-Master_Version-hap_Music_Demo-20221129_193945-hap_Music_Demo.tar.gz |
 | Note.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Note/20221130_190143/version-Master_Version-hap_Note-20221130_190143-hap_Note.tar.gz |
-| Photos.hap | TODO |
+| Photos.hap | TODO | http://download.ci.openharmony.cn/version/Master_Version/hap_Photos/20221130_212427/version-Master_Version-hap_Photos-20221130_212427-hap_Photos.tar.gz |
 | ScreenShot.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_ScreenShot/20221129_163631/version-Master_Version-hap_ScreenShot-20221129_163631-hap_ScreenShot.tar.gz |
 | Settings.hap | TODO |
 | SettingsData.hap | TODO |
