@@ -30,6 +30,7 @@ arg_p7b="openharmony_sx.p7b"
 arg_apl="normal"
 arg_feature="hos_normal_app"
 arg_profile="UnsgnedReleasedProfileTemplate.json"
+arg_bundle_name=""
 
 function print_help() {
   cat <<EOF
@@ -151,6 +152,7 @@ cd ${arg_project}
 module_list=()
 module_name=()
 out_module=()
+bundle_name=""
 
 
 function del_module_name(){
@@ -196,6 +198,10 @@ do
 		module_list[${#module_list[*]}]=${arg_project}${pa}
 		module_name[${#module_name[*]}]=${pa}
 		if [ -d "${arg_project}/AppScope" ]; then
+			cur_bundle_line=`cat ${arg_project}/AppScope/app.json5 | grep "\"bundleName\""`
+			bundle_name=${cur_bundle_line%\"*}
+			bundle_name=${bundle_name##*\"}
+			# echo "bundleName : "${bundle_name}
 			is_entry=`cat ${arg_project}${pa}/src/main/module.json5 | sed 's/ //g' | grep "\"type\":\"entry\""`
 			is_feature=`cat ${arg_project}${pa}/src/main/module.json5 | sed 's/ //g' | grep "\"type\":\"feature\""`
 			if [[ "${is_entry}" != "" || "${is_feature}" != "" ]]; then
@@ -203,6 +209,10 @@ do
 				out_module[${#out_module[*]}]=${arg_project}${pa}
 			fi
 		else
+			cur_bundle_line=`cat ${arg_project}${pa}/src/main/config.json | grep "\"bundleName\""`
+                        bundle_name=${cur_bundle_line%\"*}
+                        bundle_name=${bundle_name##*\"}
+                        # echo "bundleName : "${bundle_name}
 			is_entry=`cat ${arg_project}${pa}/src/main/config.json | sed 's/ //g' | grep "\"moduleType\":\"entry\""`
                         is_feature=`cat ${arg_project}${pa}/src/main/config.json | sed 's/ //g' | grep "\"moduleType\":\"feature\""`
                         if [[ "${is_entry}" != "" || "${is_feature}" != "" ]]; then
@@ -272,6 +282,11 @@ do
 				if [ ! -e ${arg_profile} ]; then
 					echo "${arg_profile} not exist! ! !"
 					exit 1
+				fi
+				if [ "${arg_bundle_name}" != "" ]; then
+					sed -i "s/\"com.OpenHarmony.app.test\"/\"${arg_bundle_name}\"/g" ${arg_profile}
+				else
+					sed -i "s/\"com.OpenHarmony.app.test\"/\"${bundle_name}\"/g" ${arg_profile}
 				fi
        		 		sed -i "s/\"normal\"/\"${arg_apl}\"/g" ${arg_profile}
         			sed -i "s/\"system_basic\"/\"${arg_apl}\"/g" ${arg_profile}
