@@ -17,7 +17,7 @@
 | ScreenShot.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_ScreenShot/20221129_163631/version-Master_Version-hap_ScreenShot-20221129_163631-hap_ScreenShot.tar.gz |
 | Settings.hap | TODO |
 | SettingsData.hap | TODO |
-| Settings_FaceAuth.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Settings_FaceAuth/20221129_164938/version-Master_Version-hap_Settings_FaceAuth-20221129_164938-hap_Settings_FaceAuth.tar.gz |
+| Settings_FaceAuth.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Settings_FaceAuth/20221213_094607/version-Master_Version-hap_Settings_FaceAuth-20221213_094607-hap_Settings_FaceAuth.tar.gz |
 | Shopping_Demo.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Shopping_Demo/20221129_194442/version-Master_Version-hap_Shopping_Demo-20221129_194442-hap_Shopping_Demo.tar.gz |
 | SystemUI-DropdownPanel.hap | TODO |
 | SystemUI-NavigationBar.hap | TODO |
