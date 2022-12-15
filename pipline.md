@@ -22,7 +22,7 @@
 | SystemUI-DropdownPanel.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_SystemUI/20221124_165504/version-Master_Version-hap_SystemUI-20221124_165504-hap_SystemUI.tar.gz |
 | SystemUI-NavigationBar.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_SystemUI/20221124_165504/version-Master_Version-hap_SystemUI-20221124_165504-hap_SystemUI.tar.gz |
 | SystemUI-NotificationManagement.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_SystemUI/20221124_165504/version-Master_Version-hap_SystemUI-20221124_165504-hap_SystemUI.tar.gz |
-| SystemUI-ScreenLock.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_ScreenLock/20221124_163210/version-Master_Version-hap_ScreenLock-20221124_163210-hap_ScreenLock.tar.gz |
+| SystemUI-ScreenLock.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_ScreenLock/20221213_152803/version-Master_Version-hap_ScreenLock-20221213_152803-hap_ScreenLock.tar.gz |
 | SystemUI-StatusBar.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_SystemUI/20221124_165504/version-Master_Version-hap_SystemUI-20221124_165504-hap_SystemUI.tar.gz |
 | SystemUI-VolumePanel.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_SystemUI/20221124_165504/version-Master_Version-hap_SystemUI-20221124_165504-hap_SystemUI.tar.gz |
 | SystemUI.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_SystemUI/20221124_165504/version-Master_Version-hap_SystemUI-20221124_165504-hap_SystemUI.tar.gz |
