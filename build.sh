@@ -16,10 +16,12 @@
 
 CUR_PATH=$(cd $(dirname ${BASH_SOURCE[0]}) && pwd)
 BASE_PATH=$(dirname ${CUR_PATH})
-
+ROOT_PATH=$(cd ${CUR_PATH}/../../.. && pwd) && cd -
 
 arg_project=""
 arg_sdk_path=""
+arg_build_sdk="false"
+arg_hvigor_131="false"
 arg_help="0"
 arg_url=""
 arg_branch=""
@@ -55,6 +57,33 @@ function is_project_root(){
         fi
 }
 
+function build_sdk() {
+        pushd ${ROOT_PATH}
+        echo "building the latest ohos-sdk..."
+        ./build.sh --product-name ohos-sdk
+        pushd ${ROOT_PATH}/out/sdk/packages/ohos-sdk/linux
+        ls -d */ | xargs rm -rf
+        for i in $(ls); do
+                unzip $i
+        done
+        if [ "$arg_hvigor_131" == "true" ]; then
+                sdk_version=$(grep apiVersion toolchains/oh-uni-package.json | awk '{print $2}' | sed -r 's/\",?//g')
+        else
+                sdk_version=$(grep version toolchains/oh-uni-package.json | awk '{print $2}' | sed -r 's/\",?//g')
+        fi
+        for i in $(ls -d */); do
+                mkdir $sdk_version
+                mv $i/* $sdk_version
+                mv $sdk_version $i
+        done
+        for f in $(find . -name package.json); do
+                pushd $(dirname $f)
+                npm install
+                popd
+        done
+        popd
+        popd
+}
 
 function parse_arguments() {
 	local helperKey="";
@@ -144,6 +173,11 @@ if [ $? -eq 1 ]; then
         exit 1;
 fi
 
+if [ "${arg_build_sdk}" == "true" ]; then
+        build_sdk
+        export OHOS_SDK_HOME=${ROOT_PATH}/out/sdk/packages/ohos-sdk/linux
+        echo "set OHOS_SDK_HOME to" ${OHOS_SDK_HOME}
+fi
 
 echo "start build hap..."
 cd ${arg_project}
