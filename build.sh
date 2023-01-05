@@ -26,9 +26,9 @@ arg_help="0"
 arg_url=""
 arg_branch=""
 arg_npm=""
-arg_out_path=""
-arg_sign_tool=""
-arg_p7b="openharmony_sx.p7b"
+arg_out_path="${ROOT_PATH}/out/hap"
+arg_sign_tool="${ROOT_PATH}/developtools/hapsigner/dist"
+arg_p7b=""
 arg_apl="normal"
 arg_feature="hos_normal_app"
 arg_profile="UnsgnedReleasedProfileTemplate.json"
@@ -135,6 +135,13 @@ fi
 
 if [[ ${arg_sign_tool} = */ ]]; then
         arg_sign_tool=${arg_sign_tool%/}
+fi
+
+if [[ ${arg_p7b} = "" ]]; then
+        arg_p7b=$(find ${arg_project} -name *.p7b | head -n 1)
+        if [[ ${arg_p7b} = "" ]]; then
+                arg_p7b=openharmony_sx.p7b
+        fi
 fi
 
 clear_dir ${arg_out_path}
