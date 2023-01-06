@@ -13,6 +13,7 @@
 # See the License for the specific language governing permissions and
 #  limitations under the License.
 
+set -e
 
 CUR_PATH=$(cd $(dirname ${BASH_SOURCE[0]}) && pwd)
 BASE_PATH=$(dirname ${CUR_PATH})
@@ -174,8 +175,7 @@ if [ "${arg_url}" != "" ]; then
 fi
 
 
-is_project_root ${arg_project}
-if [ $? -eq 1 ]; then
+if ! is_project_root ${arg_project}; then
         echo "${arg_project} is not OpenHarmony Project"
         exit 1;
 fi
@@ -218,7 +218,7 @@ function load_dep(){
 			del_module_name ${cur_m_n}
 			for m_n_1 in ${module_name[@]}
 			do
-				rr=$(cat ${cur_module}"/package.json" | grep "${m_n_1}")
+				rr=$(cat ${cur_module}"/package.json" | grep "${m_n_1}" || true)
 				if [[ "${rr}" != "" ]]; then
 					load_dep ${m_n_1}
 				fi
@@ -243,8 +243,8 @@ do
 			bundle_name=${cur_bundle_line%\"*}
 			bundle_name=${bundle_name##*\"}
 			# echo "bundleName : "${bundle_name}
-			is_entry=`cat ${arg_project}${pa}/src/main/module.json5 | sed 's/ //g' | grep "\"type\":\"entry\""`
-			is_feature=`cat ${arg_project}${pa}/src/main/module.json5 | sed 's/ //g' | grep "\"type\":\"feature\""`
+			is_entry=`cat ${arg_project}${pa}/src/main/module.json5 | sed 's/ //g' | grep "\"type\":\"entry\"" || true`
+			is_feature=`cat ${arg_project}${pa}/src/main/module.json5 | sed 's/ //g' | grep "\"type\":\"feature\"" || true`
 			if [[ "${is_entry}" != "" || "${is_feature}" != "" ]]; then
 				echo "hap输出module: "${arg_project}${pa}
 				out_module[${#out_module[*]}]=${arg_project}${pa}
@@ -254,8 +254,8 @@ do
                         bundle_name=${cur_bundle_line%\"*}
                         bundle_name=${bundle_name##*\"}
                         # echo "bundleName : "${bundle_name}
-			is_entry=`cat ${arg_project}${pa}/src/main/config.json | sed 's/ //g' | grep "\"moduleType\":\"entry\""`
-                        is_feature=`cat ${arg_project}${pa}/src/main/config.json | sed 's/ //g' | grep "\"moduleType\":\"feature\""`
+			is_entry=`cat ${arg_project}${pa}/src/main/config.json | sed 's/ //g' | grep "\"moduleType\":\"entry\"" || true`
+                        is_feature=`cat ${arg_project}${pa}/src/main/config.json | sed 's/ //g' | grep "\"moduleType\":\"feature\"" || true`
                         if [[ "${is_entry}" != "" || "${is_feature}" != "" ]]; then
                                 echo "hap输出module: "${arg_project}${pa}
                                 out_module[${#out_module[*]}]=${arg_project}${pa}
@@ -267,11 +267,10 @@ done < ${arg_project}"/build-profile.json5"
 
 for module in ${module_list[@]}
 do
-	del_module_name ${module##${arg_project}}
-	if [ $? -eq 0 ]; then
+	if del_module_name ${module##${arg_project}}; then
 		for m_n in ${module_name[@]}
 		do
-			rr=$(cat ${module}"/package.json" | grep "${m_n}")
+			rr=$(cat ${module}"/package.json" | grep "${m_n}" || true)
 			if [[ "${rr}" != "" ]]; then
 				load_dep ${m_n}
 			fi
