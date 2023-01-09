@@ -17,7 +17,7 @@
 
 domain: PHOTOS_APP
 
-PHOTOS_FAULT:
+CAMERA_FAULT:
   __BASE: {type: FAULT, level: CRITICAL, desc: photos app runtime error}
   FAULT_ID: {type: STRING, desc: fault name}
   MSG: {type: STRING, desc: fault reaseon}
