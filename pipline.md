@@ -15,7 +15,7 @@
 | Note.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Note/20221213_094049/version-Master_Version-hap_Note-20221213_094049-hap_Note.tar.gz |
 | Photos.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Photos/20221230_150433/version-Master_Version-hap_Photos-20221230_150433-hap_Photos.tar.gz |
 | ScreenShot.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_ScreenShot/20221129_163631/version-Master_Version-hap_ScreenShot-20221129_163631-hap_ScreenShot.tar.gz |
-| Settings.hap | TODO |
+| Settings.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Settings/20230106_144942/version-Master_Version-hap_Settings-20230106_144942-hap_Settings.tar.gz |
 | SettingsData.hap | TODO |
 | Settings_FaceAuth.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Settings_FaceAuth/20221213_094607/version-Master_Version-hap_Settings_FaceAuth-20221213_094607-hap_Settings_FaceAuth.tar.gz |
 | Shopping_Demo.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Shopping_Demo/20221213_094528/version-Master_Version-hap_Shopping_Demo-20221213_094528-hap_Shopping_Demo.tar.gz |
@@ -34,4 +34,3 @@
 | 3.2.7.5 | https://repo.huaweicloud.com/harmonyos/os/3.2-Beta3/ohos-sdk-windows_linux-full.tar.gz |
 | 3.2.7.6 | https://repo.huaweicloud.com/harmonyos/os/3.2-Beta3/sdk-patch/ohos-sdk-full.tar.gz |
 | 3.2.8.3 | http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_3.2.8.3/20221031_100640/version-Master_Version-OpenHarmony_3.2.8.3-20221031_100640-ohos-sdk-full.tar.gz |
-
