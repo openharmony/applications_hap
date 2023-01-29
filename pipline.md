@@ -9,7 +9,7 @@
 | FilePicker.hap | TODO | http://download.ci.openharmony.cn/version/Master_Version/hap_Photos/20221130_212427/version-Master_Version-hap_Photos-20221130_212427-hap_Photos.tar.gz |
 | Launcher.hap | TODO | http://download.ci.openharmony.cn/version/Daily_Version/hap_Launcher/20230105_140939/version-Daily_Version-hap_Launcher-20230105_140939-hap_Launcher.tar.gz |
 | Launcher_Settings.hap | TODO | http://download.ci.openharmony.cn/version/Daily_Version/hap_Launcher/20230105_140939/version-Daily_Version-hap_Launcher-20230105_140939-hap_Launcher.tar.gz |
-| Mms.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Mms/20221130_094527/version-Master_Version-hap_Mms-20221130_094527-hap_Mms.tar.gz |
+| Mms.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Mms/20230116_224008/version-Master_Version-hap_Mms-20230116_224008-hap_Mms.tar.gz |
 | MobileDataSettings.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_CallUI/20221130_094445/version-Master_Version-hap_CallUI-20221130_094445-hap_CallUI.tar.gz |
 | Music_Demo.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Music_Demo/20221213_094055/version-Master_Version-hap_Music_Demo-20221213_094055-hap_Music_Demo.tar.gz |
 | Note.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Note/20221213_094049/version-Master_Version-hap_Note-20221213_094049-hap_Note.tar.gz |
