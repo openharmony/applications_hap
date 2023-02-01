@@ -59,6 +59,10 @@ function is_project_root(){
 }
 
 function build_sdk() {
+        if [ -d ${ROOT_PATH}/out/sdk/packages/ohos-sdk/linux ]; then
+                echo "ohos-sdk exists."
+                return 0
+        fi
         pushd ${ROOT_PATH}
         echo "building the latest ohos-sdk..."
         ./build.sh --product-name ohos-sdk
