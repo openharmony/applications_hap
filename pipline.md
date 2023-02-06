@@ -15,7 +15,7 @@
 | Note.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Note/20230131_171312/version-Master_Version-hap_Note-20230131_171312-hap_Note.tar.gz |
 | Photos.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Photos/20230128_100814/version-Master_Version-hap_Photos-20230128_100814-hap_Photos.tar.gz |
 | ScreenShot.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_ScreenShot/20221124_163242/version-Master_Version-hap_ScreenShot-20221124_163242-hap_ScreenShot.tar.gz |
-| Settings.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Settings/20230106_144942/version-Master_Version-hap_Settings-20230106_144942-hap_Settings.tar.gz |
+| Settings.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Settings/20230131_141322/version-Master_Version-hap_Settings-20230131_141322-hap_Settings.tar.gz |
 | SettingsData.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_SettingsData/20230116_210237/version-Master_Version-hap_SettingsData-20230116_210237-hap_SettingsData.tar.gz |
 | Settings_FaceAuth.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Settings_FaceAuth/20221212_164352/version-Master_Version-hap_Settings_FaceAuth-20221212_164352-hap_Settings_FaceAuth.tar.gz |
 | Shopping_Demo.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Shopping_Demo/20221206_214614/version-Master_Version-hap_Shopping_Demo-20221206_214614-hap_Shopping_Demo.tar.gz |
