@@ -26,7 +26,7 @@
 | SystemUI-StatusBar.hap | TODO |
 | SystemUI-VolumePanel.hap | TODO |
 | SystemUI.hap | TODO |
-| kikaInput.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_kikaInput/20221129_200400/version-Master_Version-hap_kikaInput-20221129_200400-hap_kikaInput.tar.gz |
+| kikaInput.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_kikaInput_with_sdk/20230206_112758/version-Master_Version-hap_kikaInput_with_sdk-20230206_112758-hap_kikaInput_with_sdk.tar.gz |
 
 | SDK | optional download urls |
 | - | - |
