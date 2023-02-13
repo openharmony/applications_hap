@@ -22,7 +22,6 @@ ROOT_PATH=$(cd ${CUR_PATH}/../../.. && pwd) && cd -
 arg_project=""
 arg_sdk_path=""
 arg_build_sdk="false"
-arg_hvigor_131="false"
 arg_help="0"
 arg_url=""
 arg_branch=""
@@ -71,15 +70,13 @@ function build_sdk() {
         for i in $(ls); do
                 unzip $i
         done
-        if [ "$arg_hvigor_131" == "true" ]; then
-                sdk_version=$(grep apiVersion toolchains/oh-uni-package.json | awk '{print $2}' | sed -r 's/\",?//g')
-        else
-                sdk_version=$(grep version toolchains/oh-uni-package.json | awk '{print $2}' | sed -r 's/\",?//g')
-        fi
+        api_version=$(grep apiVersion toolchains/oh-uni-package.json | awk '{print $2}' | sed -r 's/\",?//g')
+        sdk_version=$(grep version toolchains/oh-uni-package.json | awk '{print $2}' | sed -r 's/\",?//g')
         for i in $(ls -d */); do
                 mkdir $sdk_version
                 mv $i/* $sdk_version
                 mv $sdk_version $i
+                ln -s $sdk_version $i/$api_version
         done
         for f in $(find . -name package.json); do
                 pushd $(dirname $f)
