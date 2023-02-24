@@ -26,7 +26,7 @@
 | SystemUI-StatusBar.hap | http://download.ci.openharmony.cn/version/Release_Version/hap_SystemUI_with_sdk/20230221_204437/version-Release_Version-hap_SystemUI_with_sdk-20230221_204437-hap_SystemUI_with_sdk.tar.gz |
 | SystemUI-VolumePanel.hap | http://download.ci.openharmony.cn/version/Release_Version/hap_SystemUI_with_sdk/20230221_204437/version-Release_Version-hap_SystemUI_with_sdk-20230221_204437-hap_SystemUI_with_sdk.tar.gz |
 | SystemUI.hap | http://download.ci.openharmony.cn/version/Release_Version/hap_SystemUI_with_sdk/20230221_204437/version-Release_Version-hap_SystemUI_with_sdk-20230221_204437-hap_SystemUI_with_sdk.tar.gz |
-| kikaInput.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_kikaInput/20221124_170235/version-Master_Version-hap_kikaInput-20221124_170235-hap_kikaInput.tar.gz |
+| kikaInput.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_kikaInput_with_sdk/20230224_141118/version-Master_Version-hap_kikaInput_with_sdk-20230224_141118-hap_kikaInput_with_sdk.tar.gz |
 
 | SDK | optional download urls |
 | - | - |
