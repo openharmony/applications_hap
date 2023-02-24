@@ -16,7 +16,7 @@
 | Photos.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Photos/20230220_173246/version-Master_Version-hap_Photos-20230220_173246-hap_Photos.tar.gz |
 | ScreenShot.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_ScreenShot/20221124_163242/version-Master_Version-hap_ScreenShot-20221124_163242-hap_ScreenShot.tar.gz |
 | Settings.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Settings/20230131_141322/version-Master_Version-hap_Settings-20230131_141322-hap_Settings.tar.gz |
-| SettingsData.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_SettingsData/20230209_175334/version-Master_Version-hap_SettingsData-20230209_175334-hap_SettingsData.tar.gz |
+| SettingsData.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_SettingsData_with_sdk/20230223_202709/version-Master_Version-hap_SettingsData_with_sdk-20230223_202709-hap_SettingsData_with_sdk.tar.gz |
 | Settings_FaceAuth.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Settings_FaceAuth/20221212_164352/version-Master_Version-hap_Settings_FaceAuth-20221212_164352-hap_Settings_FaceAuth.tar.gz |
 | Shopping_Demo.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Shopping_Demo/20221206_214614/version-Master_Version-hap_Shopping_Demo-20221206_214614-hap_Shopping_Demo.tar.gz |
 | SystemUI-DropdownPanel.hap | http://download.ci.openharmony.cn/version/Release_Version/hap_SystemUI_with_sdk/20230221_204437/version-Release_Version-hap_SystemUI_with_sdk-20230221_204437-hap_SystemUI_with_sdk.tar.gz |
