@@ -21,6 +21,7 @@ CAMERA_FAULT:
     __BASE: {type: FAULT, level: CRITICAL, desc: camera app runtime error}
     FAULT_ID: {type: STRING, desc: the fault desc in eng}
     MSG: {type: STRING, desc: the fault desc in cn}
+
 CAMERA_BEHAVIOR:
     __BASE: {type: BEHAVIOR, level: MINOR, desc: camera app behavior}
     BEHAVIOR_ID: {type: STRING, desc: the behavior desc in eng}
