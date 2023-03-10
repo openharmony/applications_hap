@@ -5,27 +5,27 @@
 | Camera.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Camera/20221228_170611/version-Master_Version-hap_Camera-20221228_170611-hap_Camera.tar.gz |
 | CertificateManager.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_CertificateManager/20221129_164935/version-Master_Version-hap_CertificateManager-20221129_164935-hap_CertificateManager.tar.gz |
 | Clock_Demo.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Clock_Demo/20221213_094140/version-Master_Version-hap_Clock_Demo-20221213_094140-hap_Clock_Demo.tar.gz |
-| Contacts.hap | http://download.ci.openharmony.cn/version/Release_Version/hap_Contacts/20230112_221124/version-Release_Version-hap_Contacts-20230112_221124-hap_Contacts.tar.gz |
+| Contacts.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Contacts_with_sdk/20230223_154715/version-Master_Version-hap_Contacts_with_sdk-20230223_154715-hap_Contacts_with_sdk.tar.gz |
 | FilePicker.hap | TODO | http://download.ci.openharmony.cn/version/Master_Version/hap_Photos/20221130_212427/version-Master_Version-hap_Photos-20221130_212427-hap_Photos.tar.gz |
 | Launcher.hap | TODO | http://download.ci.openharmony.cn/version/Daily_Version/hap_Launcher/20230105_140939/version-Daily_Version-hap_Launcher-20230105_140939-hap_Launcher.tar.gz |
 | Launcher_Settings.hap | TODO | http://download.ci.openharmony.cn/version/Daily_Version/hap_Launcher/20230105_140939/version-Daily_Version-hap_Launcher-20230105_140939-hap_Launcher.tar.gz |
-| Mms.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Mms/20230116_224008/version-Master_Version-hap_Mms-20230116_224008-hap_Mms.tar.gz |
+| Mms.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Mms_with_sdk/20230223_154757/version-Master_Version-hap_Mms_with_sdk-20230223_154757-hap_Mms_with_sdk.tar.gz |
 | MobileDataSettings.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_CallUI/20221130_094445/version-Master_Version-hap_CallUI-20221130_094445-hap_CallUI.tar.gz |
-| Music_Demo.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Music_Demo/20221213_094055/version-Master_Version-hap_Music_Demo-20221213_094055-hap_Music_Demo.tar.gz |
-| Note.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Note/20230209_172635/version-Master_Version-hap_Note-20230209_172635-hap_Note.tar.gz |
-| Photos.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Photos/20230207_133133/version-Master_Version-hap_Photos-20230207_133133-hap_Photos.tar.gz |
+| Music_Demo.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Music_Demo_with_sdk/20230301_102625/version-Master_Version-hap_Music_Demo_with_sdk-20230301_102625-hap_Music_Demo_with_sdk.tar.gz |
+| Note.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Note/20230308_150705/version-Master_Version-hap_Note-20230308_150705-hap_Note.tar.gz |
+| Photos.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Photos/20230220_181413/version-Master_Version-hap_Photos_with_sdk-20230220_181413-hap_Photos_with_sdk.tar.gz |
 | ScreenShot.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_ScreenShot/20221129_163631/version-Master_Version-hap_ScreenShot-20221129_163631-hap_ScreenShot.tar.gz |
 | Settings.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Settings/20230106_144942/version-Master_Version-hap_Settings-20230106_144942-hap_Settings.tar.gz |
-| SettingsData.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_SettingsData/20230116_210237/version-Master_Version-hap_SettingsData-20230116_210237-hap_SettingsData.tar.gz |
+| SettingsData.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_SettingsData/20230310_091756/version-Master_Version-hap_SettingsData-20230310_091756-hap_SettingsData.tar.gz |
 | Settings_FaceAuth.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Settings_FaceAuth/20221213_094607/version-Master_Version-hap_Settings_FaceAuth-20221213_094607-hap_Settings_FaceAuth.tar.gz |
 | Shopping_Demo.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Shopping_Demo/20221213_094528/version-Master_Version-hap_Shopping_Demo-20221213_094528-hap_Shopping_Demo.tar.gz |
-| SystemUI-DropdownPanel.hap | http://download.ci.openharmony.cn/version/Release_Version/hap_SystemUI_with_sdk/20230210_142504/version-Release_Version-hap_SystemUI_with_sdk-20230210_142504-hap_SystemUI_with_sdk.tar.gz |
-| SystemUI-NavigationBar.hap | http://download.ci.openharmony.cn/version/Release_Version/hap_SystemUI_with_sdk/20230210_142504/version-Release_Version-hap_SystemUI_with_sdk-20230210_142504-hap_SystemUI_with_sdk.tar.gz |
-| SystemUI-NotificationManagement.hap | http://download.ci.openharmony.cn/version/Release_Version/hap_SystemUI_with_sdk/20230210_142504/version-Release_Version-hap_SystemUI_with_sdk-20230210_142504-hap_SystemUI_with_sdk.tar.gz |
+| SystemUI-DropdownPanel.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_SystemUI_with_sdk/20230227_105247/version-Master_Version-hap_SystemUI_with_sdk-20230227_105247-hap_SystemUI_with_sdk.tar.gz |
+| SystemUI-NavigationBar.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_SystemUI_with_sdk/20230227_105247/version-Master_Version-hap_SystemUI_with_sdk-20230227_105247-hap_SystemUI_with_sdk.tar.gz |
+| SystemUI-NotificationManagement.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_SystemUI_with_sdk/20230227_105247/version-Master_Version-hap_SystemUI_with_sdk-20230227_105247-hap_SystemUI_with_sdk.tar.gz |
 | SystemUI-ScreenLock.hap | TODO |
-| SystemUI-StatusBar.hap | http://download.ci.openharmony.cn/version/Release_Version/hap_SystemUI_with_sdk/20230210_142504/version-Release_Version-hap_SystemUI_with_sdk-20230210_142504-hap_SystemUI_with_sdk.tar.gz |
-| SystemUI-VolumePanel.hap | http://download.ci.openharmony.cn/version/Release_Version/hap_SystemUI_with_sdk/20230210_142504/version-Release_Version-hap_SystemUI_with_sdk-20230210_142504-hap_SystemUI_with_sdk.tar.gz |
-| SystemUI.hap | http://download.ci.openharmony.cn/version/Release_Version/hap_SystemUI_with_sdk/20230210_142504/version-Release_Version-hap_SystemUI_with_sdk-20230210_142504-hap_SystemUI_with_sdk.tar.gz |
+| SystemUI-StatusBar.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_SystemUI_with_sdk/20230227_105247/version-Master_Version-hap_SystemUI_with_sdk-20230227_105247-hap_SystemUI_with_sdk.tar.gz |
+| SystemUI-VolumePanel.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_SystemUI_with_sdk/20230227_105247/version-Master_Version-hap_SystemUI_with_sdk-20230227_105247-hap_SystemUI_with_sdk.tar.gz |
+| SystemUI.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_SystemUI_with_sdk/20230227_105247/version-Master_Version-hap_SystemUI_with_sdk-20230227_105247-hap_SystemUI_with_sdk.tar.gz |
 | kikaInput.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_kikaInput_with_sdk/20230206_112758/version-Master_Version-hap_kikaInput_with_sdk-20230206_112758-hap_kikaInput_with_sdk.tar.gz |
 
 | SDK | optional download urls |
