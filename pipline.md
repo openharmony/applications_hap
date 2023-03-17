@@ -15,8 +15,8 @@
 | Note.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Note_with_sdk/20230316_185910/version-Master_Version-hap_Note_with_sdk-20230316_185910-hap_Note_with_sdk.tar.gz |
 | Photos.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Photos/20230316_103245/version-Master_Version-hap_Photos-20230316_103245-hap_Photos.tar.gz |
 | ScreenShot.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_ScreenShot/20221124_163242/version-Master_Version-hap_ScreenShot-20221124_163242-hap_ScreenShot.tar.gz |
-| Settings.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Settings_with_sdk/20230310_163801/version-Master_Version-hap_Settings_with_sdk-20230310_163801-hap_Settings_with_sdk.tar.gz |
-| SettingsData.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_SettingsData_with_sdk/20230223_202709/version-Master_Version-hap_SettingsData_with_sdk-20230223_202709-hap_SettingsData_with_sdk.tar.gz |
+| Settings.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Settings_with_sdk/20230317_100848/version-Master_Version-hap_Settings_with_sdk-20230317_100848-hap_Settings_with_sdk.tar.gz |
+| SettingsData.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_SettingsData_with_sdk/20230317_101240/version-Master_Version-hap_SettingsData_with_sdk-20230317_101240-hap_SettingsData_with_sdk.tar.gz |
 | Settings_FaceAuth.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Settings_FaceAuth/20221212_164352/version-Master_Version-hap_Settings_FaceAuth-20221212_164352-hap_Settings_FaceAuth.tar.gz |
 | Shopping_Demo.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Shopping_Demo_with_sdk/20230223_120926/version-Master_Version-hap_Shopping_Demo_with_sdk-20230223_120926-hap_Shopping_Demo_with_sdk.tar.gz |
 | SystemUI-DropdownPanel.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_SystemUI_with_sdk/20230227_105247/version-Master_Version-hap_SystemUI_with_sdk-20230227_105247-hap_SystemUI_with_sdk.tar.gz |
