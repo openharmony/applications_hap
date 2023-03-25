@@ -18,7 +18,6 @@
 | Settings.hap | http://download.ci.openharmony.cn/version/Release_Version/hap_Settings_with_sdk/20230322_152717/version-Release_Version-hap_Settings_with_sdk-20230322_152717-hap_Settings_with_sdk.tar.gz |
 | SettingsData.hap | http://download.ci.openharmony.cn/version/Release_Version/hap_SettingsData_with_sdk/20230317_101418/version-Release_Version-hap_SettingsData_with_sdk-20230317_101418-hap_SettingsData_with_sdk.tar.gz |
 | Settings_FaceAuth.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Settings_FaceAuth/20221213_094607/version-Master_Version-hap_Settings_FaceAuth-20221213_094607-hap_Settings_FaceAuth.tar.gz |
-| Shopping_Demo.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Shopping_Demo/20221213_094528/version-Master_Version-hap_Shopping_Demo-20221213_094528-hap_Shopping_Demo.tar.gz |
 | SystemUI-DropdownPanel.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_SystemUI_with_sdk/20230320_191849/version-Master_Version-hap_SystemUI_with_sdk-20230320_191849-hap_SystemUI_with_sdk.tar.gz |
 | SystemUI-NavigationBar.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_SystemUI_with_sdk/20230320_191849/version-Master_Version-hap_SystemUI_with_sdk-20230320_191849-hap_SystemUI_with_sdk.tar.gz |
 | SystemUI-NotificationManagement.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_SystemUI_with_sdk/20230320_191849/version-Master_Version-hap_SystemUI_with_sdk-20230320_191849-hap_SystemUI_with_sdk.tar.gz |
