@@ -36,7 +36,6 @@ applications/standard/hap
 ├── Launcher_Settings.hap          # Settings app of Launcher
 ├── Settings.hap                   # Settings app
 ├── Settings_FaceAuth.hap          # Settings app of FaceAuth
-├── Shopping_Demo.hap              # Sample shopping app
 ├── SystemUI-NavigationBar.hap     # Navigation bar app of SystemUI
 ├── SystemUI-StatusBar.hap         # Status bar app of SystemUI
 ├── SystemUI-ScreenLock.hap        # ScreenLock app of SystemUI

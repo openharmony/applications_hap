@@ -118,13 +118,6 @@ ohos_prebuilt_etc("calc_demo_hap") {
   subsystem_name = "applications"
 }
 
-ohos_prebuilt_etc("shopping_demo_hap") {
-  source = "Shopping_Demo.hap"
-  module_install_dir = "app/ohos.sample.shopping"
-  part_name = "prebuilt_hap"
-  subsystem_name = "applications"
-}
-
 ohos_prebuilt_etc("photos_hap") {
   source = "Photos.hap"
   module_install_dir = "app/com.ohos.photos"
@@ -286,7 +279,6 @@ group("hap") {
     "//applications/standard/hap:settingsData_hap",
     "//applications/standard/hap:settings_faceauth_hap",
     "//applications/standard/hap:settings_hap",
-    "//applications/standard/hap:shopping_demo_hap",
     "//applications/standard/hap:statusBar_hap",
     "//applications/standard/hap:systemui_hap",
     "//applications/standard/hap:volumePanel_hap",
@@ -317,7 +309,6 @@ group("hap") {
       "//applications/standard/hap:settingsData_hap",
       "//applications/standard/hap:settings_faceauth_hap",
       "//applications/standard/hap:settings_hap",
-      "//applications/standard/hap:shopping_demo_hap",
       "//applications/standard/hap:statusBar_hap",
       "//applications/standard/hap:systemui_hap",
       "//applications/standard/hap:volumePanel_hap",
