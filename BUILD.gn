@@ -289,7 +289,6 @@ group("hap") {
     "//applications/standard/hap:statusBar_hap",
     "//applications/standard/hap:systemui_hap",
     "//applications/standard/hap:volumePanel_hap",
-    "//applications/standard/hap:updateapp_hap",
   ]
   if (defined(product_name) && product_name == "watchos") {
     deps -= [
@@ -320,7 +319,6 @@ group("hap") {
       "//applications/standard/hap:statusBar_hap",
       "//applications/standard/hap:systemui_hap",
       "//applications/standard/hap:volumePanel_hap",
-      "//applications/standard/hap:updateapp_hap",
     ]
   } else if (defined(product_name) && product_name == "rk3568") {
     deps +=
