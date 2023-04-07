@@ -248,6 +248,13 @@ ohos_prebuilt_etc("certificate_manager_hap") {
   subsystem_name = "applications"
 }
 
+ohos_prebuilt_etc("updateapp_hap") {
+  source = "UpdateApp.hap"
+  module_install_dir = "app/com.ohos.updateapp"
+  part_name = "prebuilt_hap"
+  subsystem_name = "applications"
+}
+
 group("hap") {
   deps = [
     "//applications/standard/hap:calc_demo_hap",
