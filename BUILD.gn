@@ -257,6 +257,7 @@ ohos_prebuilt_etc("updateapp_hap") {
 
 group("hap") {
   deps = [
+    ":updateapp_hap",
     "//applications/standard/hap:calc_demo_hap",
     "//applications/standard/hap:callUI_hap",
     "//applications/standard/hap:camera_hap",
@@ -289,10 +290,10 @@ group("hap") {
     "//applications/standard/hap:statusBar_hap",
     "//applications/standard/hap:systemui_hap",
     "//applications/standard/hap:volumePanel_hap",
-    ":updateapp_hap",
   ]
   if (defined(product_name) && product_name == "watchos") {
     deps -= [
+      ":updateapp_hap",
       "//applications/standard/hap:calc_demo_hap",
       "//applications/standard/hap:callUI_hap",
       "//applications/standard/hap:camera_hap",
@@ -320,7 +321,6 @@ group("hap") {
       "//applications/standard/hap:statusBar_hap",
       "//applications/standard/hap:systemui_hap",
       "//applications/standard/hap:volumePanel_hap",
-      ":updateapp_hap",
     ]
   } else if (defined(product_name) && product_name == "rk3568") {
     deps +=
