@@ -257,6 +257,7 @@ ohos_prebuilt_etc("updateapp_hap") {
 
 group("hap") {
   deps = [
+    ":updateapp_hap",
     "//applications/standard/hap:calc_demo_hap",
     "//applications/standard/hap:callUI_hap",
     "//applications/standard/hap:camera_hap",
@@ -292,6 +293,7 @@ group("hap") {
   ]
   if (defined(product_name) && product_name == "watchos") {
     deps -= [
+      ":updateapp_hap",
       "//applications/standard/hap:calc_demo_hap",
       "//applications/standard/hap:callUI_hap",
       "//applications/standard/hap:camera_hap",
