@@ -33,6 +33,7 @@ arg_apl="normal"
 arg_feature="hos_normal_app"
 arg_profile="UnsgnedReleasedProfileTemplate.json"
 arg_bundle_name=""
+arg_ohpm_path=""
 
 function print_help() {
   cat <<EOF
@@ -111,7 +112,6 @@ function parse_arguments() {
 
 parse_arguments ${@};
 
-
 if [ "$arg_help" != "0" ]; then
         print_help;
         exit 1;
@@ -151,6 +151,11 @@ export OHOS_SDK_HOME=${arg_sdk_path}
 echo "use sdk:"${OHOS_SDK_HOME}
 npm config set ${arg_npm}
 echo "npm config set ${arg_npm}"
+if [ "$arg_ohpm_path" != "" ]; then
+        export PATH=${arg_ohpm_path}:$NODE_HOME/bin:$PATH
+fi
+ohpm config set registry https://cmc.centralrepo.rnd.huawei.com/artifactory/api/npm/product_npm/,http://mirrors.tools.huawei.com/npm/
+ohpm config set strict_ssl false
 
 
 if [ "${arg_url}" != "" ]; then
@@ -225,8 +230,8 @@ function load_dep(){
 				fi
 			done
 			cd ${cur_module}
-			echo ${cur_module}" 执行npm install"
-			npm i
+			echo ${cur_module}" 执行ohpm install"
+			ohpm install
 		fi
 	done
 }
@@ -277,17 +282,16 @@ do
 			fi
 		done
 		cd ${module}
-		echo ${module}" 执行npm install"
-		npm i
+		echo ${module}" 执行ohpm install"
+		ohpm install
 	fi	
 done
 
 
 cd ${arg_project}
-echo ${arg_project}" 执行npm install"
-npm install
-node ./node_modules/@ohos/hvigor/bin/hvigor.js clean
-node ./node_modules/@ohos/hvigor/bin/hvigor.js --mode module clean assembleHap -p debuggable=false
+echo ${arg_project}" 执行ohpm install"
+ohpm install
+./hvigorw clean assembleHap --mode module  -p product=default -p debuggable=false
 
 
 for module in ${out_module[@]}
