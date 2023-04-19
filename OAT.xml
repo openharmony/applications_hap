@@ -55,6 +55,7 @@ Note:If the text contains special characters, please escape them according to th
     <oatconfig>
         <filefilterlist>
             <filefilter name="binaryFileTypePolicyFilter" desc="Filters for binary file policies" >
+                <filteritem type="filepath" name="ohpm.zip" desc="ohpm from DevEco Studio"/>
                 <filteritem type="filepath" name="Launcher.hap" desc="hap not identify"/>
                 <filteritem type="filepath" name="Launcher_Recents.hap" desc="hap not identify"/>
                 <filteritem type="filepath" name="Launcher_Settings.hap" desc="hap not identify"/>
