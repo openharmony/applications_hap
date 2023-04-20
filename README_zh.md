@@ -16,9 +16,9 @@
 
 除以上系统应用之外，还预置了一些简单的示例应用，如时钟、计算器、空气质量等，可供开发者参考学习。
 
-由于各个应用使用的SDK版本可能并不相同，本仓以预购建HAP包的形式归档这些应用。
+本仓以预购建HAP包的形式归档这些应用。
 
-[pipeline.md](pipline.md)记录了通过[OpenHarmony流水线](http://ci.openharmony.cn/dailys/dailybuilds)构建出这些应用的永久归档地址。各个应用的源码和SDK版本信息和可以在对应流水线提供的元数据中查询，构建方法可以参考流水线归档产物中记录的构建命令或应用源码仓的README。
+[pipeline.md](pipline.md)记录了通过[OpenHarmony流水线](http://ci.openharmony.cn/dailys/dailybuilds)构建出这些应用的永久归档地址。各个应用的源码可以在对应流水线提供的元数据中查询，构建方法可以参考流水线归档产物中记录的构建命令或应用源码仓的README。当前流水线使用的node版本为v14.18.3，ohpm可在DevEco Studio对应配套版本安装路径下的tools子目录中获取，或直接使用归档的[ohpm.zip](ohpm.zip)。
 
 ## 目录<a name="section11948105210591"></a>
 
