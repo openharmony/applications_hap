@@ -17,29 +17,15 @@ set -e
 
 CUR_PATH=$(cd $(dirname ${BASH_SOURCE[0]}) && pwd)
 BASE_PATH=$(dirname ${CUR_PATH})
-ROOT_PATH=$(cd ${CUR_PATH}/../../.. && pwd)
-OHPM_PATH=${CUR_PATH}/ohpm
-if [ ! -d "${OHPM_PATH}" ]; then
-        unzip ${CUR_PATH}/ohpm.zip -d ${OHPM_PATH}
-fi
-
-if [ "${NODE_HOME}" == "" ]; then
-        NODE_HOME=$(dirname $(which node))
-fi
-if [ ! -d "${NODE_HOME}/bin" ]; then
-        NODE_HOME=$(dirname ${NODE_HOME})
-fi
-export PATH=${OHPM_PATH}/bin:$NODE_HOME/bin:$PATH
-if [ ! -d "${OHPM_PATH}/node_modules" ]; then
-        ${OHPM_PATH}/bin/init
-fi
+ROOT_PATH=$(cd ${CUR_PATH}/../../.. && pwd) && cd -
 
 arg_project=""
 arg_sdk_path=""
+arg_build_sdk="false"
 arg_help="0"
 arg_url=""
 arg_branch=""
-arg_ohpm_registry=""
+arg_npm=""
 arg_out_path="${ROOT_PATH}/out/hap"
 arg_sign_tool="${ROOT_PATH}/developtools/hapsigner/dist"
 arg_p7b=""
@@ -125,6 +111,7 @@ function parse_arguments() {
 
 parse_arguments ${@};
 
+
 if [ "$arg_help" != "0" ]; then
         print_help;
         exit 1;
@@ -160,6 +147,11 @@ if [[ ${arg_p7b} = "" ]]; then
 fi
 
 clear_dir ${arg_out_path}
+export OHOS_SDK_HOME=${arg_sdk_path}
+echo "use sdk:"${OHOS_SDK_HOME}
+npm config set ${arg_npm}
+echo "npm config set ${arg_npm}"
+
 
 if [ "${arg_url}" != "" ]; then
 	if [ "${arg_branch}" == "" ]; then
@@ -189,12 +181,11 @@ if ! is_project_root ${arg_project}; then
         exit 1;
 fi
 
-ohpm config set registry ${arg_ohpm_registry}
-ohpm config set strict_ssl false
-
-build_sdk
-export OHOS_BASE_SDK_HOME=${ROOT_PATH}/out/sdk/packages/ohos-sdk/linux
-echo "set OHOS_BASE_SDK_HOME to" ${OHOS_BASE_SDK_HOME}
+if [ "${arg_build_sdk}" == "true" ]; then
+        build_sdk
+        export OHOS_SDK_HOME=${ROOT_PATH}/out/sdk/packages/ohos-sdk/linux
+        echo "set OHOS_SDK_HOME to" ${OHOS_SDK_HOME}
+fi
 
 echo "start build hap..."
 cd ${arg_project}
@@ -228,14 +219,14 @@ function load_dep(){
 			del_module_name ${cur_m_n}
 			for m_n_1 in ${module_name[@]}
 			do
-				rr=$(cat ${cur_module}"/oh-package.json5" | grep "${m_n_1}" || true)
+				rr=$(cat ${cur_module}"/package.json" | grep "${m_n_1}" || true)
 				if [[ "${rr}" != "" ]]; then
 					load_dep ${m_n_1}
 				fi
 			done
 			cd ${cur_module}
-			echo ${cur_module}" 执行ohpm install"
-			ohpm install
+			echo ${cur_module}" 执行npm install"
+			npm i
 		fi
 	done
 }
@@ -280,23 +271,23 @@ do
 	if del_module_name ${module##${arg_project}}; then
 		for m_n in ${module_name[@]}
 		do
-			rr=$(cat ${module}"/oh-package.json5" | grep "${m_n}" || true)
+			rr=$(cat ${module}"/package.json" | grep "${m_n}" || true)
 			if [[ "${rr}" != "" ]]; then
 				load_dep ${m_n}
 			fi
 		done
 		cd ${module}
-		echo ${module}" 执行ohpm install"
-		ohpm install
+		echo ${module}" 执行npm install"
+		npm i
 	fi	
 done
 
 
 cd ${arg_project}
-echo ${arg_project}" 执行ohpm install"
-ohpm install
-chmod +x ./hvigorw
-./hvigorw clean assembleHap --mode module -p product=default -p debuggable=false --no-daemon
+echo ${arg_project}" 执行npm install"
+npm install
+node ./node_modules/@ohos/hvigor/bin/hvigor.js clean
+node ./node_modules/@ohos/hvigor/bin/hvigor.js --mode module clean assembleHap -p debuggable=false
 
 
 for module in ${out_module[@]}
