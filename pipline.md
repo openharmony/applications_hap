@@ -25,7 +25,7 @@
 | SystemUI-StatusBar.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_SystemUI_with_sdk/20230420_143151/version-Master_Version-hap_SystemUI_with_sdk-20230420_143151-hap_SystemUI_with_sdk.tar.gz |
 | SystemUI-VolumePanel.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_SystemUI_with_sdk/20230420_143151/version-Master_Version-hap_SystemUI_with_sdk-20230420_143151-hap_SystemUI_with_sdk.tar.gz |
 | SystemUI.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_SystemUI_with_sdk/20230420_143151/version-Master_Version-hap_SystemUI_with_sdk-20230420_143151-hap_SystemUI_with_sdk.tar.gz |
-| kikaInput.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_kikaInput_with_sdk/20230410_162035/version-Master_Version-hap_kikaInput_with_sdk-20230410_162035-hap_kikaInput_with_sdk.tar.gz |
+| kikaInput.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_kikaInput_with_sdk/20230509_194750/version-Master_Version-hap_kikaInput_with_sdk-20230509_194750-hap_kikaInput_with_sdk.tar.gz |
 | UpdateApp.hap | http://download.ci.openharmony.cn/version/Daily_Version/hap_UpdateApp_with_sdk/20230411_095242/version-Daily_Version-hap_UpdateApp_with_sdk-20230411_095242-hap_UpdateApp_with_sdk.tar.gz |
 
 | SDK | optional download urls |
