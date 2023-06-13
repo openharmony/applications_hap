@@ -7,8 +7,8 @@
 | Clock_Demo.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Clock_Demo/20221206_214559/version-Master_Version-hap_Clock_Demo-20221206_214559-hap_Clock_Demo.tar.gz |
 | Contacts.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Contacts_with_sdk/20230331_103731/version-Master_Version-hap_Contacts_with_sdk-20230331_103731-hap_Contacts_with_sdk.tar.gz |
 | FilePicker.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_FilePicker_with_sdk/20230426_153237/version-Master_Version-hap_FilePicker_with_sdk-20230426_153237-hap_FilePicker_with_sdk.tar.gz |
-| Launcher.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Launcher_with_sdk/20230323_124132/version-Master_Version-hap_Launcher_with_sdk-20230323_124132-hap_Launcher_with_sdk.tar.gz |
-| Launcher_Settings.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Launcher_with_sdk/20230323_124132/version-Master_Version-hap_Launcher_with_sdk-20230323_124132-hap_Launcher_with_sdk.tar.gz |
+| Launcher.hap | http://download.ci.openharmony.cn/version/Daily_Version/hap_Launcher_with_sdk/20230612_093028/version-Daily_Version-hap_Launcher_with_sdk-20230612_093028-hap_Launcher_with_sdk.tar.gz |
+| Launcher_Settings.hap | http://download.ci.openharmony.cn/version/Daily_Version/hap_Launcher_with_sdk/20230612_093028/version-Daily_Version-hap_Launcher_with_sdk-20230612_093028-hap_Launcher_with_sdk.tar.gz |
 | Mms.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Mms_with_sdk/20230330_180625/version-Master_Version-hap_Mms_with_sdk-20230330_180625-hap_Mms_with_sdk.tar.gz |
 | MobileDataSettings.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_CallUI_with_sdk/20230529_155953/version-Master_Version-hap_CallUI_with_sdk-20230529_155953-hap_CallUI_with_sdk.tar.gz |
 | Music_Demo.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Music_Demo_with_sdk/20230524_151914/version-Master_Version-hap_Music_Demo_with_sdk-20230524_151914-hap_Music_Demo_with_sdk.tar.gz |
