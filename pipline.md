@@ -5,7 +5,7 @@
 | Camera.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Camera_with_sdk/20230512_172326/version-Master_Version-hap_Camera_with_sdk-20230512_172326-hap_Camera_with_sdk.tar.gz |
 | CertificateManager.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_CertificateManager_with_sdk/20230425_203559/version-Master_Version-hap_CertificateManager_with_sdk-20230425_203559-hap_CertificateManager_with_sdk.tar.gz |
 | Clock_Demo.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Clock_Demo/20221206_214559/version-Master_Version-hap_Clock_Demo-20221206_214559-hap_Clock_Demo.tar.gz |
-| Contacts.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Contacts_with_sdk/20230331_103731/version-Master_Version-hap_Contacts_with_sdk-20230331_103731-hap_Contacts_with_sdk.tar.gz |
+| Contacts.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Contacts_with_sdk/20230614_095949/version-Master_Version-hap_Contacts_with_sdk-20230614_095949-hap_Contacts_with_sdk.tar.gz |
 | FilePicker.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_FilePicker_with_sdk/20230426_153237/version-Master_Version-hap_FilePicker_with_sdk-20230426_153237-hap_FilePicker_with_sdk.tar.gz |
 | Launcher.hap | http://download.ci.openharmony.cn/version/Daily_Version/hap_Launcher_with_sdk/20230612_093028/version-Daily_Version-hap_Launcher_with_sdk-20230612_093028-hap_Launcher_with_sdk.tar.gz |
 | Launcher_Settings.hap | http://download.ci.openharmony.cn/version/Daily_Version/hap_Launcher_with_sdk/20230612_093028/version-Daily_Version-hap_Launcher_with_sdk-20230612_093028-hap_Launcher_with_sdk.tar.gz |
