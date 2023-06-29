@@ -21,7 +21,7 @@
 | SystemUI-DropdownPanel.hap | http://download.ci.openharmony.cn/version/Release_Version/hap_SystemUI_with_sdk/20230508_214729/version-Release_Version-hap_SystemUI_with_sdk-20230508_214729-hap_SystemUI_with_sdk.tar.gz |
 | SystemUI-NavigationBar.hap | http://download.ci.openharmony.cn/version/Release_Version/hap_SystemUI_with_sdk/20230508_214729/version-Release_Version-hap_SystemUI_with_sdk-20230508_214729-hap_SystemUI_with_sdk.tar.gz |
 | SystemUI-NotificationManagement.hap | http://download.ci.openharmony.cn/version/Release_Version/hap_SystemUI_with_sdk/20230508_214729/version-Release_Version-hap_SystemUI_with_sdk-20230508_214729-hap_SystemUI_with_sdk.tar.gz |
-| SystemUI-ScreenLock.hap | http://download.ci.openharmony.cn/version/Daily_Version/hap_ScreenLock_with_sdk/20230626_192151/version-Daily_Version-hap_ScreenLock_with_sdk-20230626_192151-hap_ScreenLock_with_sdk.tar.gz
+| SystemUI-ScreenLock.hap | http://download.ci.openharmony.cn/version/Daily_Version/hap_ScreenLock_with_sdk/20230626_192151/version-Daily_Version-hap_ScreenLock_with_sdk-20230626_192151-hap_ScreenLock_with_sdk.tar.gz |
 | SystemUI-StatusBar.hap | http://download.ci.openharmony.cn/version/Release_Version/hap_SystemUI_with_sdk/20230508_214729/version-Release_Version-hap_SystemUI_with_sdk-20230508_214729-hap_SystemUI_with_sdk.tar.gz |
 | SystemUI-VolumePanel.hap | http://download.ci.openharmony.cn/version/Release_Version/hap_SystemUI_with_sdk/20230508_214729/version-Release_Version-hap_SystemUI_with_sdk-20230508_214729-hap_SystemUI_with_sdk.tar.gz |
 | SystemUI.hap | http://download.ci.openharmony.cn/version/Release_Version/hap_SystemUI_with_sdk/20230508_214729/version-Release_Version-hap_SystemUI_with_sdk-20230508_214729-hap_SystemUI_with_sdk.tar.gz |
