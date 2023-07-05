@@ -97,6 +97,13 @@ ohos_prebuilt_etc("systemui_hap") {
   subsystem_name = "applications"
 }
 
+ohos_prebuilt_etc("systemDialog_hap") {
+  source = "SystemUI-SystemDialog.hap"
+  module_install_dir = "app/com.ohos.systemui"
+  part_name = "prebuilt_hap"
+  subsystem_name = "applications"
+}
+
 ohos_prebuilt_etc("screen_shot_hap") {
   source = "ScreenShot.hap"
   module_install_dir = "app/com.ohos.screenshot"
@@ -257,6 +264,7 @@ ohos_prebuilt_etc("updateapp_hap") {
 
 group("hap") {
   deps = [
+    ":systemDialog_hap",
     ":updateapp_hap",
     "//applications/standard/hap:calc_demo_hap",
     "//applications/standard/hap:callUI_hap",
@@ -293,6 +301,7 @@ group("hap") {
   ]
   if (defined(product_name) && product_name == "watchos") {
     deps -= [
+      ":systemDialog_hap",
       ":updateapp_hap",
       "//applications/standard/hap:calc_demo_hap",
       "//applications/standard/hap:callUI_hap",
