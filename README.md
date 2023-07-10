@@ -46,7 +46,7 @@ applications/standard/hap
 ├── Media_Scanner.hap              # Media scanner app
 ├── CallUI.hap                     # Call ui app
 ├── PermissionManager.hap          # Permission manager app
-├── AuthWidget.hap                 # Authentication Widget
+├── AuthWidget.hap                 # Authentication widget app
 ```
 
 ## Repositories Involved<a name="section120mcpsimp"></a>
