@@ -273,6 +273,7 @@ group("hap") {
   deps = [
     ":systemDialog_hap",
     ":updateapp_hap",
+    "//applications/standard/hap:authwidget_hap",
     "//applications/standard/hap:calc_demo_hap",
     "//applications/standard/hap:callUI_hap",
     "//applications/standard/hap:camera_hap",
@@ -301,7 +302,6 @@ group("hap") {
     "//applications/standard/hap:screen_shot_hap",
     "//applications/standard/hap:settingsData_hap",
     "//applications/standard/hap:settings_faceauth_hap",
-    "//applications/standard/hap:authwidget_hap",
     "//applications/standard/hap:settings_hap",
     "//applications/standard/hap:statusBar_hap",
     "//applications/standard/hap:systemui_hap",
