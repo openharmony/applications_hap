@@ -7,8 +7,8 @@
 | Clock_Demo.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Clock_Demo/20221213_094140/version-Master_Version-hap_Clock_Demo-20221213_094140-hap_Clock_Demo.tar.gz |
 | Contacts.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Contacts_with_sdk/20230425_111538/version-Master_Version-hap_Contacts_with_sdk-20230425_111538-hap_Contacts_with_sdk.tar.gz |
 | FilePicker.hap | TODO | http://download.ci.openharmony.cn/version/Master_Version/hap_FilePicker_with_sdk/20230426_153237/version-Master_Version-hap_FilePicker_with_sdk-20230426_153237-hap_FilePicker_with_sdk.tar.gz |
-| Launcher.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Launcher_with_sdk/20230707_094106/version-Master_Version-hap_Launcher_with_sdk-20230707_094106-hap_Launcher_with_sdk.tar.gz |
-| Launcher_Settings.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Launcher_with_sdk/20230707_094106/version-Master_Version-hap_Launcher_with_sdk-20230707_094106-hap_Launcher_with_sdk.tar.gz |
+| Launcher.hap | http://download.ci.openharmony.cn/version/Daily_Version/hap_Launcher_with_sdk/20230711_205520/version-Daily_Version-hap_Launcher_with_sdk-20230711_205520-hap_Launcher_with_sdk.tar.gz |
+| Launcher_Settings.hap | http://download.ci.openharmony.cn/version/Daily_Version/hap_Launcher_with_sdk/20230711_205520/version-Daily_Version-hap_Launcher_with_sdk-20230711_205520-hap_Launcher_with_sdk.tar.gz |
 | Mms.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Mms_with_sdk/20230223_154757/version-Master_Version-hap_Mms_with_sdk-20230223_154757-hap_Mms_with_sdk.tar.gz |
 | MobileDataSettings.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_CallUI_with_sdk/20230321_210506/version-Master_Version-hap_CallUI_with_sdk-20230321_210506-hap_CallUI_with_sdk.tar.gz |
 | Music_Demo.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Music_Demo_with_sdk/20230523_204842/version-Master_Version-hap_Music_Demo_with_sdk-20230523_204842-hap_Music_Demo_with_sdk.tar.gz |
