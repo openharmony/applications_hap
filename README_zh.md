@@ -44,6 +44,7 @@ applications/standard/hap
 ├── Camera.hap                     # 相机应用
 ├── CallUI.hap                     # 通话应用
 ├── PermissionManager.hap          # 权限管理应用
+├── AuthWidget.hap                 # 统一认证控件应用
 ```
 
 ## 相关仓<a name="section120mcpsimp"></a>
