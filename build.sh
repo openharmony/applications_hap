@@ -212,7 +212,8 @@ function del_module_name(){
 
 
 function load_dep(){
-	cur_m_n=${1}
+	local cur_m_n=${1}
+	local cur_module
 	for cur_module in ${module_list[@]}
 	do
 		if [[ "${cur_module}" =~ "${cur_m_n}" ]]; then
