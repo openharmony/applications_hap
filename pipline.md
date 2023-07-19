@@ -15,7 +15,7 @@
 | Note.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Note_with_sdk/20230605_191431/version-Master_Version-hap_Note_with_sdk-20230605_191431-hap_Note_with_sdk.tar.gz |
 | Photos.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Photos_with_sdk/20230529_144828/version-Master_Version-hap_Photos_with_sdk-20230529_144828-hap_Photos_with_sdk.tar.gz |
 | ScreenShot.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_ScreenShot/20221124_163242/version-Master_Version-hap_ScreenShot-20221124_163242-hap_ScreenShot.tar.gz |
-| Settings.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Settings_with_sdk/20230712_161023/version-Master_Version-hap_Settings_with_sdk-20230712_161023-hap_Settings_with_sdk.tar.gz |
+| Settings.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Settings_with_sdk/20230719_114122/version-Master_Version-hap_Settings_with_sdk-20230719_114122-hap_Settings_with_sdk.tar.gz |
 | SettingsData.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_SettingsData_with_sdk/20230329_115110/version-Master_Version-hap_SettingsData_with_sdk-20230329_115110-hap_SettingsData_with_sdk.tar.gz |
 | Settings_FaceAuth.hap | http://download.ci.openharmony.cn/Artifacts/hap_build/20230424-1-00011/version/Artifacts-hap_build-20230424-1-00011-version-hap_build.tar.gz |
 | SystemUI-DropdownPanel.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_SystemUI_with_sdk/20230606_174754/version-Master_Version-hap_SystemUI_with_sdk-20230606_174754-hap_SystemUI_with_sdk.tar.gz |
