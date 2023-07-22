@@ -19,7 +19,8 @@
         "//foundation/distributeddatamgr/pasteboard/services/dialog:pasteboard_dialog_hap",
         "//base/powermgr/power_manager/power_dialog:dialog_hap",
         "//base/notification/distributed_notification_service/services/dialog_ui/enable_notification_dialog:dialog_hap",
-        "//foundation/distributedhardware/device_manager/display/entry:DeviceManager_UI"
+        "//foundation/distributedhardware/device_manager/display/entry:DeviceManager_UI",
+        "//applications/standard/applications_auth_widget:auth_widget"
       ]
     }
   }
