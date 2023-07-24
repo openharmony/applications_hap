@@ -220,13 +220,6 @@ ohos_prebuilt_etc("settings_faceauth_hap") {
   subsystem_name = "applications"
 }
 
-ohos_prebuilt_etc("authwidget_hap") {
-  source = "AuthWidget.hap"
-  module_install_dir = "app/com.ohos.useriam.authwidget"
-  part_name = "prebuilt_hap"
-  subsystem_name = "applications"
-}
-
 ohos_prebuilt_etc("filepicker_hap") {
   source = "FilePicker.hap"
   module_install_dir = "app/com.ohos.filepicker"
@@ -271,7 +264,6 @@ ohos_prebuilt_etc("updateapp_hap") {
 
 group("hap") {
   deps = [
-    ":authwidget_hap",
     ":systemDialog_hap",
     ":updateapp_hap",
     "//applications/standard/hap:calc_demo_hap",
