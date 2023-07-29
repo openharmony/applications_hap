@@ -64,16 +64,11 @@ function build_sdk() {
         fi
         pushd ${ROOT_PATH}
         echo "building the latest ohos-sdk..."
-        ./build.sh --product-name ohos-sdk
+        ./build.sh --product-name ohos-sdk --get-warning-list=false --compute-overlap-rate=false --deps-guard=false --generate-ninja-trace=false --gn-args skip_generate_module_list_file=true --gn-args sdk_platform=linux
         pushd ${ROOT_PATH}/out/sdk/packages/ohos-sdk/linux
         ls -d */ | xargs rm -rf
         for i in $(ls); do
                 unzip $i
-        done
-        for f in $(find . -name npm-install.js); do
-                pushd $(dirname $f)
-                node npm-install.js
-                popd
         done
         api_version=$(grep apiVersion toolchains/oh-uni-package.json | awk '{print $2}' | sed -r 's/\",?//g')
         sdk_version=$(grep version toolchains/oh-uni-package.json | awk '{print $2}' | sed -r 's/\",?//g')
