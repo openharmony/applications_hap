@@ -26,6 +26,7 @@ arg_help="0"
 arg_url=""
 arg_branch=""
 arg_npm=""
+arg_ohpm=""
 arg_out_path="${ROOT_PATH}/out/hap"
 arg_sign_tool="${ROOT_PATH}/developtools/hapsigner/dist"
 arg_p7b=""
@@ -109,8 +110,7 @@ function parse_arguments() {
 }
 
 
-parse_arguments ${@};
-
+parse_arguments "${@}";
 
 if [ "$arg_help" != "0" ]; then
         print_help;
@@ -146,11 +146,28 @@ if [[ ${arg_p7b} = "" ]]; then
         fi
 fi
 
+is_ohpm=true
+package_json_name="oh-package.json5"
+if [ "${arg_npm}" != "" ]; then
+	is_ohpm=false
+	package_json_name="package.json"
+fi
+
 clear_dir ${arg_out_path}
-export OHOS_SDK_HOME=${arg_sdk_path}
+if [ "${arg_sdk_path}" != "" ]; then
+	export OHOS_SDK_HOME=${arg_sdk_path}
+fi
+
 echo "use sdk:"${OHOS_SDK_HOME}
-npm config set ${arg_npm}
-echo "npm config set ${arg_npm}"
+if ${is_ohpm}; then
+	ohpm config set ${arg_ohpm}
+	echo "ohpm config set ${arg_ohpm}"
+else
+	npm config set ${arg_npm}
+	echo "npm config set ${arg_npm}"
+fi
+
+
 
 
 if [ "${arg_url}" != "" ]; then
@@ -189,6 +206,8 @@ fi
 
 echo "start build hap..."
 cd ${arg_project}
+echo "sdk.dir=${OHOS_SDK_HOME}"  > ./local.properties
+echo "nodejs.dir=${NODE_HOME}" >> ./local.properties
 
 
 module_list=()
@@ -220,14 +239,19 @@ function load_dep(){
 			del_module_name ${cur_m_n}
 			for m_n_1 in ${module_name[@]}
 			do
-				rr=$(cat ${cur_module}"/package.json" | grep "${m_n_1}" || true)
+				rr=$(cat ${cur_module}"/${package_json_name}" | grep "${m_n_1}" || true)
 				if [[ "${rr}" != "" ]]; then
 					load_dep ${m_n_1}
 				fi
 			done
 			cd ${cur_module}
-			echo ${cur_module}" 执行npm install"
-			npm i
+			echo ${cur_module}" 执行npm/ohpm install"
+			if ${is_ohpm}; then
+				ohpm install
+			else
+				npm i
+			fi
+
 		fi
 	done
 }
@@ -272,23 +296,35 @@ do
 	if del_module_name ${module##${arg_project}}; then
 		for m_n in ${module_name[@]}
 		do
-			rr=$(cat ${module}"/package.json" | grep "${m_n}" || true)
+			rr=$(cat ${module}"/${package_json_name}" | grep "${m_n}" || true)
 			if [[ "${rr}" != "" ]]; then
 				load_dep ${m_n}
 			fi
 		done
 		cd ${module}
-		echo ${module}" 执行npm install"
-		npm i
+		echo ${module}" 执行npm/ohpm install"
+		if ${is_ohpm}; then
+			ohpm install
+		else
+			npm i
+		fi
 	fi	
 done
 
 
 cd ${arg_project}
-echo ${arg_project}" 执行npm install"
-npm install
-node ./node_modules/@ohos/hvigor/bin/hvigor.js clean
-node ./node_modules/@ohos/hvigor/bin/hvigor.js --mode module clean assembleHap -p debuggable=false
+echo ${arg_project}" 执行npm/ohpm install"
+if ${is_ohpm}; then
+	ohpm install
+    chmod +x hvigorw
+    ./hvigorw clean --no-daemon
+    ./hvigorw assembleHap --mode module -p product=default -p debuggable=false --no-daemon
+else
+	npm install
+	node ./node_modules/@ohos/hvigor/bin/hvigor.js clean
+	node ./node_modules/@ohos/hvigor/bin/hvigor.js --mode module clean assembleHap -p debuggable=false
+fi
+
 
 
 for module in ${out_module[@]}
