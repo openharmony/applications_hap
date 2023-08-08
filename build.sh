@@ -66,9 +66,11 @@ function build_sdk() {
         pushd ${ROOT_PATH}
         echo "building the latest ohos-sdk..."
         export CCACHE_BASE="${PWD}" && export NO_DEVTOOL=1 && export CCACHE_LOCAL_DIR=.ccache_xts && export ZIP_COMPRESS_LEVEL=1 && export CCACHE_NOHASHDIR="true" && export CCACHE_SLOPPINESS="include_file_ctime"
-        date "+%Y-%m-%d %H:%M:%S"
+        start_time=$(date +%s.%N)
         ./build.sh --product-name ohos-sdk --get-warning-list=false --compute-overlap-rate=false --deps-guard=false --generate-ninja-trace=false --gn-args skip_generate_module_list_file=true --gn-args sdk_platform=linux
-        date "+%Y-%m-%d %H:%M:%S"
+        end_time=$(date +%s.%N)
+        runtime=$(echo "$end_time - $start_time" | bc)
+        echo "ohos-sdk build cost $runtime"
         pushd ${ROOT_PATH}/out/sdk/packages/ohos-sdk/linux
         ls -d */ | xargs rm -rf
         for i in $(ls); do
