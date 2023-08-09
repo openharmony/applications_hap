@@ -97,7 +97,7 @@ Note:If the text contains special characters, please escape them according to th
                 <filteritem type="filepath" name="NotificationDialog.hap" desc="hap not identify"/>
                 <filteritem type="filepath" name="CertificateManager.hap" desc="hap not identify"/>
                 <filteritem type="filepath" name="UpdateApp.hap" desc="hap not identify"/>
-				<filteritem type="filepath" name="PrintSpooler.hap" desc="hap not identify"/>
+                <filteritem type="filepath" name="PrintSpooler.hap" desc="hap not identify"/>
             </filefilter>
         </filefilterlist>
     </oatconfig>
