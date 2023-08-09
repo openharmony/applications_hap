@@ -2,7 +2,7 @@
 | - | - |
 | Calc_Demo.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Calc_Demo_with_sdk/20230525_151316/version-Master_Version-hap_Calc_Demo_with_sdk-20230525_151316-hap_Calc_Demo_with_sdk.tar.gz |
 | CallUI.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_CallUI_with_sdk/20230529_155953/version-Master_Version-hap_CallUI_with_sdk-20230529_155953-hap_CallUI_with_sdk.tar.gz |
-| Camera.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Camera_with_sdk/20230718_192244/version-Master_Version-hap_Camera_with_sdk-20230718_192244-hap_Camera_with_sdk.tar.gz |
+| Camera.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Camera_with_sdk/20230809_102958/version-Master_Version-hap_Camera_with_sdk-20230809_102958-hap_Camera_with_sdk.tar.gz |
 | CertificateManager.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_CertificateManager_with_sdk/20230809_085920/version-Master_Version-hap_CertificateManager_with_sdk-20230809_085920-hap_CertificateManager_with_sdk.tar.gz |
 | Clock_Demo.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Clock_Demo/20221206_214559/version-Master_Version-hap_Clock_Demo-20221206_214559-hap_Clock_Demo.tar.gz |
 | Contacts.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Contacts_with_sdk/20230726_195243/version-Master_Version-hap_Contacts_with_sdk-20230726_195243-hap_Contacts_with_sdk.tar.gz |
@@ -15,7 +15,7 @@
 | Note.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Note_with_sdk/20230705_170732/version-Master_Version-hap_Note_with_sdk-20230705_170732-hap_Note_with_sdk.tar.gz |
 | Photos.hap |  |
 | ScreenShot.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_ScreenShot/20221124_163242/version-Master_Version-hap_ScreenShot-20221124_163242-hap_ScreenShot.tar.gz |
-| Settings.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Settings_with_sdk/20230802_181610/version-Master_Version-hap_Settings_with_sdk-20230802_181610-hap_Settings_with_sdk.tar.gz |
+| Settings.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Settings_with_sdk/20230807_144559/version-Master_Version-hap_Settings_with_sdk-20230807_144559-hap_Settings_with_sdk.tar.gz |
 | SettingsData.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_SettingsData_with_sdk/20230329_115110/version-Master_Version-hap_SettingsData_with_sdk-20230329_115110-hap_SettingsData_with_sdk.tar.gz |
 | Settings_FaceAuth.hap | http://download.ci.openharmony.cn/Artifacts/hap_build/20230424-1-00011/version/Artifacts-hap_build-20230424-1-00011-version-hap_build.tar.gz |
 | SystemUI-DropdownPanel.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_SystemUI_with_sdk/20230802_103527/version-Master_Version-hap_SystemUI_with_sdk-20230802_103527-hap_SystemUI_with_sdk.tar.gz |
