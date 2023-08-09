@@ -65,7 +65,12 @@ function build_sdk() {
         fi
         pushd ${ROOT_PATH}
         echo "building the latest ohos-sdk..."
+        export CCACHE_BASE="${PWD}" && export NO_DEVTOOL=1 && export CCACHE_LOCAL_DIR=.ccache_xts && export ZIP_COMPRESS_LEVEL=1 && export CCACHE_NOHASHDIR="true" && export CCACHE_SLOPPINESS="include_file_ctime"
+        start_time=$(date +%s.%N)
         ./build.sh --product-name ohos-sdk --get-warning-list=false --compute-overlap-rate=false --deps-guard=false --generate-ninja-trace=false --gn-args skip_generate_module_list_file=true --gn-args sdk_platform=linux
+        end_time=$(date +%s.%N)
+        runtime=$(echo "$end_time - $start_time" | bc)
+        echo "ohos-sdk build cost $runtime"
         pushd ${ROOT_PATH}/out/sdk/packages/ohos-sdk/linux
         ls -d */ | xargs rm -rf
         for i in $(ls); do
@@ -141,28 +146,7 @@ if [[ ${arg_p7b} = "" ]]; then
         fi
 fi
 
-is_ohpm=true
-package_json_name="oh-package.json5"
-if [ "${arg_npm}" != "" ]; then
-	is_ohpm=false
-	package_json_name="package.json"
-fi
-
 clear_dir ${arg_out_path}
-if [ "${arg_sdk_path}" != "" ]; then
-	export OHOS_SDK_HOME=${arg_sdk_path}
-fi
-
-echo "use sdk:"${OHOS_SDK_HOME}
-if ${is_ohpm}; then
-	ohpm config set ${arg_ohpm}
-	echo "ohpm config set ${arg_ohpm}"
-else
-	npm config set ${arg_npm}
-	echo "npm config set ${arg_npm}"
-fi
-
-
 
 
 if [ "${arg_url}" != "" ]; then
@@ -199,11 +183,38 @@ if [ "${arg_build_sdk}" == "true" ]; then
         echo "set OHOS_SDK_HOME to" ${OHOS_SDK_HOME}
 fi
 
+if [ "${arg_sdk_path}" != "" ]; then
+	export OHOS_SDK_HOME=${arg_sdk_path}
+fi
+export OHOS_BASE_SDK_HOME=${OHOS_SDK_HOME}
+
 echo "start build hap..."
 cd ${arg_project}
 echo "sdk.dir=${OHOS_SDK_HOME}"  > ./local.properties
 echo "nodejs.dir=${NODE_HOME}" >> ./local.properties
 
+echo "use sdk:"${OHOS_SDK_HOME}
+
+is_ohpm=true
+package_json_name="oh-package.json5"
+if [ ! -f ${arg_project}/${package_json_name} ]; then
+	is_ohpm=false
+	package_json_name="package.json"
+fi
+
+if ${is_ohpm}; then
+	if [ "${arg_ohpm}" == "" ]; then
+		arg_ohpm="@ohos:registry https://ohpm.openharmony.cn/ohpm/"
+	fi
+	echo "ohpm config set ${arg_ohpm}"
+	ohpm config set ${arg_ohpm}	
+else
+	if [ "${arg_npm}" == "" ]; then
+		arg_npm="@ohos:registry=https://repo.harmonyos.com/npm/"
+	fi
+	echo "npm config set ${arg_npm}"
+	npm config set ${arg_npm}
+fi
 
 module_list=()
 module_name=()
