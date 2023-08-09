@@ -45,6 +45,7 @@ applications/standard/hap
 ├── CallUI.hap                     # 通话应用
 ├── PermissionManager.hap          # 权限管理应用
 ├── AuthWidget.hap                 # 统一认证控件应用
+├── PrintSpooler.hap               # 打印应用
 ```
 
 ## 相关仓<a name="section120mcpsimp"></a>
