@@ -204,11 +204,11 @@ echo "nodejs.dir=${NODE_HOME}" >> ./local.properties
 
 echo "use sdk:"${OHOS_SDK_HOME}
 
-is_ohpm=false
-package_json_name="package.json"
+is_ohpm=true
+package_json_name="oh-package.json5"
 if [ ! -f ${arg_project}/${package_json_name} ]; then
-	is_ohpm=true
-	package_json_name="oh-package.json5"
+	is_ohpm=false
+	package_json_name="package.json"
 fi
 
 if ${is_ohpm}; then
