@@ -191,6 +191,10 @@ export OHOS_BASE_SDK_HOME=${OHOS_SDK_HOME}
 echo "start build hap..."
 cd ${arg_project}
 echo "sdk.dir=${OHOS_SDK_HOME}"  > ./local.properties
+# Historical reasons need to be compatible with NODE_HOME path issue
+if [ ! -x "${NODE_HOME}/bin/node" ];then
+    export NODE_HOME=$(dirname ${NODE_HOME})
+fi
 echo "nodejs.dir=${NODE_HOME}" >> ./local.properties
 
 echo "use sdk:"${OHOS_SDK_HOME}
