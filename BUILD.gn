@@ -297,6 +297,7 @@ group("hap") {
     "//applications/standard/hap:note_hap",
     "//applications/standard/hap:notificationManagement_hap",
     "//applications/standard/hap:photos_hap",
+    "//applications/standard/hap:printspooler_hap",
     "//applications/standard/hap:screenLock_hap",
     "//applications/standard/hap:screen_shot_hap",
     "//applications/standard/hap:settingsData_hap",
@@ -305,7 +306,6 @@ group("hap") {
     "//applications/standard/hap:statusBar_hap",
     "//applications/standard/hap:systemui_hap",
     "//applications/standard/hap:volumePanel_hap",
-    "//applications/standard/hap:printspooler_hap",
   ]
   if (defined(product_name) && product_name == "watchos") {
     deps -= [
@@ -330,6 +330,7 @@ group("hap") {
       "//applications/standard/hap:navigationBar_hap",
       "//applications/standard/hap:notificationManagement_hap",
       "//applications/standard/hap:photos_hap",
+      "//applications/standard/hap:printspooler_hap",
       "//applications/standard/hap:screenLock_hap",
       "//applications/standard/hap:screen_shot_hap",
       "//applications/standard/hap:settingsData_hap",
@@ -338,7 +339,6 @@ group("hap") {
       "//applications/standard/hap:statusBar_hap",
       "//applications/standard/hap:systemui_hap",
       "//applications/standard/hap:volumePanel_hap",
-      "//applications/standard/hap:printspooler_hap",
     ]
   } else if (defined(product_name) && product_name == "rk3568") {
     deps +=
