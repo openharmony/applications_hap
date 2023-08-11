@@ -47,6 +47,7 @@ applications/standard/hap
 ├── CallUI.hap                     # Call ui app
 ├── PermissionManager.hap          # Permission manager app
 ├── AuthWidget.hap                 # Authentication widget app
+├── PrintSpooler.hap               # print app
 ```
 
 ## Repositories Involved<a name="section120mcpsimp"></a>

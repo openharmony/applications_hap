@@ -262,8 +262,16 @@ ohos_prebuilt_etc("updateapp_hap") {
   subsystem_name = "applications"
 }
 
+ohos_prebuilt_etc("printspooler_hap") {
+  source = "PrintSpooler.hap"
+  module_install_dir = "app/com.ohos.spooler"
+  part_name = "prebuilt_hap"
+  subsystem_name = "applications"
+}
+
 group("hap") {
   deps = [
+    ":printspooler_hap",
     ":systemDialog_hap",
     ":updateapp_hap",
     "//applications/standard/hap:calc_demo_hap",
@@ -301,6 +309,7 @@ group("hap") {
   ]
   if (defined(product_name) && product_name == "watchos") {
     deps -= [
+      ":printspooler_hap",
       ":systemDialog_hap",
       ":updateapp_hap",
       "//applications/standard/hap:calc_demo_hap",
