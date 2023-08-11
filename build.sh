@@ -35,6 +35,8 @@ arg_feature="hos_normal_app"
 arg_profile="UnsgnedReleasedProfileTemplate.json"
 arg_bundle_name=""
 
+ohos_sdk_path="${ROOT_PATH}/out/sdk/packages/ohos-sdk/linux"
+
 function print_help() {
   cat <<EOF
   use assembleHap [options] <mainclass> [args...]
@@ -59,7 +61,7 @@ function is_project_root(){
 }
 
 function build_sdk() {
-        if [ -d ${ROOT_PATH}/out/sdk/packages/ohos-sdk/linux ]; then
+        if [ -d ${ohos_sdk_path} ]; then
                 echo "ohos-sdk exists."
                 return 0
         fi
@@ -71,7 +73,7 @@ function build_sdk() {
         end_time=$(date +%s.%N)
         runtime=$(echo "$end_time - $start_time" | bc)
         echo "ohos-sdk build cost $runtime"
-        pushd ${ROOT_PATH}/out/sdk/packages/ohos-sdk/linux
+        pushd ${ohos_sdk_path}
         ls -d */ | xargs rm -rf
         for i in $(ls); do
                 unzip $i
@@ -117,6 +119,13 @@ if [ "$arg_help" != "0" ]; then
         exit 1;
 fi
 
+# Called in the warm-up process to ensure that the docker is the latest SDK every day
+# Called like this: ./build.sh --build_sdk
+if [ "$arg_build_sdk" == "1" ]; then
+        rm -rf ${ohos_sdk_path}
+        build_sdk
+        exit 0;
+fi
 
 if [ "${arg_project}" == "" -a "${arg_url}" == "" ]; then
         echo "--project or --url is not null"
@@ -179,7 +188,7 @@ fi
 
 if [ "${arg_build_sdk}" == "true" ]; then
         build_sdk
-        export OHOS_SDK_HOME=${ROOT_PATH}/out/sdk/packages/ohos-sdk/linux
+        export OHOS_SDK_HOME=${ohos_sdk_path}
         echo "set OHOS_SDK_HOME to" ${OHOS_SDK_HOME}
 fi
 
