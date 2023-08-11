@@ -196,6 +196,7 @@ if [ ! -x "${NODE_HOME}/bin/node" ];then
     export NODE_HOME=$(dirname ${NODE_HOME})
 fi
 echo "nodejs.dir=${NODE_HOME}" >> ./local.properties
+export PATH=${PATH}:${NODE_HOME}/bin
 
 echo "use sdk:"${OHOS_SDK_HOME}
 
