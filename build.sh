@@ -53,7 +53,7 @@ function clear_dir(){
 
 
 function is_project_root(){
-        if [[ -f $1"/build-profile.json5" && -f $1"/hvigorfile.js" ]]; then
+        if [ -f $1"/build-profile.json5" ]; then
                 return 0
         else
                 return 1
