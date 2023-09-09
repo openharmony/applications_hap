@@ -269,6 +269,13 @@ ohos_prebuilt_etc("printspooler_hap") {
   subsystem_name = "applications"
 }
 
+ohos_prebuilt_etc("calendarData_hap") {
+  source = "CalendarData.hap"
+  module_install_dir = "app/com.ohos.calendardata"
+  part_name = "prebuilt_hap"
+  subsystem_name = "applications"
+}
+
 group("hap") {
   deps = [
     ":printspooler_hap",
@@ -306,6 +313,7 @@ group("hap") {
     "//applications/standard/hap:statusBar_hap",
     "//applications/standard/hap:systemui_hap",
     "//applications/standard/hap:volumePanel_hap",
+    "//applications/standard/hap:calendarData_hap",
   ]
   if (defined(product_name) && product_name == "watchos") {
     deps -= [
@@ -339,6 +347,7 @@ group("hap") {
       "//applications/standard/hap:statusBar_hap",
       "//applications/standard/hap:systemui_hap",
       "//applications/standard/hap:volumePanel_hap",
+      "//applications/standard/hap:calendarData_hap",
     ]
   } else if (defined(product_name) && product_name == "rk3568") {
     deps +=
