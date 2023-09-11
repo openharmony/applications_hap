@@ -282,6 +282,7 @@ group("hap") {
     ":systemDialog_hap",
     ":updateapp_hap",
     "//applications/standard/hap:calc_demo_hap",
+    "//applications/standard/hap:calendarData_hap",
     "//applications/standard/hap:callUI_hap",
     "//applications/standard/hap:camera_hap",
     "//applications/standard/hap:capture.ogg",
@@ -313,7 +314,6 @@ group("hap") {
     "//applications/standard/hap:statusBar_hap",
     "//applications/standard/hap:systemui_hap",
     "//applications/standard/hap:volumePanel_hap",
-    "//applications/standard/hap:calendarData_hap",
   ]
   if (defined(product_name) && product_name == "watchos") {
     deps -= [
@@ -321,6 +321,7 @@ group("hap") {
       ":systemDialog_hap",
       ":updateapp_hap",
       "//applications/standard/hap:calc_demo_hap",
+      "//applications/standard/hap:calendarData_hap",
       "//applications/standard/hap:callUI_hap",
       "//applications/standard/hap:camera_hap",
       "//applications/standard/hap:capture.ogg",
@@ -347,7 +348,6 @@ group("hap") {
       "//applications/standard/hap:statusBar_hap",
       "//applications/standard/hap:systemui_hap",
       "//applications/standard/hap:volumePanel_hap",
-      "//applications/standard/hap:calendarData_hap",
     ]
   } else if (defined(product_name) && product_name == "rk3568") {
     deps +=
