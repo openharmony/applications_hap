@@ -278,11 +278,11 @@ ohos_prebuilt_etc("calendarData_hap") {
 
 group("hap") {
   deps = [
+    ":calendarData_hap"
     ":printspooler_hap",
     ":systemDialog_hap",
     ":updateapp_hap",
     "//applications/standard/hap:calc_demo_hap",
-    "//applications/standard/hap:calendarData_hap",
     "//applications/standard/hap:callUI_hap",
     "//applications/standard/hap:camera_hap",
     "//applications/standard/hap:capture.ogg",
@@ -317,11 +317,11 @@ group("hap") {
   ]
   if (defined(product_name) && product_name == "watchos") {
     deps -= [
+      ":calendarData_hap"
       ":printspooler_hap",
       ":systemDialog_hap",
       ":updateapp_hap",
       "//applications/standard/hap:calc_demo_hap",
-      "//applications/standard/hap:calendarData_hap",
       "//applications/standard/hap:callUI_hap",
       "//applications/standard/hap:camera_hap",
       "//applications/standard/hap:capture.ogg",
