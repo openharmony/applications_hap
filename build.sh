@@ -127,6 +127,10 @@ if [ "$arg_build_sdk" == "1" ]; then
         exit 0;
 fi
 
+if [ -d ${ROOT_PATH}/prebuilts/ohos-sdk/linux/10 ]; then
+    mv -n ${ROOT_PATH}/prebuilts/ohos-sdk/linux/10 ${ohos_sdk_path}
+fi
+
 if [ "${arg_project}" == "" -a "${arg_url}" == "" ]; then
         echo "--project or --url is not null"
         exit 1;
