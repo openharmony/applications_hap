@@ -127,8 +127,29 @@ if [ "$arg_build_sdk" == "1" ]; then
         exit 0;
 fi
 
+export PATH=/home/tools/command-line-tools/ohpm/bin:$PATH
+npm config set registry https://repo.huaweicloud.com/repository/npm/
+npm config set @ohos:registry https://repo.harmonyos.com/npm/
+npm config set strict-ssl false
+npm config set lockfile false
+cat $HOME/.npmrc | grep 'lockfile=false' || echo 'lockfile=false' >> $HOME/.npmrc
 if [ -d ${ROOT_PATH}/prebuilts/ohos-sdk/linux/10 ]; then
+    mkdir -p ${ohos_sdk_path} 
     mv -n ${ROOT_PATH}/prebuilts/ohos-sdk/linux/10 ${ohos_sdk_path}
+    pushd ${ohos_sdk_path}
+	sdk_version=$(grep version 10/toolchains/oh-uni-package.json | awk '{print $2}' | sed -r 's/\",?//g')
+	mkdir -p ets
+	ln -nsf ../10/ets ets/$sdk_version
+	mkdir -p js
+	ln -nsf ../10/js js/$sdk_version
+	mkdir -p toolchains
+	ln -nsf ../10/toolchains toolchains/$sdk_version
+	mkdir -p native
+	ln -nsf ../10/native native/$sdk_version
+	mkdir -p previewer
+	ln -nsf ../10/previewer previewer/$sdk_version
+    popd
+
 fi
 
 if [ "${arg_project}" == "" -a "${arg_url}" == "" ]; then
