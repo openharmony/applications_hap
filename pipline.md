@@ -26,7 +26,7 @@
 | SystemUI-VolumePanel.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_SystemUI_with_sdk/20230921_155950/version-Master_Version-hap_SystemUI_with_sdk-20230921_155950-hap_SystemUI_with_sdk.tar.gz |
 | SystemUI.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_SystemUI_with_sdk/20230921_155950/version-Master_Version-hap_SystemUI_with_sdk-20230921_155950-hap_SystemUI_with_sdk.tar.gz |
 | SystemUI-SystemDialog.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_SystemUI_with_sdk/20230921_155950/version-Master_Version-hap_SystemUI_with_sdk-20230921_155950-hap_SystemUI_with_sdk.tar.gz |
-| kikaInput.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_kikaInput_with_sdk/20230814_173948/version-Master_Version-hap_kikaInput_with_sdk-20230814_173948-hap_kikaInput_with_sdk.tar.gz |
+| kikaInput.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_kikaInput_with_sdk/20230926_102115/version-Master_Version-hap_kikaInput_with_sdk-20230926_102115-hap_kikaInput_with_sdk.tar.gz |
 | UpdateApp.hap | http://download.ci.openharmony.cn/version/Daily_Version/hap_UpdateApp_with_sdk/20230605_003549/version-Daily_Version-hap_UpdateApp_with_sdk-20230605_003549-hap_UpdateApp_with_sdk.tar.gz |
 | PrintSpooler.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_print_spooler_with_sdk/20230829_101510/version-Master_Version-hap_print_spooler_with_sdk-20230829_101510-hap_print_spooler_with_sdk.tar.gz |
 
