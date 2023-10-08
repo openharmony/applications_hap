@@ -269,8 +269,16 @@ ohos_prebuilt_etc("printspooler_hap") {
   subsystem_name = "applications"
 }
 
+ohos_prebuilt_etc("calendarData_hap") {
+  source = "CalendarData.hap"
+  module_install_dir = "app/com.ohos.calendardata"
+  part_name = "prebuilt_hap"
+  subsystem_name = "applications"
+}
+
 group("hap") {
   deps = [
+    ":calendarData_hap",
     ":printspooler_hap",
     ":systemDialog_hap",
     ":updateapp_hap",
@@ -309,6 +317,7 @@ group("hap") {
   ]
   if (defined(product_name) && product_name == "watchos") {
     deps -= [
+      ":calendarData_hap",
       ":printspooler_hap",
       ":systemDialog_hap",
       ":updateapp_hap",
