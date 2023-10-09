@@ -1,6 +1,6 @@
 | HAP | permanent archive addresses |
 | - | - |
-| Calc_Demo.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Calc_Demo_with_sdk/20230926_151616/version-Master_Version-hap_Calc_Demo_with_sdk-20230926_151616-hap_Calc_Demo_with_sdk.tar.gz |
+| Calc_Demo.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Calc_Demo_with_sdk/20231009_095742/version-Master_Version-hap_Calc_Demo_with_sdk-20231009_095742-hap_Calc_Demo_with_sdk.tar.gz |
 | CallUI.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_CallUI_with_sdk/20230926_121610/version-Master_Version-hap_CallUI_with_sdk-20230926_121610-hap_CallUI_with_sdk.tar.gz |
 | Camera.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Camera_with_sdk/20230919_104255/version-Master_Version-hap_Camera_with_sdk-20230919_104255-hap_Camera_with_sdk.tar.gz |
 | CertificateManager.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_CertificateManager_with_sdk/20230908_173805/version-Master_Version-hap_CertificateManager_with_sdk-20230908_173805-hap_CertificateManager_with_sdk.tar.gz |
