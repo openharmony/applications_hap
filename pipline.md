@@ -9,7 +9,7 @@
 | FilePicker.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_FilePicker_with_sdk/20230426_153237/version-Master_Version-hap_FilePicker_with_sdk-20230426_153237-hap_FilePicker_with_sdk.tar.gz |
 | Launcher.hap | http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_4.0.11.5_Mr/20231016_104443/version-Master_Version-OpenHarmony_4.0.11.5_Mr-20231016_104443-hap_Launcher_with_sdk.tar.gz |
 | Launcher_Settings.hap | http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_4.0.11.5_Mr/20231016_104443/version-Master_Version-OpenHarmony_4.0.11.5_Mr-20231016_104443-hap_Launcher_with_sdk.tar.gz |
-| Mms.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Mms_with_sdk/20230926_152530/version-Master_Version-hap_Mms_with_sdk-20230926_152530-hap_Mms_with_sdk.tar.gz |
+| Mms.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Mms_with_sdk/20231018_153145/version-Master_Version-hap_Mms_with_sdk-20231018_153145-hap_Mms_with_sdk.tar.gz |
 | MobileDataSettings.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_CallUI_with_sdk/20230926_121610/version-Master_Version-hap_CallUI_with_sdk-20230926_121610-hap_CallUI_with_sdk.tar.gz |
 | Music_Demo.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Music_Demo_test_with_sdk/20231009_143359/version-Master_Version-hap_Music_Demo_test_with_sdk-20231009_143359-hap_Music_Demo_test_with_sdk.tar.gz |
 | Note.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Note_with_sdk/20230927_160733/version-Master_Version-hap_Note_with_sdk-20230927_160733-hap_Note_with_sdk.tar.gz |
