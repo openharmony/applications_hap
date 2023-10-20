@@ -402,7 +402,6 @@ do
         			java -jar hap-sign-tool.jar sign-app -keyAlias "openharmony application release" -signAlg "SHA256withECDSA" -mode "localSign" -appCertFile "OpenHarmonyApplication.pem" -profileFile "${arg_p7b}" -inFile "${nosign_hap_path}" -keystoreFile "OpenHarmony.p12" -outFile "${sign_hap_path}" -keyPwd "123456" -keystorePwd "123456"
         			cp ${sign_hap_path} ${arg_out_path}/
 				is_sign=true
-                        	break
                 	fi
         	done
 		if test ${is_sign} = false
