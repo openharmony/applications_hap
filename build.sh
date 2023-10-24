@@ -414,5 +414,12 @@ do
 done
 rm -rf ${arg_project}/sign_helper
 
+# backup sourceMaps.json files for DFR
+cd ${arg_project}
+find . -name "sourceMaps.json" -type f | while read file; do
+    sourceMaps_path=$(echo ${file} | sed 's/^\.\///;s/\/sourceMaps.json$//')
+    mkdir -p ${arg_out_path}/${sourceMaps_path}
+    cp ${file} ${arg_out_path}/${sourceMaps_path}/
+done
 
 exit 0
