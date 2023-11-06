@@ -61,33 +61,36 @@ function is_project_root(){
 }
 
 function build_sdk() {
-        if [ -d ${ohos_sdk_path} ]; then
-                echo "ohos-sdk exists."
-                return 0
-        fi
-        pushd ${ROOT_PATH}
-        echo "building the latest ohos-sdk..."
-        export CCACHE_BASE="${PWD}" && export NO_DEVTOOL=1 && export CCACHE_LOCAL_DIR=.ccache_xts && export ZIP_COMPRESS_LEVEL=1 && export CCACHE_NOHASHDIR="true" && export CCACHE_SLOPPINESS="include_file_ctime"
-        start_time=$(date +%s.%N)
-        ./build.sh --product-name ohos-sdk --get-warning-list=false --compute-overlap-rate=false --deps-guard=false --generate-ninja-trace=false --gn-args skip_generate_module_list_file=true --gn-args sdk_platform=linux
-        end_time=$(date +%s.%N)
-        runtime=$(echo "$end_time - $start_time" | bc)
-        echo "ohos-sdk build cost $runtime"
-        pushd ${ohos_sdk_path}
-        ls -d */ | xargs rm -rf
-        for i in $(ls); do
-                unzip $i
-        done
-        api_version=$(grep apiVersion toolchains/oh-uni-package.json | awk '{print $2}' | sed -r 's/\",?//g')
-        sdk_version=$(grep version toolchains/oh-uni-package.json | awk '{print $2}' | sed -r 's/\",?//g')
-        for i in $(ls -d */); do
-                mkdir -p $api_version
-                mv $i $api_version
-                mkdir $i
-                ln -s ../$api_version/$i $i/$sdk_version
-        done
-        popd
-        popd
+	if [ -d ${ohos_sdk_path} ]; then
+			echo "ohos-sdk exists."
+			return 0
+	fi
+	SDK_PREBUILTS_PATH=${ROOT_PATH}/out/sdk/packages/ohos-sdk
+	pushd ${ROOT_PATH}
+		echo "building the latest ohos-sdk..."
+		./build.py --product-name ohos-sdk --load-test-config=false --get-warning-list=false --stat-ccache=false --compute-overlap-rate=false --deps-guard=false --generate-ninja-trace=false --gn-args skip_generate_module_list_file=true sdk_platform=linux ndk_platform=linux use_cfi=false use_thin_lto=false enable_lto_O0=true sdk_check_flag=false enable_ndk_doxygen=false archive_ndk=false sdk_for_hap_build=true
+		if [[ "$?" -ne 0 ]]; then
+		echo "ohos-sdk build failed! You can try to use '--no-prebuilt-sdk' to skip the build of ohos-sdk."
+		exit 1
+		fi
+		if [ -d "${SDK_PREBUILTS_PATH}/linux" ]; then
+			rm -rf ${SDK_PREBUILTS_PATH}/linux
+		fi
+		mkdir -p ${SDK_PREBUILTS_PATH}
+		mv ${ROOT_PATH}/out/sdk/ohos-sdk/linux ${SDK_PREBUILTS_PATH}/
+		mkdir -p ${SDK_PREBUILTS_PATH}/linux/native
+		mv ${ROOT_PATH}/out/sdk/sdk-native/os-irrelevant/* ${SDK_PREBUILTS_PATH}/linux/native/
+		mv ${ROOT_PATH}/out/sdk/sdk-native/os-specific/linux/* ${SDK_PREBUILTS_PATH}/linux/native/
+		pushd ${SDK_PREBUILTS_PATH}/linux
+		api_version=$(grep apiVersion toolchains/oh-uni-package.json | awk '{print $2}' | sed -r 's/\",?//g') || api_version="11"
+		mkdir -p $api_version
+		for i in */; do
+			if [ -d "$i" ] && [ "$i" != "$api_version/" ]; then
+				mv $i $api_version
+			fi
+		done
+		popd
+	popd
 }
 
 function parse_arguments() {
@@ -127,6 +130,18 @@ if [ "$arg_build_sdk" == "1" ]; then
         exit 0;
 fi
 
+if [ "$arg_build_sdk" == "true" ]; then
+	echo "start build sdk"
+	build_sdk
+	if [[ "$?" -ne 0 ]]; then
+		echo "ohos-sdk build failed! You can try to use '--no-prebuilt-sdk' to skip the build of ohos-sdk."
+		exit 1
+	fi
+	export OHOS_SDK_HOME=${ohos_sdk_path}
+    echo "set OHOS_SDK_HOME to" ${OHOS_SDK_HOME}
+fi
+
+
 export PATH=/home/tools/command-line-tools/ohpm/bin:$PATH
 npm config set registry https://repo.huaweicloud.com/repository/npm/
 npm config set @ohos:registry https://repo.harmonyos.com/npm/
@@ -149,7 +164,6 @@ if [ -d ${ROOT_PATH}/prebuilts/ohos-sdk/linux/10 ]; then
 	mkdir -p previewer
 	ln -nsf ../10/previewer previewer/$sdk_version
     popd
-
 fi
 
 if [ "${arg_project}" == "" -a "${arg_url}" == "" ]; then
@@ -209,12 +223,6 @@ fi
 if ! is_project_root ${arg_project}; then
         echo "${arg_project} is not OpenHarmony Project"
         exit 1;
-fi
-
-if [ "${arg_build_sdk}" == "true" ]; then
-        build_sdk
-        export OHOS_SDK_HOME=${ohos_sdk_path}
-        echo "set OHOS_SDK_HOME to" ${OHOS_SDK_HOME}
 fi
 
 if [ "${arg_sdk_path}" != "" ]; then
