@@ -380,7 +380,7 @@ if ${is_ohpm}; then
     ./hvigorw clean --no-daemon
     ./hvigorw assembleHap --mode module -p product=default -p debuggable=false --no-daemon
 else
-	npm install --registry=https://registry.npmjs.org/
+	npm install
 	node ./node_modules/@ohos/hvigor/bin/hvigor.js clean
 	node ./node_modules/@ohos/hvigor/bin/hvigor.js --mode module clean assembleHap -p debuggable=false
 fi
