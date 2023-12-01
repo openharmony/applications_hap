@@ -31,7 +31,7 @@
 | kikaInput.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_kikaInput_with_sdk/20230926_102115/version-Master_Version-hap_kikaInput_with_sdk-20230926_102115-hap_kikaInput_with_sdk.tar.gz |
 | UpdateApp.hap | http://download.ci.openharmony.cn/version/Daily_Version/hap_UpdateApp_with_sdk/20230605_003549/version-Daily_Version-hap_UpdateApp_with_sdk-20230605_003549-hap_UpdateApp_with_sdk.tar.gz |
 | PrintSpooler.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_print_spooler_with_sdk/20231129_152951/version-Master_Version-hap_print_spooler_with_sdk-20231129_152951-hap_print_spooler_with_sdk.tar.gz |
-| CalendarData.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_calendar_calendardata_with_sdk/20231127_161854/version-Master_Version-hap_calendar_calendardata_with_sdk-20231127_161854-hap_calendar_calendardata_with_sdk.tar.gz
+| CalendarData.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_calendar_calendardata_with_sdk/20231130_162820/version-Master_Version-hap_calendar_calendardata_with_sdk-20231130_162820-hap_calendar_calendardata_with_sdk.tar.gz
 
 | SDK | optional download urls |
 | - | - |
