@@ -7,8 +7,8 @@
 | Clock_Demo.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Clock_Demo_test_with_sdk/20230921_194304/version-Master_Version-hap_Clock_Demo_test_with_sdk-20230921_194304-hap_Clock_Demo_test_with_sdk.tar.gz |
 | Contacts.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Contacts_with_sdk/20231017_103955/version-Master_Version-hap_Contacts_with_sdk-20231017_103955-hap_Contacts_with_sdk.tar.gz |
 | FilePicker.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_FilePicker_with_sdk/20231216_172831/version-Master_Version-hap_FilePicker_with_sdk-20231216_172831-hap_FilePicker_with_sdk.tar.gz |
-| Launcher.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Launcher_with_sdk/20231218_192849/version-Master_Version-hap_Launcher_with_sdk-20231218_192849-hap_Launcher_with_sdk.tar.gz |
-| Launcher_Settings.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Launcher_with_sdk/20231218_192849/version-Master_Version-hap_Launcher_with_sdk-20231218_192849-hap_Launcher_with_sdk.tar.gz |
+| Launcher.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Launcher_with_sdk/20231220_174352/version-Master_Version-hap_Launcher_with_sdk-20231220_174352-hap_Launcher_with_sdk.tar.gz |
+| Launcher_Settings.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Launcher_with_sdk/20231220_174352/version-Master_Version-hap_Launcher_with_sdk-20231220_174352-hap_Launcher_with_sdk.tar.gz |
 | Mms.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Mms_with_sdk/20231127_151057/version-Master_Version-hap_Mms_with_sdk-20231127_151057-hap_Mms_with_sdk.tar.gz |
 | MobileDataSettings.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_CallUI_with_sdk/20230926_121610/version-Master_Version-hap_CallUI_with_sdk-20230926_121610-hap_CallUI_with_sdk.tar.gz |
 | Music_Demo.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Music_Demo_test_with_sdk/20231220_095744/version-Master_Version-hap_Music_Demo_test_with_sdk-20231220_095744-hap_Music_Demo_test_with_sdk.tar.gz |
