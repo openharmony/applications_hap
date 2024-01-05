@@ -101,6 +101,10 @@ Note:If the text contains special characters, please escape them according to th
                 <filteritem type="filepath" name="PrintSpooler.hap" desc="hap not identify"/>
                 <filteritem type="filepath" name="CalendarData.hap" desc="hap not identify"/>
             </filefilter>
+            <filefilter name="defaultFilter" desc="Files not to check">
+                <filteritem type="filepath" name="*.hap" desc="hap not need check"/>
+                <filteritem type="filepath" name="resources/downloadTemplate.js" desc=".js not need check"/>
+            </filefilter>
         </filefilterlist>
     </oatconfig>
 </configuration>
