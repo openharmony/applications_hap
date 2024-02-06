@@ -149,7 +149,7 @@ npm config set strict-ssl false
 npm config set lockfile false
 cat $HOME/.npmrc | grep 'lockfile=false' || echo 'lockfile=false' >> $HOME/.npmrc
 if [ -d ${ROOT_PATH}/prebuilts/ohos-sdk/linux/10 ]; then
-    mkdir -p ${ohos_sdk_path} 
+    mkdir -p ${ohos_sdk_path}
     mv -n ${ROOT_PATH}/prebuilts/ohos-sdk/linux/10 ${ohos_sdk_path}
     pushd ${ohos_sdk_path}
 	sdk_version=$(grep version 10/toolchains/oh-uni-package.json | awk '{print $2}' | sed -r 's/\",?//g')
@@ -165,7 +165,23 @@ if [ -d ${ROOT_PATH}/prebuilts/ohos-sdk/linux/10 ]; then
 	ln -nsf ../10/previewer previewer/$sdk_version
     popd
 fi
-
+if [ -d ${ROOT_PATH}/prebuilts/ohos-sdk/linux/11 ]; then
+    mkdir -p ${ohos_sdk_path}
+    mv -n ${ROOT_PATH}/prebuilts/ohos-sdk/linux/11 ${ohos_sdk_path}
+    pushd ${ohos_sdk_path}
+	sdk_version=$(grep version 11/toolchains/oh-uni-package.json | awk '{print $2}' | sed -r 's/\",?//g')
+	mkdir -p ets
+	ln -nsf ../11/ets ets/$sdk_version
+	mkdir -p js
+	ln -nsf ../11/js js/$sdk_version
+	mkdir -p toolchains
+	ln -nsf ../11/toolchains toolchains/$sdk_version
+	mkdir -p native
+	ln -nsf ../11/native native/$sdk_version
+	mkdir -p previewer
+	ln -nsf ../11/previewer previewer/$sdk_version
+    popd
+fi
 if [ "${arg_project}" == "" -a "${arg_url}" == "" ]; then
         echo "--project or --url is not null"
         exit 1;
