@@ -13,7 +13,7 @@
 | MobileDataSettings.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_CallUI_with_sdk/20230926_101412/version-Master_Version-hap_CallUI_with_sdk-20230926_101412-hap_CallUI_with_sdk.tar.gz |
 | Music_Demo.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Music_Demo_with_sdk/20230911_141043/version-Master_Version-hap_Music_Demo_with_sdk-20230911_141043-hap_Music_Demo_with_sdk.tar.gz |
 | Note.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Note_with_sdk/20231212_192354/version-Master_Version-hap_Note_with_sdk-20231212_192354-hap_Note_with_sdk.tar.gz |
-| Photos.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_Photos_40release_with_sdk/20240205_172146/version-Master_Version-hap_Photos_40release_with_sdk-20240205_172146-hap_Photos_40release_with_sdk.tar.gz |
+| Photos.hap | https://cidownload.openharmony.cn/version/Daily_Version/hap_Photos_40release_with_sdk/20240305_171329/version-Daily_Version-hap_Photos_40release_with_sdk-20240305_171329-hap_Photos_40release_with_sdk.tar.gz |
 | ScreenShot.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_ScreenShot/20221124_163242/version-Master_Version-hap_ScreenShot-20221124_163242-hap_ScreenShot.tar.gz |
 | Settings.hap | http://download.ci.openharmony.cn/version/Release_Version/hap_Settings_with_sdk/20240111_142323/version-Release_Version-hap_Settings_with_sdk-20240111_142323-hap_Settings_with_sdk.tar.gz |
 | SettingsData.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_SettingsData_with_sdk/20231016_173612/version-Master_Version-hap_SettingsData_with_sdk-20231016_173612-hap_SettingsData_with_sdk.tar.gz |
