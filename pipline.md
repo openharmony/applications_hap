@@ -11,7 +11,7 @@
 | Launcher_Settings.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_Launcher_with_sdk/20240307_142822/version-Master_Version-hap_Launcher_with_sdk-20240307_142822-hap_Launcher_with_sdk.tar.gz|
 | Mms.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Mms_with_sdk/20231127_151057/version-Master_Version-hap_Mms_with_sdk-20231127_151057-hap_Mms_with_sdk.tar.gz |
 | MobileDataSettings.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_CallUI_with_sdk/20230926_121610/version-Master_Version-hap_CallUI_with_sdk-20230926_121610-hap_CallUI_with_sdk.tar.gz |
-| Music_Demo.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_Music_Demo_test_with_sdk/20240223_161416/version-Master_Version-hap_Music_Demo_test_with_sdk-20240223_161416-hap_Music_Demo_test_with_sdk.tar.gz |
+| Music_Demo.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_Music_Demo_test_with_sdk/20240318_204226/version-Master_Version-hap_Music_Demo_test_with_sdk-20240318_204226-hap_Music_Demo_test_with_sdk.tar.gz |
 | Note.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_Note_with_sdk/20240314_160114/version-Master_Version-hap_Note_with_sdk-20240314_160114-hap_Note_with_sdk.tar.gz |
 | Music_Demo.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Music_Demo_test_with_sdk/20231220_180430/version-Master_Version-hap_Music_Demo_test_with_sdk-20231220_180430-hap_Music_Demo_test_with_sdk.tar.gz |
 | Note.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Note_with_sdk/20231106_192431/version-Master_Version-hap_Note_with_sdk-20231106_192431-hap_Note_with_sdk.tar.gz |
