@@ -287,9 +287,9 @@ group("hap") {
   deps = [
     ":calendarData_hap",
     ":printspooler_hap",
+    ":securityPrivacyCenter_hap",
     ":systemDialog_hap",
     ":updateapp_hap",
-    ":securityPrivacyCenter_hap",
     "//applications/standard/hap:calc_demo_hap",
     "//applications/standard/hap:callUI_hap",
     "//applications/standard/hap:camera_hap",
@@ -327,9 +327,9 @@ group("hap") {
     deps -= [
       ":calendarData_hap",
       ":printspooler_hap",
+      ":securityPrivacyCenter_hap",
       ":systemDialog_hap",
       ":updateapp_hap",
-      ":securityPrivacyCenter_hap",
       "//applications/standard/hap:calc_demo_hap",
       "//applications/standard/hap:callUI_hap",
       "//applications/standard/hap:camera_hap",
