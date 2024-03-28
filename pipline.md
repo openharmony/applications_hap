@@ -11,10 +11,10 @@
 | Launcher_Settings.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Launcher_with_sdk/20240319_192448/version-Master_Version-hap_Launcher_with_sdk-20240319_192448-hap_Launcher_with_sdk.tar.gz|
 | Mms.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_Mms_with_sdk/20240327_105511/version-Master_Version-hap_Mms_with_sdk-20240327_105511-hap_Mms_with_sdk.tar.gz |
 | MobileDataSettings.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_CallUI_with_sdk/20230926_121610/version-Master_Version-hap_CallUI_with_sdk-20230926_121610-hap_CallUI_with_sdk.tar.gz |
-| Music_Demo.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_Music_Demo_test_with_sdk/20240318_204226/version-Master_Version-hap_Music_Demo_test_with_sdk-20240318_204226-hap_Music_Demo_test_with_sdk.tar.gz |
+| Music_Demo.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_Music_Demo_test_with_sdk/20240328_141728/version-Master_Version-hap_Music_Demo_test_with_sdk-20240328_141728-hap_Music_Demo_test_with_sdk.tar.gz |
 | Note.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_Note_with_sdk/20240314_160114/version-Master_Version-hap_Note_with_sdk-20240314_160114-hap_Note_with_sdk.tar.gz |
 | Music_Demo.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Music_Demo_test_with_sdk/20231220_180430/version-Master_Version-hap_Music_Demo_test_with_sdk-20231220_180430-hap_Music_Demo_test_with_sdk.tar.gz |
-| Note.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Note_with_sdk/20231106_192431/version-Master_Version-hap_Note_with_sdk-20231106_192431-hap_Note_with_sdk.tar.gz |
+| Note.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_Note_with_sdk/20240328_141508/version-Master_Version-hap_Note_with_sdk-20240328_141508-hap_Note_with_sdk.tar.gz |
 | Photos.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_Photos_with_sdk/20240320_105612/version-Master_Version-hap_Photos_with_sdk-20240320_105612-hap_Photos_with_sdk.tar.gz |
 | ScreenShot.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_ScreenShot/20221124_163242/version-Master_Version-hap_ScreenShot-20221124_163242-hap_ScreenShot.tar.gz |
 | Settings.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_Settings_with_sdk/20240123_183834/version-Master_Version-hap_Settings_with_sdk-20240123_183834-hap_Settings_with_sdk.tar.gz |
