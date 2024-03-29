@@ -255,6 +255,13 @@ ohos_prebuilt_etc("certificate_manager_hap") {
   subsystem_name = "applications"
 }
 
+ohos_prebuilt_etc("securityPrivacyCenter_hap") {
+  source = "SecurityPrivacyCenter.hap"
+  module_install_dir = "app/com.ohos.certificatemanager"
+  part_name = "prebuilt_hap"
+  subsystem_name = "applications"
+}
+
 ohos_prebuilt_etc("updateapp_hap") {
   source = "UpdateApp.hap"
   module_install_dir = "app/com.ohos.updateapp"
@@ -280,6 +287,7 @@ group("hap") {
   deps = [
     ":calendarData_hap",
     ":printspooler_hap",
+    ":securityPrivacyCenter_hap",
     ":systemDialog_hap",
     ":updateapp_hap",
     "//applications/standard/hap:calc_demo_hap",
@@ -319,6 +327,7 @@ group("hap") {
     deps -= [
       ":calendarData_hap",
       ":printspooler_hap",
+      ":securityPrivacyCenter_hap",
       ":systemDialog_hap",
       ":updateapp_hap",
       "//applications/standard/hap:calc_demo_hap",
