@@ -1,4 +1,4 @@
- # Copyright (c) 2022-2023 Huawei Device Co., Ltd.
+ # Copyright (c) 2024-2024 Huawei Device Co., Ltd.
  # Licensed under the Apache License, Version 2.0 (the "License");
  # you may not use this file except in compliance with the License.
  # You may obtain a copy of the License at
@@ -14,24 +14,23 @@
 #########################################################
 # the hisysevent definition for security privacy center #
 #########################################################
- 
- domain: PRIVACY_UE
- 
- SECU_PRIV_ENTRANCE:
-    __BASE: {type: BEHAVIOR, level: MINOR, desc: security privacy center behavior}
-    PNAMEID: {type: STRING, desc": package name}
-    PVERSIONID: {type: STRING, desc: application code}
-    CLICK_ITEM: {type: STRING, desc: the security function that user clicks}
-    
- MAIN_PERMISSION_LIST:
-    __BASE: {type: BEHAVIOR, level: MINOR, desc: security privacy center behavior}
-    PNAMEID: {type: STRING, desc": package name}
-    PVERSIONID: {type: STRING, desc: application code}
-    OPERATION: {type: STRING, desc: the permission clicked by user}
-    
-  PERMISSION_PAGE_LOCATION:
-    __BASE: {type: BEHAVIOR, level: MINOR, desc: security privacy center behavior}
-    PNAMEID: {type: STRING, desc": package name}
-    PVERSIONID: {type: STRING, desc: application code}
-    NEW_CHECKED_STATE: {type: STRING, desc: the new selected state}
-    
+
+domain: PRIVACY_UE
+
+SECU_PRIV_ENTRANCE:
+  __BASE: {type: BEHAVIOR, level: MINOR, desc: security privacy center behavior}
+  PNAMEID: {type: STRING, desc: package name}
+  PVERSIONID: {type: STRING, desc: application code}
+  CLICK_ITEM: {type: STRING, desc: the security function that user clicks}
+
+MAIN_PERMISSION_LIST:
+  __BASE: {type: BEHAVIOR, level: MINOR, desc: security privacy center behavior}
+  PNAMEID: {type: STRING, desc: package name}
+  PVERSIONID: {type: STRING, desc: application code}
+  OPERATION: {type: STRING, desc: the permission clicked by user}
+
+PERMISSION_PAGE_LOCATION:
+  __BASE: {type: BEHAVIOR, level: MINOR, desc: security privacy center behavior}
+  PNAMEID: {type: STRING, desc: package name}
+  PVERSIONID: {type: STRING, desc: application code}
+  NEW_CHECKED_STATE: {type: STRING, desc: the new selected state}
