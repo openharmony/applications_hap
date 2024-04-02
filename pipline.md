@@ -1,6 +1,6 @@
 | HAP | permanent archive addresses |
 | - | - |
-| Calc_Demo.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Calc_Demo_test_with_sdk/20231220_095720/version-Master_Version-hap_Calc_Demo_test_with_sdk-20231220_095720-hap_Calc_Demo_test_with_sdk.tar.gz |
+| Calc_Demo.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_Calc_Demo_test_with_sdk/20240329_095429/version-Master_Version-hap_Calc_Demo_test_with_sdk-20240329_095429-hap_Calc_Demo_test_with_sdk.tar.gz |
 | CallUI.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_CallUI_with_sdk/20230926_121610/version-Master_Version-hap_CallUI_with_sdk-20230926_121610-hap_CallUI_with_sdk.tar.gz |
 | Camera.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_Camera_with_sdk/20240326_201457/version-Master_Version-hap_Camera_with_sdk-20240326_201457-hap_Camera_with_sdk.tar.gz |
 | CertificateManager.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_CertificateManager_with_sdk/20240330_142250/version-Master_Version-hap_CertificateManager_with_sdk-20240330_142250-hap_CertificateManager_with_sdk.tar.gz |
@@ -11,7 +11,7 @@
 | Launcher_Settings.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Launcher_with_sdk/20240319_192448/version-Master_Version-hap_Launcher_with_sdk-20240319_192448-hap_Launcher_with_sdk.tar.gz|
 | Mms.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_Mms_with_sdk/20240327_105511/version-Master_Version-hap_Mms_with_sdk-20240327_105511-hap_Mms_with_sdk.tar.gz |
 | MobileDataSettings.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_CallUI_with_sdk/20230926_121610/version-Master_Version-hap_CallUI_with_sdk-20230926_121610-hap_CallUI_with_sdk.tar.gz |
-| Music_Demo.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_Music_Demo_test_with_sdk/20240328_141728/version-Master_Version-hap_Music_Demo_test_with_sdk-20240328_141728-hap_Music_Demo_test_with_sdk.tar.gz |
+| Music_Demo.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_Music_Demo_test_with_sdk/20240402_091935/version-Master_Version-hap_Music_Demo_test_with_sdk-20240402_091935-hap_Music_Demo_test_with_sdk.tar.gz |
 | Note.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_Note_with_sdk/20240314_160114/version-Master_Version-hap_Note_with_sdk-20240314_160114-hap_Note_with_sdk.tar.gz |
 | Music_Demo.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Music_Demo_test_with_sdk/20231220_180430/version-Master_Version-hap_Music_Demo_test_with_sdk-20231220_180430-hap_Music_Demo_test_with_sdk.tar.gz |
 | Note.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_Note_with_sdk/20240328_141508/version-Master_Version-hap_Note_with_sdk-20240328_141508-hap_Note_with_sdk.tar.gz |
