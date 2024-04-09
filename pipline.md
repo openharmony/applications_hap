@@ -2,7 +2,7 @@
 | - | - |
 | Calc_Demo.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_Calc_Demo_test_with_sdk/20240329_095429/version-Master_Version-hap_Calc_Demo_test_with_sdk-20240329_095429-hap_Calc_Demo_test_with_sdk.tar.gz |
 | CallUI.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_CallUI_with_sdk/20230926_121610/version-Master_Version-hap_CallUI_with_sdk-20230926_121610-hap_CallUI_with_sdk.tar.gz |
-| Camera.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_Camera_with_sdk/20240326_201457/version-Master_Version-hap_Camera_with_sdk-20240326_201457-hap_Camera_with_sdk.tar.gz |
+| Camera.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_Camera_with_sdk/20240409_144519/version-Master_Version-hap_Camera_with_sdk-20240409_144519-hap_Camera_with_sdk.tar.gz |
 | CertificateManager.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_CertificateManager_with_sdk/20240330_142250/version-Master_Version-hap_CertificateManager_with_sdk-20240330_142250-hap_CertificateManager_with_sdk.tar.gz |
 | Clock_Demo.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_Clock_Demo_test_with_sdk/20240314_113405/version-Master_Version-hap_Clock_Demo_test_with_sdk-20240314_113405-hap_Clock_Demo_test_with_sdk.tar.gz |
 | Contacts.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Contacts_with_sdk/20240115_141251/version-Master_Version-hap_Contacts_with_sdk-20240115_141251-hap_Contacts_with_sdk.tar.gz |
