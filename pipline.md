@@ -29,7 +29,7 @@
 | SystemUI.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_SystemUI_with_sdk/20240528_191708/version-Master_Version-hap_SystemUI_with_sdk-20240528_191708-hap_SystemUI_with_sdk.tar.gz |
 | SystemUI-SystemDialog.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_SystemUI_with_sdk/20240528_191708/version-Master_Version-hap_SystemUI_with_sdk-20240528_191708-hap_SystemUI_with_sdk.tar.gz |
 | kikaInput.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_kikaInput_with_sdk/20230926_102115/version-Master_Version-hap_kikaInput_with_sdk-20230926_102115-hap_kikaInput_with_sdk.tar.gz |
-| UpdateApp.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_UpdateApp_with_sdk/20240521_133521/version-Master_Version-hap_UpdateApp_with_sdk-20240521_133521-hap_UpdateApp_with_sdk.tar.gz |
+| UpdateApp.hap | http://download.ci.openharmony.cn/version/Daily_Version/hap_UpdateApp_with_sdk/20230605_003549/version-Daily_Version-hap_UpdateApp_with_sdk-20230605_003549-hap_UpdateApp_with_sdk.tar.gz |
 | PrintSpooler.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_test1/20240103_115149/version-Master_Version-hap_test1-20240103_115149-hap_print_spooler_with_sdk.tar.gz |
 | CalendarData.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_calendar_calendardata_with_sdk/20231206_171639/version-Master_Version-hap_calendar_calendardata_with_sdk-20231206_171639-hap_calendar_calendardata_with_sdk.tar.gz |
 | SecurityPrivacyCenter.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_CertificateManager_with_sdk/20240531_193030/version-Master_Version-hap_CertificateManager_with_sdk-20240531_193030-hap_CertificateManager_with_sdk.tar.gz |
