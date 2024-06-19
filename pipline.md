@@ -5,7 +5,7 @@
 | Camera.hap | https://cidownload.openharmony.cn/version/Release_Version/hap_Camera_with_sdk/20240304_200418/version-Release_Version-hap_Camera_with_sdk-20240304_200418-hap_Camera_with_sdk.tar.gz |
 | CertificateManager.hap | http://download.ci.openharmony.cn/version/Release_Version/OpenHarmony_4.0.10.13/20231027_173431/version-Release_Version-OpenHarmony_4.0.10.13-20231027_173431-hap_CertificateManager_with_sdk.tar.gz |
 | Clock_Demo.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_Clock_Demo_with_sdk/20240305_190818/version-Master_Version-hap_Clock_Demo_with_sdk-20240305_190818-hap_Clock_Demo_with_sdk.tar.gz |
-| Contacts.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_Contacts_with_sdk/20240408_162358/version-Master_Version-hap_Contacts_with_sdk-20240408_162358-hap_Contacts_with_sdk.tar.gz |
+| Contacts.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_Contacts_with_sdk/20240619_195741/version-Master_Version-hap_Contacts_with_sdk-20240619_195741-hap_Contacts_with_sdk.tar.gz |
 | FilePicker.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_FilePicker_with_sdk/20231019_145559/version-Master_Version-hap_FilePicker_with_sdk-20231019_145559-hap_FilePicker_with_sdk.tar.gz |
 | Launcher.hap | https://cidownload.openharmony.cn/version/Release_Version/hap_Launcher_with_sdk/20240307_142850/version-Release_Version-hap_Launcher_with_sdk-20240307_142850-hap_Launcher_with_sdk.tar.gz |
 | Launcher_Settings.hap | https://cidownload.openharmony.cn/version/Release_Version/hap_Launcher_with_sdk/20240307_142850/version-Release_Version-hap_Launcher_with_sdk-20240307_142850-hap_Launcher_with_sdk.tar.gz |
@@ -29,7 +29,7 @@
 | kikaInput.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_kikaInput_with_sdk/20230926_102115/version-Master_Version-hap_kikaInput_with_sdk-20230926_102115-hap_kikaInput_with_sdk.tar.gz |
 | UpdateApp.hap | http://download.ci.openharmony.cn/version/Daily_Version/hap_UpdateApp_with_sdk/20230605_003549/version-Daily_Version-hap_UpdateApp_with_sdk-20230605_003549-hap_UpdateApp_with_sdk.tar.gz |
 | PrintSpooler.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_print_spooler_with_sdk/20231031_150845/version-Master_Version-hap_print_spooler_with_sdk-20231031_150845-hap_print_spooler_with_sdk.tar.gz |
-| CalendarData.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_calendar_calendardata_with_sdk/20230908_173536/version-Master_Version-hap_calendar_calendardata_with_sdk-20230908_173536-hap_calendar_calendardata_with_sdk.tar.gz
+| CalendarData.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_calendar_calendardata_with_sdk/20230908_173536/version-Master_Version-hap_calendar_calendardata_with_sdk-20230908_173536-hap_calendar_calendardata_with_sdk.tar.gz|
 
 | SDK | optional download urls |
 | - | - |
