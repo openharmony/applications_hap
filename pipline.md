@@ -33,6 +33,8 @@
 | PrintSpooler.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_test1/20240103_115149/version-Master_Version-hap_test1-20240103_115149-hap_print_spooler_with_sdk.tar.gz |
 | CalendarData.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_calendar_calendardata_with_sdk/20231206_171639/version-Master_Version-hap_calendar_calendardata_with_sdk-20231206_171639-hap_calendar_calendardata_with_sdk.tar.gz |
 | SecurityPrivacyCenter.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_CertificateManager_with_sdk/20240624_172142/version-Master_Version-hap_CertificateManager_with_sdk-20240624_172142-hap_CertificateManager_with_sdk.tar.gz |
+| AudioPicker.hap | https://cidownload.openharmony.cn/version/Daily_Version/hap_FilePicker_with_sdk/20240626_091633/version-Daily_Version-hap_FilePicker_with_sdk-20240626_091633-hap_FilePicker_with_sdk.tar.gz |
+
 
 | SDK | optional download urls |
 | - | - |
