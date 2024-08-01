@@ -3,7 +3,7 @@
 | Calc_Demo.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_Calc_Demo_test_with_sdk/20240801_153154/version-Master_Version-hap_Calc_Demo_test_with_sdk-20240801_153154-hap_Calc_Demo_test_with_sdk.tar.gz |
 | CallUI.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_CallUI_with_sdk/20230926_121610/version-Master_Version-hap_CallUI_with_sdk-20230926_121610-hap_CallUI_with_sdk.tar.gz |
 | Camera.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_Camera_with_sdk/20240409_144519/version-Master_Version-hap_Camera_with_sdk-20240409_144519-hap_Camera_with_sdk.tar.gz |
-| CertificateManager.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_CertificateManager_with_sdk/20240729_205408/version-Master_Version-hap_CertificateManager_with_sdk-20240729_205408-hap_CertificateManager_with_sdk.tar.gz |
+| CertificateManager.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_CertificateManager_with_sdk/20240801_185643/version-Master_Version-hap_CertificateManager_with_sdk-20240801_185643-hap_CertificateManager_with_sdk.tar.gz |
 | Clock_Demo.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_Clock_Demo_test_with_sdk/20240605_173918/version-Master_Version-hap_Clock_Demo_test_with_sdk-20240605_173918-hap_Clock_Demo_test_with_sdk.tar.gz |
 | Contacts.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Contacts_with_sdk/20240115_141251/version-Master_Version-hap_Contacts_with_sdk-20240115_141251-hap_Contacts_with_sdk.tar.gz |
 | FilePicker.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_FilePicker_with_sdk/20240704_144325/version-Master_Version-hap_FilePicker_with_sdk-20240704_144325-hap_FilePicker_with_sdk.tar.gz |
@@ -32,7 +32,7 @@
 | UpdateApp.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_UpdateApp_with_sdk/20240626_142735/version-Master_Version-hap_UpdateApp_with_sdk-20240626_142735-hap_UpdateApp_with_sdk.tar.gz |
 | PrintSpooler.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_test1/20240103_115149/version-Master_Version-hap_test1-20240103_115149-hap_print_spooler_with_sdk.tar.gz |
 | CalendarData.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_calendar_calendardata_with_sdk/20231206_171639/version-Master_Version-hap_calendar_calendardata_with_sdk-20231206_171639-hap_calendar_calendardata_with_sdk.tar.gz |
-| SecurityPrivacyCenter.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_CertificateManager_with_sdk/20240729_205408/version-Master_Version-hap_CertificateManager_with_sdk-20240729_205408-hap_CertificateManager_with_sdk.tar.gz |
+| SecurityPrivacyCenter.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_CertificateManager_with_sdk/20240801_185643/version-Master_Version-hap_CertificateManager_with_sdk-20240801_185643-hap_CertificateManager_with_sdk.tar.gz |
 | AudioPicker.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_FilePicker_with_sdk/20240704_144325/version-Master_Version-hap_FilePicker_with_sdk-20240704_144325-hap_FilePicker_with_sdk.tar.gz |
 
 
