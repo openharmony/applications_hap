@@ -33,7 +33,6 @@
 | PrintSpooler.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_test1/20240103_115149/version-Master_Version-hap_test1-20240103_115149-hap_print_spooler_with_sdk.tar.gz |
 | CalendarData.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_calendar_calendardata_with_sdk/20231206_171639/version-Master_Version-hap_calendar_calendardata_with_sdk-20231206_171639-hap_calendar_calendardata_with_sdk.tar.gz
 
-
 | SDK | optional download urls |
 | - | - |
 | 3.1.7.7 | https://mirrors.huaweicloud.com/openharmony/os/3.1.2/sdk-patch/ohos-sdk-full.tar.gz |
