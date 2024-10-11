@@ -24,8 +24,10 @@ MIGRATION_DATA_INFORMATION:
     transferTime: {type: INT32, desc: transfer time}
     transferAppNum: {type: INT32, desc: app num}
     transferFileSize: {type: STRING, desc: file size}
+    version: {type: STRING, desc: version}
 
 TRANSMISSION_SPECIAL_CASE:
     __BASE: {type: STATISTIC, level: CRITICAL, desc: transfer special case}
     SSDDisconnection: {type: STRING, desc: ssd disconnection}
     InsufficientSpace: {type: STRING, desc: insufficient space}
+    version: {type: STRING, desc: version}
