@@ -16,7 +16,7 @@
 | Music_Demo.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Music_Demo_test_with_sdk/20231220_180430/version-Master_Version-hap_Music_Demo_test_with_sdk-20231220_180430-hap_Music_Demo_test_with_sdk.tar.gz |
 | Note.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_Note_with_sdk/20240513_090653/version-Master_Version-hap_Note_with_sdk-20240513_090653-hap_Note_with_sdk.tar.gz |
 | Photos.hap | https://cidownload.openharmony.cn/version/Daily_Version/hap_Photos_with_sdk/20241029_165617/version-Daily_Version-hap_Photos_with_sdk-20241029_165617-hap_Photos_with_sdk.tar.gz |
-| ScreenShot.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_ScreenShot_with_sdk/20240726_165713/version-Master_Version-hap_ScreenShot_with_sdk-20240726_165713-hap_ScreenShot_with_sdk.tar.gz |
+| ScreenShot.hap | https://cidownload.openharmony.cn/version/Daily_Version/hap_ScreenShot_with_sdk/20241030_102824/version-Daily_Version-hap_ScreenShot_with_sdk-20241030_102824-hap_ScreenShot_with_sdk.tar.gz |
 | Settings.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_Settings_with_sdk/20240123_183834/version-Master_Version-hap_Settings_with_sdk-20240123_183834-hap_Settings_with_sdk.tar.gz |
 | SettingsData.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_SettingsData_with_sdk/20231016_172558/version-Master_Version-hap_SettingsData_with_sdk-20231016_172558-hap_SettingsData_with_sdk.tar.gz |
 | Settings_FaceAuth.hap | http://download.ci.openharmony.cn/Artifacts/hap_build/20230424-1-00011/version/Artifacts-hap_build-20230424-1-00011-version-hap_build.tar.gz |
