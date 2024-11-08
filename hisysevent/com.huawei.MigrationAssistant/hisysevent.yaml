@@ -31,3 +31,8 @@ TRANSMISSION_SPECIAL_CASE:
     SSDDisconnection: {type: STRING, desc: ssd disconnection}
     InsufficientSpace: {type: STRING, desc: insufficient space}
     version: {type: STRING, desc: version}
+
+DATA_RECOVERY_MODE:
+    __BASE: {type: BEHAVIOR, level: CRITICAL, desc: Record the data recovery mode selected by users}
+    RECOVERY_MODE: {type: STRING, desc: data recovery mode}
+    DECRYPT_RESULT: {type: STRING, desc: decrypt result}
