@@ -15,7 +15,6 @@
         "//applications/standard/hap",
         "//applications/standard/permission_manager:permission_manager",
         "//base/inputmethod/imf/services/dialog:input_method_choose_dialog",
-        "//base/usb/usb_manager/frameworks/dialog/dialog_ui/usb_right_dialog:dialog_hap",
         "//foundation/communication/netmanager_ext/frameworks/vpn_dialog/dialog_ui/vpn_dialog:dialog_hap",
         "//foundation/ability/ability_runtime/services/dialog_ui/ams_system_dialog:dialog_hap",
         "//foundation/distributeddatamgr/pasteboard/services/dialog:pasteboard_dialog_hap",
