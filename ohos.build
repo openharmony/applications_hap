@@ -13,7 +13,6 @@
         "//foundation/multimedia/media_library/frameworks/innerkitsimpl/medialibrary_data_extension:medialibrary_ext_hap",
         "//foundation/multimedia/ringtone_library/frameworks/ringtone_extension_hap:ringtone_extension_hap",
         "//applications/standard/hap",
-        "//applications/standard/permission_manager:permission_manager",
         "//base/inputmethod/imf/services/dialog:input_method_choose_dialog",
         "//base/usb/usb_manager/frameworks/dialog/dialog_ui/usb_right_dialog:dialog_hap",
         "//foundation/communication/netmanager_ext/frameworks/vpn_dialog/dialog_ui/vpn_dialog:dialog_hap",
