@@ -10,7 +10,6 @@
 	    "//applications/standard/hap/hisysevent/com.ohos.certmanager/hisysevent.yaml"
 	  ],
       "module_list": [
-        "//foundation/multimedia/media_library/frameworks/innerkitsimpl/medialibrary_data_extension:medialibrary_ext_hap",
         "//foundation/multimedia/ringtone_library/frameworks/ringtone_extension_hap:ringtone_extension_hap",
         "//applications/standard/hap",
         "//applications/standard/permission_manager:permission_manager",
