@@ -14,8 +14,7 @@
         "//applications/standard/hap",
         "//foundation/communication/netmanager_ext/frameworks/vpn_dialog/dialog_ui/vpn_dialog:dialog_hap",
         "//base/notification/distributed_notification_service/services/dialog_ui/enable_notification_dialog:dialog_hap",
-        "//applications/standard/applications_auth_widget:auth_widget",
-        "//foundation/distributedhardware/distributed_hardware_fwk/application:DHardware_UI"
+        "//applications/standard/applications_auth_widget:auth_widget"
       ]
     }
   }
