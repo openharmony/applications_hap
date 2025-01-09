@@ -283,7 +283,6 @@ group("hap") {
     ":securityPrivacyCenter_hap",
     ":systemDialog_hap",
     ":updateapp_hap",
-    "//applications/standard/hap:audiopicker_hap",
     "//applications/standard/hap:calc_demo_hap",
     "//applications/standard/hap:callUI_hap",
     "//applications/standard/hap:camera_hap",
@@ -313,6 +312,7 @@ group("hap") {
     "//applications/standard/hap:statusBar_hap",
     "//applications/standard/hap:systemui_hap",
     "//applications/standard/hap:volumePanel_hap",
+    "//applications/standard/hap:audiopicker_hap",
   ]
   if (defined(product_name) && product_name == "watchos") {
     deps -= [
