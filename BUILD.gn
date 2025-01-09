@@ -227,27 +227,6 @@ ohos_prebuilt_etc("filepicker_hap") {
   subsystem_name = "applications"
 }
 
-ohos_prebuilt_etc("external.json") {
-  source = "resources/external.json"
-  relative_install_dir = "notification_template"
-  part_name = "prebuilt_hap"
-  subsystem_name = "applications"
-}
-
-ohos_prebuilt_etc("downloadTemplate.abc") {
-  source = "resources/downloadTemplate.abc"
-  relative_install_dir = "notification_template/assets/js"
-  part_name = "prebuilt_hap"
-  subsystem_name = "applications"
-}
-
-ohos_prebuilt_etc("downloadTemplate.js") {
-  source = "resources/downloadTemplate.js"
-  relative_install_dir = "notification_template/assets/js"
-  part_name = "prebuilt_hap"
-  subsystem_name = "applications"
-}
-
 ohos_prebuilt_etc("certificate_manager_hap") {
   source = "CertificateManager.hap"
   module_install_dir = "app/com.ohos.certificatemanager"
@@ -312,11 +291,8 @@ group("hap") {
     "//applications/standard/hap:clock_demo_hap",
     "//applications/standard/hap:contacts_hap",
     "//applications/standard/hap:demo.wav",
-    "//applications/standard/hap:downloadTemplate.abc",
-    "//applications/standard/hap:downloadTemplate.js",
     "//applications/standard/hap:dropdownPanel_hap",
     "//applications/standard/hap:dynamic.wav",
-    "//applications/standard/hap:external.json",
     "//applications/standard/hap:filepicker_hap",
     "//applications/standard/hap:kika_input_hap",
     "//applications/standard/hap:launcher_hap",
@@ -352,11 +328,8 @@ group("hap") {
       "//applications/standard/hap:certificate_manager_hap",
       "//applications/standard/hap:contacts_hap",
       "//applications/standard/hap:demo.wav",
-      "//applications/standard/hap:downloadTemplate.abc",
-      "//applications/standard/hap:downloadTemplate.js",
       "//applications/standard/hap:dropdownPanel_hap",
       "//applications/standard/hap:dynamic.wav",
-      "//applications/standard/hap:external.json",
       "//applications/standard/hap:kika_input_hap",
       "//applications/standard/hap:mms_hap",
       "//applications/standard/hap:mobileDataSettings_hap",
