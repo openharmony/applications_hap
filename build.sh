@@ -413,26 +413,31 @@ done
 cd ${arg_project}
 echo ${arg_project}" 执行npm/ohpm install"
 if ${is_ohpm}; then
-	ohpm install
-    chmod +x hvigorw
-	# Historical reasons need to be compatible with NODE_HOME path issue
-	if grep -q "\${NODE_HOME}/bin/node" hvigorw ; then
-    	# node home path include "bin"
-		if [ ! -x "${NODE_HOME}/bin/node" ];then
-    		export NODE_HOME=$(dirname ${NODE_HOME})
-		fi
-	else
-    	# node home path does not include "bin"
-		if [ -x "${NODE_HOME}/bin/node" ];then
-    		export NODE_HOME=${NODE_HOME}/bin
-		fi
-	fi
-    ./hvigorw clean --no-daemon
-    ./hvigorw assembleHap --mode module -p product=default -p debuggable=false --no-daemon
+        ohpm install
+        if [ ! -f "hvigorw" ]; then
+                hvigorw clean --no-daemon
+                hvigorw assembleHap --mode module -p product=default -p debuggable=false --no-daemon
+        else
+                chmod +x hvigorw
+                # Historical reasons need to be compatible with NODE_HOME path issue
+                if grep -q "\${NODE_HOME}/bin/node" hvigorw ; then
+                # node home path include "bin"
+                        if [ ! -x "${NODE_HOME}/bin/node" ];then
+                        export NODE_HOME=$(dirname ${NODE_HOME})
+                        fi
+                else
+                # node home path does not include "bin"
+                        if [ -x "${NODE_HOME}/bin/node" ];then
+                        export NODE_HOME=${NODE_HOME}/bin
+                        fi
+                fi
+                ./hvigorw clean --no-daemon
+                ./hvigorw assembleHap --mode module -p product=default -p debuggable=false --no-daemon
+        fi
 else
-	npm install
-	node ./node_modules/@ohos/hvigor/bin/hvigor.js clean
-	node ./node_modules/@ohos/hvigor/bin/hvigor.js --mode module clean assembleHap -p debuggable=false
+        npm install
+        node ./node_modules/@ohos/hvigor/bin/hvigor.js clean
+        node ./node_modules/@ohos/hvigor/bin/hvigor.js --mode module clean assembleHap -p debuggable=false
 fi
 
 
