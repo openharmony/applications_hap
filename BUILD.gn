@@ -236,7 +236,7 @@ ohos_prebuilt_etc("certificate_manager_hap") {
 
 ohos_prebuilt_etc("securityPrivacyCenter_hap") {
   source = "SecurityPrivacyCenter.hap"
-  module_install_dir = "app/com.ohos.certificatemanager"
+  module_install_dir = "app/com.ohos.security.privacycenter"
   part_name = "prebuilt_hap"
   subsystem_name = "applications"
 }
@@ -278,6 +278,7 @@ ohos_prebuilt_etc("audiopicker_hap") {
 
 group("hap") {
   deps = [
+    ":audiopicker_hap",
     ":calendarData_hap",
     ":printspooler_hap",
     ":securityPrivacyCenter_hap",
@@ -312,7 +313,6 @@ group("hap") {
     "//applications/standard/hap:statusBar_hap",
     "//applications/standard/hap:systemui_hap",
     "//applications/standard/hap:volumePanel_hap",
-    "//applications/standard/hap:audiopicker_hap",
   ]
   if (defined(product_name) && product_name == "watchos") {
     deps -= [
