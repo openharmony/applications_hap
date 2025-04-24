@@ -11,8 +11,7 @@
 	  ],
       "module_list": [
         "//applications/standard/hap",
-        "//foundation/communication/netmanager_ext/frameworks/vpn_dialog/dialog_ui/vpn_dialog:dialog_hap",
-        "//applications/standard/applications_auth_widget:auth_widget"
+        "//foundation/communication/netmanager_ext/frameworks/vpn_dialog/dialog_ui/vpn_dialog:dialog_hap"
       ]
     }
   }
