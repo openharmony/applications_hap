@@ -216,6 +216,23 @@ if [ -d ${ROOT_PATH}/prebuilts/ohos-sdk/linux/14 ]; then
 	ln -nsf ../14/previewer previewer/$sdk_version
     popd
 fi
+if [ -d ${ROOT_PATH}/prebuilts/ohos-sdk/linux/18 ]; then
+    mkdir -p ${ohos_sdk_path}
+    mv -n ${ROOT_PATH}/prebuilts/ohos-sdk/linux/18 ${ohos_sdk_path}
+    pushd ${ohos_sdk_path}
+	sdk_version=$(grep version 18/toolchains/oh-uni-package.json | awk '{print $2}' | sed -r 's/\",?//g')
+	mkdir -p ets
+	ln -nsf ../18/ets ets/$sdk_version
+	mkdir -p js
+	ln -nsf ../18/js js/$sdk_version
+	mkdir -p toolchains
+	ln -nsf ../18/toolchains toolchains/$sdk_version
+	mkdir -p native
+	ln -nsf ../18/native native/$sdk_version
+	mkdir -p previewer
+	ln -nsf ../18/previewer previewer/$sdk_version
+    popd
+fi
 if [ "${arg_project}" == "" -a "${arg_url}" == "" ]; then
         echo "--project or --url is not null"
         exit 1;
