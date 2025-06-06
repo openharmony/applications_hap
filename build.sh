@@ -254,7 +254,7 @@ if [ -d ${ROOT_PATH}/prebuilts/ohos-sdk/linux/20 ]; then
     mkdir -p ${ohos_sdk_path}
     mv -n ${ROOT_PATH}/prebuilts/ohos-sdk/linux/20 ${ohos_sdk_path}
     pushd ${ohos_sdk_path}
-	sdk_version=$(grep version 19/toolchains/oh-uni-package.json | awk '{print $2}' | sed -r 's/\",?//g')
+	sdk_version=$(grep version 20/toolchains/oh-uni-package.json | awk '{print $2}' | sed -r 's/\",?//g')
 	mkdir -p ets
 	ln -nsf ../20/ets ets/$sdk_version
 	mkdir -p js
