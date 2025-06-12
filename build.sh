@@ -68,7 +68,7 @@ function build_sdk() {
 	SDK_PREBUILTS_PATH=${ROOT_PATH}/out/sdk/packages/ohos-sdk
 	pushd ${ROOT_PATH}
 		echo "building the latest ohos-sdk..."
-		./build.py --product-name ohos-sdk --load-test-config=false --get-warning-list=false --stat-ccache=false --compute-overlap-rate=false --deps-guard=false --generate-ninja-trace=false --gn-args skip_generate_module_list_file=true sdk_platform=linux ndk_platform=linux use_cfi=false use_thin_lto=false enable_lto_O0=true sdk_check_flag=false enable_ndk_doxygen=false archive_ndk=false sdk_for_hap_build=true
+		./build.py --product-name ohos-sdk --load-test-config=false --get-warning-list=false --stat-ccache=false --compute-overlap-rate=false --deps-guard=false --generate-ninja-trace=false --gn-args skip_generate_module_list_file=true sdk_platform=linux ndk_platform=linux use_cfi=false use_thin_lto=false enable_lto_O0=true sdk_check_flag=false enable_ndk_doxygen=false archive_ndk=false 
 		if [[ "$?" -ne 0 ]]; then
 		echo "ohos-sdk build failed! You can try to use '--no-prebuilt-sdk' to skip the build of ohos-sdk."
 		exit 1
