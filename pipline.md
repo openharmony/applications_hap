@@ -27,7 +27,7 @@
 | SystemUI-SystemDialog.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_SystemUI_with_sdk/20250905_100951/version-Master_Version-hap_SystemUI_with_sdk-20250905_100951-hap_SystemUI_with_sdk.tar.gz |
 | kikaInput.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_kikaInput_with_sdk/20250728_192705/version-Master_Version-hap_kikaInput_with_sdk-20250728_192705-hap_kikaInput_with_sdk.tar.gz |
 | UpdateApp.hap | http://download.ci.openharmony.cn/version/Daily_Version/hap_UpdateApp_with_sdk/20240821_091847/version-Daily_Version-hap_UpdateApp_with_sdk-20240821_091847-hap_UpdateApp_with_sdk.tar.gz |
-| PrintSpooler.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_test1/20240103_115149/version-Master_Version-hap_test1-20240103_115149-hap_print_spooler_with_sdk.tar.gz |
+| PrintSpooler.hap | https://cidownload.openharmony.cn/Artifacts/hap_build/20251009-1-00342/version/Artifacts-hap_build-20251009-1-00342-version-hap_build.tar.gz |
 | CalendarData.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_calendar_calendardata_with_sdk/20240827_111059/version-Master_Version-hap_calendar_calendardata_with_sdk-20240827_111059-hap_calendar_calendardata_with_sdk.tar.gz |
 | SecurityPrivacyCenter.hap | https://cidownload.openharmony.cn/version/Daily_Version/hap_SecurityPrivacyCenter_with_sdk/20250227_110408/version-Daily_Version-hap_SecurityPrivacyCenter_with_sdk-20250227_110408-hap_SecurityPrivacyCenter_with_sdk.tar.gz |
 | AudioPicker.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_FilePicker_with_sdk/20240704_144325/version-Master_Version-hap_FilePicker_with_sdk-20240704_144325-hap_FilePicker_with_sdk.tar.gz |
