@@ -146,7 +146,7 @@ export PATH=/home/tools/command-line-tools/ohpm/bin:$PATH
 npm config set registry https://repo.huaweicloud.com/repository/npm/
 npm config set @ohos:registry https://repo.harmonyos.com/npm/
 npm config set strict-ssl false
-npm config set lockfile false
+#npm config set lockfile false
 cat $HOME/.npmrc | grep 'lockfile=false' || echo 'lockfile=false' >> $HOME/.npmrc
 if [ -d ${ROOT_PATH}/prebuilts/ohos-sdk/linux/10 ]; then
     mkdir -p ${ohos_sdk_path}
