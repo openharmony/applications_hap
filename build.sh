@@ -384,10 +384,13 @@ function load_dep(){
 	local cur_module
 	for cur_module in ${module_list[@]}
 	do
-		if [[ "${cur_module}" =~ "${cur_m_n}" ]]; then
+		if [[ "${cur_module}" =~ ${cur_m_n}$ ]]; then
 			del_module_name ${cur_m_n}
 			for m_n_1 in ${module_name[@]}
 			do
+				if [[ ! " ${module_name[@]} " =~ " ${m_n_1} " ]]; then
+					continue
+				fi
 				rr=$(cat ${cur_module}"/${package_json_name}" | grep "${m_n_1}" || true)
 				if [[ "${rr}" != "" ]]; then
 					load_dep ${m_n_1}
@@ -445,6 +448,9 @@ do
 	if del_module_name ${module##${arg_project}}; then
 		for m_n in ${module_name[@]}
 		do
+			if [[ ! " ${module_name[@]} " =~ " ${m_n} " ]]; then
+				continue
+			fi
 			rr=$(cat ${module}"/${package_json_name}" | grep "${m_n}" || true)
 			if [[ "${rr}" != "" ]]; then
 				load_dep ${m_n}
