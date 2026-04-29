@@ -54,11 +54,11 @@ applications/standard/hap
 
 System apps
 
-[applications\_standard\_settings](https://gitee.com/openharmony/applications_settings)
+[applications\_standard\_settings](https://gitcode.com/openharmony/applications_settings)
 
-[applications\_standard\_launcher](https://gitee.com/openharmony/applications_launcher)
+[applications\_standard\_launcher](https://gitcode.com/openharmony/applications_launcher)
 
-[applications\_standard\_systemui](https://gitee.com/openharmony/applications_systemui)
+[applications\_standard\_systemui](https://gitcode.com/openharmony/applications_systemui)
 
 **applications\_standard\_hap**
 
