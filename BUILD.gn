@@ -274,13 +274,6 @@ ohos_prebuilt_etc("updateapp_hap") {
   subsystem_name = "applications"
 }
 
-ohos_prebuilt_etc("printspooler_hap") {
-  source = "PrintSpooler.hap"
-  module_install_dir = "app/com.ohos.spooler"
-  part_name = "prebuilt_hap"
-  subsystem_name = "applications"
-}
-
 ohos_prebuilt_etc("calendarData_hap") {
   source = "CalendarData.hap"
   module_install_dir = "app/com.ohos.calendardata"
@@ -338,10 +331,10 @@ ohos_prebuilt_etc("sceneboard_hap") {
 }
 
 ohos_prebuilt_etc("printspooler_hap") {
-    source = hap_src_dir + "PrintSpooler.hap"
-    module_install_dir = "app/com.ohos.spooler"
-    part_name = "prebuilt_hap"
-    subsystem_name = "applications"
+  source = hap_src_dir + "PrintSpooler.hap"
+  module_install_dir = "app/com.ohos.spooler"
+  part_name = "prebuilt_hap"
+  subsystem_name = "applications"
 }
 
 ohos_prebuilt_etc("cameraPicker_hap") {
