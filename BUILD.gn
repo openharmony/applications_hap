@@ -14,8 +14,8 @@
 import("//build/ohos.gni")
 
 hap_src_dir = ""
-if (defined(product_name) && (product_name == "wukong100")) {
-  hap_src_dir = "wukong100/"
+if (window_manager_use_sceneboard) {
+  hap_src_dir = "sceneboard/"
 }
 
 ohos_prebuilt_etc("launcher_hap") {
@@ -479,7 +479,7 @@ group("hap") {
     "//applications/standard/hap:volumePanel_hap",
   ]
 
-  if (defined(product_name) && product_name == "wukong100") {
+  if (window_manager_use_sceneboard) {
     deps -= [
       "//applications/standard/hap:mobileDataSettings_hap",
     ]
