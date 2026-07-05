@@ -68,7 +68,7 @@ function build_sdk() {
 	SDK_PREBUILTS_PATH=${ROOT_PATH}/out/sdk/packages/ohos-sdk
 	pushd ${ROOT_PATH}
 		echo "building the latest ohos-sdk..."
-		./build.py --product-name ohos-sdk --load-test-config=false --get-warning-list=false --stat-ccache=false --compute-overlap-rate=false --deps-guard=false --generate-ninja-trace=false --gn-args skip_generate_module_list_file=true sdk_platform=linux ndk_platform=linux use_cfi=false use_thin_lto=false enable_lto_O0=true sdk_check_flag=false enable_ndk_doxygen=false archive_ndk=false 
+		./build.py --product-name ohos-sdk --load-test-config=false --get-warning-list=false --stat-ccache=false --compute-overlap-rate=false --deps-guard=false --generate-ninja-trace=false --gn-args skip_generate_module_list_file=true sdk_platform=linux ndk_platform=linux use_cfi=false use_thin_lto=false enable_lto_O0=true sdk_check_flag=false enable_ndk_doxygen=false archive_ndk=false point_split=true
 		if [[ "$?" -ne 0 ]]; then
 		echo "ohos-sdk build failed! You can try to use '--no-prebuilt-sdk' to skip the build of ohos-sdk."
 		exit 1
@@ -82,7 +82,7 @@ function build_sdk() {
 		mv ${ROOT_PATH}/out/sdk/sdk-native/os-irrelevant/* ${SDK_PREBUILTS_PATH}/linux/native/
 		mv ${ROOT_PATH}/out/sdk/sdk-native/os-specific/linux/* ${SDK_PREBUILTS_PATH}/linux/native/
 		pushd ${SDK_PREBUILTS_PATH}/linux
-		api_version=$(grep apiVersion toolchains/oh-uni-package.json | awk '{print $2}' | sed -r 's/\",?//g') || api_version="11"
+		api_version=$(grep platformVersion toolchains/oh-uni-package.json | awk '{print $2}' | sed -r 's/\",?//g') || api_version="11"
 		mkdir -p $api_version
 		for i in */; do
 			if [ -d "$i" ] && [ "$i" != "$api_version/" ]; then
