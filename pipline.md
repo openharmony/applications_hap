@@ -3,7 +3,7 @@
 | Calc_Demo.hap | https://cidownload.openharmony.cn/version/Daily_Version/hap_Calc_Demo_test_with_sdk/20260729_162111/version-Daily_Version-hap_Calc_Demo_test_with_sdk-20260729_162111-hap_Calc_Demo_test_with_sdk.tar.gz |
 | CallUI.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_CallUI_with_sdk/20230926_121610/version-Master_Version-hap_CallUI_with_sdk-20230926_121610-hap_CallUI_with_sdk.tar.gz |
 | Camera.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_Camera_with_sdk/20240409_144519/version-Master_Version-hap_Camera_with_sdk-20240409_144519-hap_Camera_with_sdk.tar.gz |
-| Clock_Demo.hap | https://cidownload.openharmony.cn/version/Daily_Version/hap_Clock_Demo_test_with_sdk/20260721_201621/version-Daily_Version-hap_Clock_Demo_test_with_sdk-20260721_201621-hap_Clock_Demo_test_with_sdk.tar.gz |
+| Clock_Demo.hap | https://cidownload.openharmony.cn/version/Daily_Version/hap_Clock_Demo_test_with_sdk/20260803_173233/version-Daily_Version-hap_Clock_Demo_test_with_sdk-20260803_173233-hap_Clock_Demo_test_with_sdk.tar.gz |
 | Contacts.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_Contacts_with_sdk/20260309_201422/version-Master_Version-hap_Contacts_with_sdk-20260309_201422-hap_Contacts_with_sdk.tar.gz |
 | FilePicker.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_FilePicker_with_sdk/20240704_144325/version-Master_Version-hap_FilePicker_with_sdk-20240704_144325-hap_FilePicker_with_sdk.tar.gz |
 | Launcher.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_Launcher_with_sdk/20240319_192448/version-Master_Version-hap_Launcher_with_sdk-20240319_192448-hap_Launcher_with_sdk.tar.gz|
@@ -11,7 +11,7 @@
 | Mms.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_Mms_with_sdk/20240913_154903/version-Master_Version-hap_Mms_with_sdk-20240913_154903-hap_Mms_with_sdk.tar.gz |
 | MobileDataSettings.hap | http://download.ci.openharmony.cn/version/Master_Version/hap_CallUI_with_sdk/20230926_121610/version-Master_Version-hap_CallUI_with_sdk-20230926_121610-hap_CallUI_with_sdk.tar.gz |
 | Music_Demo.hap | https://cidownload.openharmony.cn/version/Daily_Version/hap_Music_Demo_test_with_sdk/20260715_135628/version-Daily_Version-hap_Music_Demo_test_with_sdk-20260715_135628-hap_Music_Demo_test_with_sdk.tar.gz |
-| Note.hap | https://cidownload.openharmony.cn/version/Daily_Version/hap_Note_with_sdk/20260715_102047/version-Daily_Version-hap_Note_with_sdk-20260715_102047-hap_Note_with_sdk.tar.gz |
+| Note.hap | https://cidownload.openharmony.cn/version/Daily_Version/hap_Note_with_sdk/20260803_173218/version-Daily_Version-hap_Note_with_sdk-20260803_173218-hap_Note_with_sdk.tar.gz |
 | Photos.hap | https://cidownload.openharmony.cn/version/Daily_Version/hap_Photos_with_sdk/20260114_153233/version-Daily_Version-hap_Photos_with_sdk-20260114_153233-hap_Photos_with_sdk.tar.gz |
 | ScreenShot.hap | https://cidownload.openharmony.cn/version/Daily_Version/hap_ScreenShot_with_sdk/20241030_102824/version-Daily_Version-hap_ScreenShot_with_sdk-20241030_102824-hap_ScreenShot_with_sdk.tar.gz |
 | Settings.hap | https://cidownload.openharmony.cn/version/Master_Version/hap_Settings_with_sdk/20240123_183834/version-Master_Version-hap_Settings_with_sdk-20240123_183834-hap_Settings_with_sdk.tar.gz |
