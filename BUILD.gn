@@ -343,12 +343,6 @@ ohos_prebuilt_etc("cameraPicker_hap") {
   part_name = "prebuilt_hap"
   subsystem_name = "applications"
 }
-ohos_prebuilt_etc("scan_hap") {
-  source = hap_src_dir + "ScanService.hap"
-  module_install_dir = "app/com.ohos.scanservice"
-  part_name = "prebuilt_hap"
-  subsystem_name = "applications"
-}
 
 ohos_prebuilt_etc("Floatingnavigation_hap") {
   source = hap_src_dir + "Floatingnavigation.hap"
@@ -367,69 +361,6 @@ ohos_prebuilt_etc("Intelligent_Scene_hap") {
 ohos_prebuilt_etc("PortalLogin_hap") {
   source = hap_src_dir + "PortalLogin.hap"
   module_install_dir = "app/com.wifiservice.portallogin"
-  part_name = "prebuilt_hap"
-  subsystem_name = "applications"
-}
-
-ohos_prebuilt_etc("preview_hap") {
-  source = hap_src_dir + "PreviewSystemApp.hap"
-  module_install_dir = "app/com.ohos.preview_system_app"
-  part_name = "prebuilt_hap"
-  subsystem_name = "applications"
-}
-
-ohos_prebuilt_etc("Instantshare_hap") {
-  source = hap_src_dir + "Instantshare.hap"
-  module_install_dir = "app/com.ohos.instantshare"
-  part_name = "prebuilt_hap"
-  subsystem_name = "applications"
-}
-
-ohos_prebuilt_etc("corevision_coBackboneService_hap") {
-  source = hap_src_dir + "CoBackboneService.hap"
-  module_install_dir = "app/com.ohos.corevision"
-  part_name = "prebuilt_hap"
-  subsystem_name = "applications"
-}
-
-ohos_prebuilt_etc("corevision_faceService_hap") {
-  source = hap_src_dir + "FaceService.hap"
-  module_install_dir = "app/com.ohos.corevision"
-  part_name = "prebuilt_hap"
-  subsystem_name = "applications"
-}
-
-ohos_prebuilt_etc("corevision_faceVerificationService_hap") {
-  source = hap_src_dir + "FaceVerificationService.hap"
-  module_install_dir = "app/com.ohos.corevision"
-  part_name = "prebuilt_hap"
-  subsystem_name = "applications"
-}
-
-ohos_prebuilt_etc("corevision_multiObjService_hap") {
-  source = hap_src_dir + "MultiObjService.hap"
-  module_install_dir = "app/com.ohos.corevision"
-  part_name = "prebuilt_hap"
-  subsystem_name = "applications"
-}
-
-ohos_prebuilt_etc("corevision_skeletonService_hap") {
-  source = hap_src_dir + "SkeletonService.hap"
-  module_install_dir = "app/com.ohos.corevision"
-  part_name = "prebuilt_hap"
-  subsystem_name = "applications"
-}
-
-ohos_prebuilt_etc("corevision_textService_hap") {
-  source = hap_src_dir + "TextService.hap"
-  module_install_dir = "app/com.ohos.corevision"
-  part_name = "prebuilt_hap"
-  subsystem_name = "applications"
-}
-
-ohos_prebuilt_etc("corevision_clusterService_hap") {
-  source = hap_src_dir + "ClusterService.hap"
-  module_install_dir = "app/com.ohos.corevision"
   part_name = "prebuilt_hap"
   subsystem_name = "applications"
 }
@@ -498,19 +429,7 @@ group("hap") {
       "//applications/standard/hap:Floatingnavigation_hap",
       "//applications/standard/hap:Intelligent_Scene_hap",
       "//applications/standard/hap:PortalLogin_hap",
-      "//applications/standard/hap:preview_hap",
-      "//applications/standard/hap:Instantshare_hap",
-      "//applications/standard/hap:corevision_coBackboneService_hap",
-      "//applications/standard/hap:corevision_faceService_hap",
-      "//applications/standard/hap:corevision_faceVerificationService_hap",
-      "//applications/standard/hap:corevision_multiObjService_hap",
-      "//applications/standard/hap:corevision_skeletonService_hap",
-      "//applications/standard/hap:corevision_textService_hap",
-      "//applications/standard/hap:corevision_clusterService_hap",
       "//applications/standard/hap:mediacontroller_hap",
-
-      "//applications/standard/hap:scan_hap",
-
     ]
   }
 
