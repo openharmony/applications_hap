@@ -282,7 +282,7 @@ ohos_prebuilt_etc("printspooler_hap") {
 }
 
 ohos_prebuilt_etc("calendarData_hap") {
-  source = "CalendarData.hap"
+  source = hap_src_dir + "CalendarData.hap"
   module_install_dir = "app/com.ohos.calendardata"
   part_name = "prebuilt_hap"
   subsystem_name = "applications"
@@ -443,11 +443,6 @@ group("hap") {
     "//applications/standard/hap:statusBar_hap",
     "//applications/standard/hap:systemui_hap",
     "//applications/standard/hap:volumePanel_hap",
-    "//applications/standard/hap:calendar_hap",
-    "//applications/standard/hap:simcardmanagement_hap",
-    "//applications/standard/hap:soundRecorder_hap",
-    "//applications/standard/hap:startup_guide_hap",
-    "//applications/standard/hap:tips_hap",
   ]
 
   if (window_manager_use_sceneboard) {
@@ -470,6 +465,11 @@ group("hap") {
       "//applications/standard/hap:Intelligent_Scene_hap",
       "//applications/standard/hap:PortalLogin_hap",
       "//applications/standard/hap:mediacontroller_hap",
+      "//applications/standard/hap:calendar_hap",
+      "//applications/standard/hap:simcardmanagement_hap",
+      "//applications/standard/hap:soundRecorder_hap",
+      "//applications/standard/hap:startup_guide_hap",
+      "//applications/standard/hap:tips_hap",
     ]
   }
 
